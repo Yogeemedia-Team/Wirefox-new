@@ -78,6 +78,7 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/contact.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/scripts.js"></script>
 <script>
+
     "use strict";
 
     document.addEventListener("DOMContentLoaded", function()
@@ -289,15 +290,8 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
             }
         });
     }
-    const locoScroll = new LocomotiveScroll({
-        el: document.querySelector("[data-scroll-container]"),
-        smooth: true,
-        smoothMobile: true
-    });
-		
+
 </script>
-
-
 
 <?php wp_footer(); ?>
 

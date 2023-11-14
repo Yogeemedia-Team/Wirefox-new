@@ -13,11 +13,12 @@ get_header();
         text-align: left;
         position: relative;
         height: 1450px;
-
+       
     }
 
     #section-2-15 {
         display: block;
+        margin-bottom: 100px;
     }
 
     .navWrap {
@@ -30,7 +31,7 @@ get_header();
         background-repeat: repeat;
     }
 
-    #section-2-15>.ct-section-inner-wrap {
+    #section-2-15 > .ct-section-inner-wrap {
         max-width: 1600px;
         padding-top: 0;
         padding-right: 75px;
@@ -45,7 +46,7 @@ get_header();
         padding-top: 0;
     }
 
-    .ct-section>.ct-section-inner-wrap {
+    .ct-section > .ct-section-inner-wrap {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -58,8 +59,7 @@ get_header();
         padding-left: 20px;
     }
 
-    .ct-section-inner-wrap,
-    .oxy-header-container {
+    .ct-section-inner-wrap, .oxy-header-container {
         max-width: 1120px;
     }
 
@@ -92,7 +92,8 @@ get_header();
         top: 150px !important;
     }
 
-    .main__image {}
+    .main__image {
+    }
 
     .fadeInUp {
         transition-delay: 0.6s;
@@ -112,6 +113,7 @@ get_header();
         font-size: 324px;
         font-weight: 600;
         line-height: .9;
+       
         z-index: 0;
     }
 
@@ -174,7 +176,7 @@ get_header();
         width: 700px;
         transition-delay: 0.2s;
         transition-duration: 1s;
-        margin-top: -250px;
+        margin-bottom: -550px;
         position: absolute;
         z-index: 2;
         margin-left: auto;
@@ -184,14 +186,14 @@ get_header();
         height: 100%;
     }
 
-    #intro>div>div {
+    #intro > div > div {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%)
     }
 
-    #intro>div>div div {
+    #intro > div > div div {
         text-align: center
     }
 
@@ -391,59 +393,115 @@ get_header();
         position: sticky !important;
         top: 150px !important;
     }
+
 </style>
 
 <section id="section-2-15" class=" ct-section navWrap">
     <div class="ct-section-inner-wrap">
-        <main id="div_block-57-30" class="ct-div-block sticky-main sticky-image">
+        <main id="div_block-57-30" class="ct-div-block sticky-main sticky-image " >
             <section id="section-51-30" class=" ct-section">
                 <div class="ct-section-inner-wrap">
 
-                    <section id="section-1-30" class=" ct-section" data-scroll-section="" data-scroll-section-id="section1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; pointer-events: all;" data-scroll-section-inview="">
+                    <section id="section-1-30" class=" ct-section" data-scroll-section=""
+                             data-scroll-section-id="section1"
+                             style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; pointer-events: all;"
+                             data-scroll-section-inview="">
 
                         <div class="ct-section-inner-wrap">
                             <div id="div_block-18-30" class="ct-div-block home">
-                                <div id="main" class="ct-div-block is-inview" data-scroll-sticky="" data-scroll-target="#section-1-30">
-                                    <div id="img1" class="ct-div-block" href="projets/hutchinson-touareg/index.html">
+                                <div id="main" class="ct-div-block is-inview" data-scroll-sticky=""
+                                     data-scroll-target="#section-1-30">
+                                    <div id="img1" class="ct-div-block"
+                                         href="projets/hutchinson-touareg/index.html">
                                         <div id="code_block-4-30" class="ct-code-block innerImgs">
-                                            <div class="cover" data-perma="projets/tilaguy/index.html" style="transform: translate(0px, -100%);">
-                                                <div class="preload" data-url="img/1.jpg" style="transform: translate(0px, 90%) scale(1.3);">
+                                            <div class="cover" data-perma="projets/tilaguy/index.html"
+                                                 style="transform: translate(0px, -100%);">
+                                                <div class="preload" data-url="img/1.jpg"
+                                                     style="transform: translate(0px, 90%) scale(1.3);">
                                                     <svg class="distort" width="100%" height="100%">
                                                         <filter id="distortionFilter0">
-                                                            <feTurbulence type="turbulence" baseFrequency="0.009 0.01" numOctaves="5" seed="2" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="noise"></feTurbulence>
-                                                            <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"></feDisplacementMap>
+                                                            <feTurbulence type="turbulence"
+                                                                          baseFrequency="0.009 0.01"
+                                                                          numOctaves="5" seed="2"
+                                                                          stitchTiles="stitch" x="0%" y="0%"
+                                                                          width="100%" height="100%"
+                                                                          result="noise"></feTurbulence>
+                                                            <feDisplacementMap in="SourceGraphic" in2="noise"
+                                                                               scale="0"
+                                                                               xChannelSelector="R"
+                                                                               yChannelSelector="B" x="0%"
+                                                                               y="0%" width="100%" height="100%"
+                                                                               filterUnits="userSpaceOnUse"></feDisplacementMap>
                                                         </filter>
                                                         <g filter="url(#distortionFilter0)">
-                                                            <image class="distort__img" xlink:href="https://wire.sendix.co/wp-content/images/1.jpg" x="0" y="0" height="100%" width="100%" preserveAspectRatio="xMidYMid slice"></image>
+                                                            <image class="distort__img"
+                                                                   xlink:href="https://wire.sendix.co/wp-content/images/1.jpg"
+                                                                   x="0"
+                                                                   y="0" height="100%" width="100%"
+                                                                   preserveAspectRatio="xMidYMid slice"></image>
                                                         </g>
                                                     </svg>
 
                                                 </div>
                                             </div>
 
-                                            <div class="cover current" data-perma="projets/hutchinson-touareg/index.html" style="transform: translate3d(0px, -98.0693%, 0px);">
+                                            <div class="cover current"
+                                                 data-perma="projets/hutchinson-touareg/index.html"
+                                                 style="transform: translate3d(0px, -98.0693%, 0px);">
                                                 <div style="transform: translate3d(0px, 88.2624%, 0px) scale(1.2961, 1.29614);">
                                                     <svg class="distort" width="100%" height="100%">
                                                         <filter id="distortionFilter1">
-                                                            <feTurbulence type="turbulence" baseFrequency="0.009 0.01" numOctaves="5" seed="2" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="noise"></feTurbulence>
-                                                            <feDisplacementMap in="SourceGraphic" in2="noise" scale="98.0692749023438" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"></feDisplacementMap>
+                                                            <feTurbulence type="turbulence"
+                                                                          baseFrequency="0.009 0.01"
+                                                                          numOctaves="5" seed="2"
+                                                                          stitchTiles="stitch" x="0%" y="0%"
+                                                                          width="100%" height="100%"
+                                                                          result="noise"></feTurbulence>
+                                                            <feDisplacementMap in="SourceGraphic" in2="noise"
+                                                                               scale="98.0692749023438"
+                                                                               xChannelSelector="R"
+                                                                               yChannelSelector="B" x="0%" y="0%"
+                                                                               width="100%"
+                                                                               height="100%"
+                                                                               filterUnits="userSpaceOnUse"></feDisplacementMap>
                                                         </filter>
                                                         <g filter="url(#distortionFilter1)">
-                                                            <image class="distort__img" xlink:href="https://wire.sendix.co/wp-content/images/2.jpg" x="0" y="0" height="100%" width="100%" preserveAspectRatio="xMidYMid slice"></image>
+                                                            <image class="distort__img"
+                                                                   xlink:href="https://wire.sendix.co/wp-content/images/2.jpg"
+                                                                   x="0"
+                                                                   y="0" height="100%" width="100%"
+                                                                   preserveAspectRatio="xMidYMid slice"></image>
                                                         </g>
                                                     </svg>
                                                 </div>
                                             </div>
 
-                                            <div class="cover" data-perma="projets/chanel-martian-project/index.html" style="transform: translate3d(0px, 1.9307%, 0px);">
+                                            <div class="cover"
+                                                 data-perma="projets/chanel-martian-project/index.html"
+                                                 style="transform: translate3d(0px, 1.9307%, 0px);">
                                                 <div style="transform: translate3d(0px, -1.7377%, 0px) scale(1.1019, 1.10193);">
                                                     <svg class="distort" width="100%" height="100%">
                                                         <filter id="distortionFilter2">
-                                                            <feTurbulence type="turbulence" baseFrequency="0.009 0.01" numOctaves="5" seed="2" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="noise"></feTurbulence>
-                                                            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.93072402477264" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"></feDisplacementMap>
+                                                            <feTurbulence type="turbulence"
+                                                                          baseFrequency="0.009 0.01"
+                                                                          numOctaves="5" seed="2"
+                                                                          stitchTiles="stitch" x="0%" y="0%"
+                                                                          width="100%" height="100%"
+                                                                          result="noise"></feTurbulence>
+                                                            <feDisplacementMap in="SourceGraphic" in2="noise"
+                                                                               scale="1.93072402477264"
+                                                                               xChannelSelector="R"
+                                                                               yChannelSelector="B" x="0%" y="0%"
+                                                                               width="100%"
+                                                                               height="100%"
+                                                                               filterUnits="userSpaceOnUse"></feDisplacementMap>
                                                         </filter>
                                                         <g filter="url(#distortionFilter2)">
-                                                            <image class="distort__img" xlink:href="https://wire.sendix.co/wp-content/images/3.jpg" x="0" y="0" height="100%" width="100%" preserveAspectRatio="xMidYMid slice"></image>
+                                                            <image class="distort__img"
+                                                                   xlink:href="https://wire.sendix.co/wp-content/images/3.jpg"
+                                                                   x="0"
+                                                                   y="0" height="100%" width="100%"
+                                                                   preserveAspectRatio="xMidYMid slice"></image>
                                                         </g>
                                                     </svg>
                                                 </div>
@@ -458,14 +516,15 @@ get_header();
                 </div>
             </section>
         </main>
-        <!-- <img id="image-7-15" alt="" src="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp" class="pinned-section ct-image fadeInUp main__image" srcset="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp 1000w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-300x296.webp 300w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-768x759.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px"> -->
+               <!-- <img id="image-7-15" alt="" src="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp" class="pinned-section ct-image fadeInUp main__image" srcset="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp 1000w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-300x296.webp 300w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-768x759.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px"> -->
+       
+    <h1 id="headline-498-15" class="ct-headline mainHeding fadeInUp" style="z-index: 1;padding-top: 280px;">DIGITAL</h1>
+    <h2 id="headline-499-15" class="ct-headline fadeInUp" style="z-index: 2;">MARKETING</h2>
+    <h2 id="headline-5-15" class="ct-headline fadeInUp" style="z-index: 1;">AGENCY</h2>
+    <div id="text_block-15-15" class="ct-text-block fadeInUp " style="margin-bottom: 280px;">Experts in Website Design &amp; SEO Based in Birmingham</div>
 
-        <h1 id="headline-498-15" class="ct-headline mainHeding fadeInUp" style="z-index: 1;">DIGITAL</h1>
-        <h2 id="headline-499-15" class="ct-headline fadeInUp" style="z-index: 2;">MARKETING</h2>
-        <h2 id="headline-5-15" class="ct-headline fadeInUp">AGENCY</h2>
-        <div id="text_block-15-15" class="ct-text-block fadeInUp">Experts in Website Design &amp; SEO Based in
-            Birmingham
-        </div>
+
+        
     </div>
 </section>
 <!-- Row COMMENTED BY THARAK TEMP 
