@@ -245,8 +245,11 @@
 
 
 /* Homepage timeline section */
-.timeln {
-  padding-top: 100px !important;
+.timeln {}
+
+.timeln .cont {
+  padding: 100px 50px !important;
+
 }
 
 .timeln .point {
@@ -262,4 +265,75 @@
   border-top: #fff solid 5px;
   width: 100%;
   margin-top: -17px;
+}
+
+/* Clients logo section */
+.clients-table {
+  padding: 0 100px;
+}
+
+.clients-table li {
+  width: calc(100% / 3 - 40px);
+  padding: 50px;
+  display: grid;
+  margin: 0 20px;
+}
+
+.clients-table li img {
+  height: auto;
+  opacity: 0.5;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.clients-table li img:hover {
+  padding: 0;
+}
+
+.light-content .clients-table .overlay,
+.dark-section .clients-table .overlay {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* testimonials-section */
+.testimonials-section .testi-img {
+  background-color: #FFFFFF;
+}
+
+.testimonials-section .testi-img img {
+  padding: 80px;
+  transition: 0.5s;
+}
+
+.testimonials-section .testi-img img:hover {
+  padding: 20px;
+}
+
+/* contact-section */
+.contact-section .sub-title{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+}
+.contact-section .title {
+  margin-top: 50px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.contact-section .desc {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    margin-top: 43px;
+    margin-bottom: 20px;
+}
+.contact-section .btn-sec{
+  margin-top: 50px;
+
+}
+.contact-section .cont-btn{
+  padding: 15px 80px;
+  font-size: 30px;
+  border: 1px solid #ffffff;
 }
