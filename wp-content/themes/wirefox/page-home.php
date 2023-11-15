@@ -1104,7 +1104,7 @@ COMMENTED BY THARAK TEMP -->
 <div class="fifty-container">
     <div class="fifty-div">
         <div class="row row_padding_bottom light-section">
-        <div class="col-md-6 order-md-2">
+            <div class="col-md-6 order-md-2">
                 <figure class="has-animation has-cover" data-delay="100">
                     <a href="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" alt="Image Title"></a>
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
@@ -1146,7 +1146,7 @@ COMMENTED BY THARAK TEMP -->
                     </div>
                 </figure>
             </div>
-            
+
         </div>
     </div>
 </div>
@@ -1407,6 +1407,118 @@ COMMENTED BY THARAK TEMP -->
 	</div>
 </div>       
 Page Navigation -------------------------->
+
+<!-- footer section -->
+
+<div class="footer_sec">
+    <div class="w-75 mx-auto">
+        <div class="row_padding_top">
+            <p class="subtitle mb-0">
+                SIGN UP TO OUR NEWSLETTER:
+            </p>
+            <div class="form_sec">
+                <form>
+                    <div class="form-group row">
+                        <div class="col my-auto">
+                            <input type="text" class="plaintext" id="Email" placeholder="your@email.com">
+                        </div>
+                        <div class="col-auto my-auto">
+                            <button type="submit" class="submit_btn text-center my-auto">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Submit.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label mt-2" for="defaultCheck1">
+                            I have read and accept the Terms & Privacy
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="social row_padding_top">
+            <p class="subtitle">
+                Socials
+            </p>
+            <div class="icons mt-3">
+                <span>
+                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/facebook.png" alt="">
+                </span>
+                <span>
+                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/insta.png" alt="">
+                </span>
+                <span>
+                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/youtube.png" alt="">
+                </span>
+                <span>
+                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/tweeter.png" alt="">
+                </span>
+                <span>
+                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/linkdln.png" alt="">
+                </span>
+                <span>
+                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/pinterest.png" alt="">
+                </span>
+            </div>
+        </div>
+        <div class="foot_menu row_padding_top">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="menu">
+                        <ul>
+                            <li>Who we are</li>
+                            <li>Seo glossary</li>
+                            <li>Free SEO Audit</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu">
+                        <ul class="mx-auto">
+                            <li>Case Studies</li>
+                            <li>News</li>
+                            <li>Career</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu">
+                        <ul class="ms-auto">
+                            <li>Terms and conditions</li>
+                            <li>Privacy and cookies policy</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <div class="foot_logo mx-auto w-75">
+                <div class="row">
+                    <div class="col-md-4 my-auto">
+                        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/CSSDESIGN.svg" alt="">
+                    </div>
+                    <div class="col-md-4 my-auto">
+                        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/CULTCH.svg" alt="">
+                    </div>
+                    <div class="col-md-4 my-auto">
+                        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/awwwards.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <p class="copy_des text-center">
+            Copyright 2019 © Wirefox, All rights reserved | Trademark: Wirefox ®, | Privacy and Cookies Policy | Terms & Conditions | Reg Address: 32 DeMontfort Street, Leicester, LE1 7GD
+Registered in England & Wales: Company No. 09072362 | Tel: 0121 368 0098 | Office: Suite 2A, Blackthorn House, Saint Paul’s Square, Birmingham B3 1RL
+            </p>
+            
+        </div>
+    </div>
+</div>
+
+<!-- footer section -->
 
 <?php
 get_footer();

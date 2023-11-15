@@ -301,12 +301,13 @@
 
 /* testimonials-section */
 .testimonials-section .testi-img {
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   transition: 0.5s;
 }
-.testimonials-section .testi-img:hover{
+
+/* .testimonials-section .testi-img:hover {
   scale: .95;
-}
+} */
 
 .testimonials-section .testi-img img {
   padding: 80px;
@@ -318,30 +319,102 @@
 }
 
 /* contact-section */
-.contact-section .sub-title{
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 30px;
-    letter-spacing: 1.3px;
+.contact-section .sub-title {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1.3px;
 }
+
 .contact-section .title {
   margin-top: 50px;
   font-family: Poppins;
   font-weight: 500;
 }
+
 .contact-section .desc {
-    font-size: 20px;
-    line-height: 1;
-    font-weight: 500;
-    margin-top: 43px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 500;
+  margin-top: 43px;
+  margin-bottom: 20px;
 }
-.contact-section .btn-sec{
+
+.contact-section .btn-sec {
   margin-top: 50px;
 
 }
-.contact-section .cont-btn{
+
+.contact-section .cont-btn {
   padding: 15px 80px;
   font-size: 30px;
   border: 1px solid #ffffff;
+}
+
+/* footer section */
+.footer_sec .subtitle {
+  font-size: 35px;
+}
+
+.footer_sec .submit_btn {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.footer_sec .plaintext {
+  font-size: 150px;
+  height: auto;
+  border: none;
+}
+
+.footer_sec .submit_btn img {
+  width: 100px;
+}
+
+.footer_sec .form-check-input {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+
+}
+
+.footer_sec .form-check-label {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.social .subtitle {
+  font-size: 19px;
+}
+
+.social .soci_icon {
+  height: 50px;
+  margin-right: 39px;
+}
+
+.foot_menu ul {
+  margin: 0;
+  width: fit-content;
+}
+
+.foot_menu li {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1;
+  color: #fff;
+  list-style: none;
+  width: fit-content;
+}
+.foot_logo .logo{
+  margin: auto;
+  max-width: 300px;
+}
+.copy_des{
+  font-size: 18px;
+  font-family: 'Poppins';
+}
+.copyright{
+  text-transform: uppercase;
+  font-size: 20px;
 }
