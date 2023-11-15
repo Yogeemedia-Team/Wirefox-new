@@ -35,10 +35,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 </head>
 
-<body <?php body_class(); ?> data-primary-color="#8c6144">
+<?php 
+if ( is_front_page() ) : ?>
+	<body>
 	<?php wp_body_open(); ?>
+<?php else : ?>
+	<body <?php body_class(); ?> data-primary-color="#8c6144">
+	<?php wp_body_open(); ?>
+<?php endif; ?>
 
-	<main class="bg-red">
+	<div class="bg-red">
 		<!-- Preloader -->
 		<?php 
 		// get_template_part('sections/preloader'); 
@@ -67,4 +73,10 @@
 						<div id="main-content">
 						
 							<!-- Main Page Content -->
-							<div id="main-page-content" class="content-full-width">
+							<?php 
+							if ( is_front_page() ) : ?>
+								
+							<?php else : ?>
+								<!-- Main Page Content -->
+								<div id="main-page-content" class="content-full-width">
+							<?php endif; ?>
