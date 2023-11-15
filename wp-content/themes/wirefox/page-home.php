@@ -13,7 +13,7 @@ get_header();
         text-align: left;
         position: relative;
         height: 1450px;
-       
+
     }
 
     #section-2-15 {
@@ -31,7 +31,7 @@ get_header();
         background-repeat: repeat;
     }
 
-    #section-2-15 > .ct-section-inner-wrap {
+    #section-2-15>.ct-section-inner-wrap {
         max-width: 1600px;
         padding-top: 0;
         padding-right: 75px;
@@ -46,7 +46,7 @@ get_header();
         padding-top: 0;
     }
 
-    .ct-section > .ct-section-inner-wrap {
+    .ct-section>.ct-section-inner-wrap {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -59,7 +59,8 @@ get_header();
         padding-left: 20px;
     }
 
-    .ct-section-inner-wrap, .oxy-header-container {
+    .ct-section-inner-wrap,
+    .oxy-header-container {
         max-width: 1120px;
     }
 
@@ -92,8 +93,7 @@ get_header();
         top: 150px !important;
     }
 
-    .main__image {
-    }
+    .main__image {}
 
     .fadeInUp {
         transition-delay: 0.6s;
@@ -113,7 +113,7 @@ get_header();
         font-size: 324px;
         font-weight: 600;
         line-height: .9;
-       
+
         z-index: 0;
     }
 
@@ -186,14 +186,14 @@ get_header();
         height: 100%;
     }
 
-    #intro > div > div {
+    #intro>div>div {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%)
     }
 
-    #intro > div > div div {
+    #intro>div>div div {
         text-align: center
     }
 
@@ -393,115 +393,59 @@ get_header();
         position: sticky !important;
         top: 150px !important;
     }
-
 </style>
 
 <section id="section-2-15" class=" ct-section navWrap">
     <div class="ct-section-inner-wrap">
-        <main id="div_block-57-30" class="ct-div-block sticky-main sticky-image " >
+        <main id="div_block-57-30" class="ct-div-block sticky-main sticky-image ">
             <section id="section-51-30" class=" ct-section">
                 <div class="ct-section-inner-wrap">
 
-                    <section id="section-1-30" class=" ct-section" data-scroll-section=""
-                             data-scroll-section-id="section1"
-                             style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; pointer-events: all;"
-                             data-scroll-section-inview="">
+                    <section id="section-1-30" class=" ct-section" data-scroll-section="" data-scroll-section-id="section1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; pointer-events: all;" data-scroll-section-inview="">
 
                         <div class="ct-section-inner-wrap">
                             <div id="div_block-18-30" class="ct-div-block home">
-                                <div id="main" class="ct-div-block is-inview" data-scroll-sticky=""
-                                     data-scroll-target="#section-1-30">
-                                    <div id="img1" class="ct-div-block"
-                                         href="projets/hutchinson-touareg/index.html">
+                                <div id="main" class="ct-div-block is-inview" data-scroll-sticky="" data-scroll-target="#section-1-30">
+                                    <div id="img1" class="ct-div-block" href="projets/hutchinson-touareg/index.html">
                                         <div id="code_block-4-30" class="ct-code-block innerImgs">
-                                            <div class="cover" data-perma="projets/tilaguy/index.html"
-                                                 style="transform: translate(0px, -100%);">
-                                                <div class="preload" data-url="img/1.jpg"
-                                                     style="transform: translate(0px, 90%) scale(1.3);">
+                                            <div class="cover" data-perma="projets/tilaguy/index.html" style="transform: translate(0px, -100%);">
+                                                <div class="preload" data-url="img/1.jpg" style="transform: translate(0px, 90%) scale(1.3);">
                                                     <svg class="distort" width="100%" height="100%">
                                                         <filter id="distortionFilter0">
-                                                            <feTurbulence type="turbulence"
-                                                                          baseFrequency="0.009 0.01"
-                                                                          numOctaves="5" seed="2"
-                                                                          stitchTiles="stitch" x="0%" y="0%"
-                                                                          width="100%" height="100%"
-                                                                          result="noise"></feTurbulence>
-                                                            <feDisplacementMap in="SourceGraphic" in2="noise"
-                                                                               scale="0"
-                                                                               xChannelSelector="R"
-                                                                               yChannelSelector="B" x="0%"
-                                                                               y="0%" width="100%" height="100%"
-                                                                               filterUnits="userSpaceOnUse"></feDisplacementMap>
+                                                            <feTurbulence type="turbulence" baseFrequency="0.009 0.01" numOctaves="5" seed="2" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="noise"></feTurbulence>
+                                                            <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"></feDisplacementMap>
                                                         </filter>
                                                         <g filter="url(#distortionFilter0)">
-                                                            <image class="distort__img"
-                                                                   xlink:href="https://wire.sendix.co/wp-content/images/1.jpg"
-                                                                   x="0"
-                                                                   y="0" height="100%" width="100%"
-                                                                   preserveAspectRatio="xMidYMid slice"></image>
+                                                            <image class="distort__img" xlink:href="https://wire.sendix.co/wp-content/images/1.jpg" x="0" y="0" height="100%" width="100%" preserveAspectRatio="xMidYMid slice"></image>
                                                         </g>
                                                     </svg>
 
                                                 </div>
                                             </div>
 
-                                            <div class="cover current"
-                                                 data-perma="projets/hutchinson-touareg/index.html"
-                                                 style="transform: translate3d(0px, -98.0693%, 0px);">
+                                            <div class="cover current" data-perma="projets/hutchinson-touareg/index.html" style="transform: translate3d(0px, -98.0693%, 0px);">
                                                 <div style="transform: translate3d(0px, 88.2624%, 0px) scale(1.2961, 1.29614);">
                                                     <svg class="distort" width="100%" height="100%">
                                                         <filter id="distortionFilter1">
-                                                            <feTurbulence type="turbulence"
-                                                                          baseFrequency="0.009 0.01"
-                                                                          numOctaves="5" seed="2"
-                                                                          stitchTiles="stitch" x="0%" y="0%"
-                                                                          width="100%" height="100%"
-                                                                          result="noise"></feTurbulence>
-                                                            <feDisplacementMap in="SourceGraphic" in2="noise"
-                                                                               scale="98.0692749023438"
-                                                                               xChannelSelector="R"
-                                                                               yChannelSelector="B" x="0%" y="0%"
-                                                                               width="100%"
-                                                                               height="100%"
-                                                                               filterUnits="userSpaceOnUse"></feDisplacementMap>
+                                                            <feTurbulence type="turbulence" baseFrequency="0.009 0.01" numOctaves="5" seed="2" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="noise"></feTurbulence>
+                                                            <feDisplacementMap in="SourceGraphic" in2="noise" scale="98.0692749023438" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"></feDisplacementMap>
                                                         </filter>
                                                         <g filter="url(#distortionFilter1)">
-                                                            <image class="distort__img"
-                                                                   xlink:href="https://wire.sendix.co/wp-content/images/2.jpg"
-                                                                   x="0"
-                                                                   y="0" height="100%" width="100%"
-                                                                   preserveAspectRatio="xMidYMid slice"></image>
+                                                            <image class="distort__img" xlink:href="https://wire.sendix.co/wp-content/images/2.jpg" x="0" y="0" height="100%" width="100%" preserveAspectRatio="xMidYMid slice"></image>
                                                         </g>
                                                     </svg>
                                                 </div>
                                             </div>
 
-                                            <div class="cover"
-                                                 data-perma="projets/chanel-martian-project/index.html"
-                                                 style="transform: translate3d(0px, 1.9307%, 0px);">
+                                            <div class="cover" data-perma="projets/chanel-martian-project/index.html" style="transform: translate3d(0px, 1.9307%, 0px);">
                                                 <div style="transform: translate3d(0px, -1.7377%, 0px) scale(1.1019, 1.10193);">
                                                     <svg class="distort" width="100%" height="100%">
                                                         <filter id="distortionFilter2">
-                                                            <feTurbulence type="turbulence"
-                                                                          baseFrequency="0.009 0.01"
-                                                                          numOctaves="5" seed="2"
-                                                                          stitchTiles="stitch" x="0%" y="0%"
-                                                                          width="100%" height="100%"
-                                                                          result="noise"></feTurbulence>
-                                                            <feDisplacementMap in="SourceGraphic" in2="noise"
-                                                                               scale="1.93072402477264"
-                                                                               xChannelSelector="R"
-                                                                               yChannelSelector="B" x="0%" y="0%"
-                                                                               width="100%"
-                                                                               height="100%"
-                                                                               filterUnits="userSpaceOnUse"></feDisplacementMap>
+                                                            <feTurbulence type="turbulence" baseFrequency="0.009 0.01" numOctaves="5" seed="2" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="noise"></feTurbulence>
+                                                            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.93072402477264" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"></feDisplacementMap>
                                                         </filter>
                                                         <g filter="url(#distortionFilter2)">
-                                                            <image class="distort__img"
-                                                                   xlink:href="https://wire.sendix.co/wp-content/images/3.jpg"
-                                                                   x="0"
-                                                                   y="0" height="100%" width="100%"
-                                                                   preserveAspectRatio="xMidYMid slice"></image>
+                                                            <image class="distort__img" xlink:href="https://wire.sendix.co/wp-content/images/3.jpg" x="0" y="0" height="100%" width="100%" preserveAspectRatio="xMidYMid slice"></image>
                                                         </g>
                                                     </svg>
                                                 </div>
@@ -516,15 +460,15 @@ get_header();
                 </div>
             </section>
         </main>
-               <!-- <img id="image-7-15" alt="" src="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp" class="pinned-section ct-image fadeInUp main__image" srcset="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp 1000w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-300x296.webp 300w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-768x759.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px"> -->
-       
-    <h1 id="headline-498-15" class="ct-headline mainHeding fadeInUp" style="z-index: 1;padding-top: 280px;">DIGITAL</h1>
-    <h2 id="headline-499-15" class="ct-headline fadeInUp" style="z-index: 2;">MARKETING</h2>
-    <h2 id="headline-5-15" class="ct-headline fadeInUp" style="z-index: 1;">AGENCY</h2>
-    <div id="text_block-15-15" class="ct-text-block fadeInUp " style="margin-bottom: 280px;">Experts in Website Design &amp; SEO Based in Birmingham</div>
+        <!-- <img id="image-7-15" alt="" src="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp" class="pinned-section ct-image fadeInUp main__image" srcset="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp 1000w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-300x296.webp 300w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-768x759.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px"> -->
+
+        <h1 id="headline-498-15" class="ct-headline mainHeding fadeInUp" style="z-index: 1;padding-top: 280px;">DIGITAL</h1>
+        <h2 id="headline-499-15" class="ct-headline fadeInUp" style="z-index: 2;">MARKETING</h2>
+        <h2 id="headline-5-15" class="ct-headline fadeInUp" style="z-index: 1;">AGENCY</h2>
+        <div id="text_block-15-15" class="ct-text-block fadeInUp " style="margin-bottom: 280px;">Experts in Website Design &amp; SEO Based in Birmingham</div>
 
 
-        
+
     </div>
 </section>
 <!-- Row COMMENTED BY THARAK TEMP 
@@ -942,7 +886,7 @@ COMMENTED BY THARAK TEMP -->
 </div>
 
 <!-- Row -->
-<div class="content-row full light-section text-align-center">
+<div class="content-row full light-section text-align-center row_padding_bottom">
     <div class="clapat-slider-wrapper content-slider looped-carousel has-animation disabled-slider-dots autocenter light-cursor">
         <div class="clapat-slider">
             <div class="clapat-slider-viewport">
@@ -1000,18 +944,19 @@ COMMENTED BY THARAK TEMP -->
 <!-- BESPOKE -->
 
 
+
 <!-- 01 -->
 <div class="fifty-container">
     <div class="fifty-div">
-        <div class="content-row row_padding_bottom light-section">
-            <div class="one_half section-fifty">
+        <div class="row row_padding_bottom light-section">
+            <div class="col-md-6">
                 <figure class="has-animation has-cover" data-delay="100">
                     <a href="<?php echo get_template_directory_uri(); ?>/assets/images/Experts-In-Web-Design.jpg" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Experts-In-Web-Design.jpg" alt="Image Title"></a>
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
-            <div class="one_half section-fifty last">
-                <figure class="has-cover digit-text" data-delay="200">
+            <div class="col-md-6">
+                <figure class="has-cover digit-text py-5 px-4 p-md-0 px-md-5 mt-4 mt-md-0" data-delay="200">
                     <h1 class="text-easing">01</h1>
                     <div class="mid-text">
                         <span class="mini-h">
@@ -1050,14 +995,19 @@ COMMENTED BY THARAK TEMP -->
 </div>
 <!-- 01 -->
 
-
 <!-- 02 -->
 <!-- fifty fifty Content -->
 <div class="fifty-container">
     <div class="fifty-div">
-        <div class="content-row row_padding_bottom light-section">
-            <div class="one_half section-fifty left-text">
-                <figure class="has-cover digit-text" data-delay="200">
+        <div class="row row_padding_bottom light-section">
+            <div class="col-md-6 order-md-2">
+                <figure class="has-animation has-cover" data-delay="100">
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/Ecommerce-Web-Design.webp" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ecommerce-Web-Design.webp" alt="Image Title"></a>
+                    <!-- 					<figcaption>Image Caption Here</figcaption> -->
+                </figure>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <figure class="has-cover digit-text py-5 px-4 p-md-0 px-md-5 mt-4 mt-md-0" data-delay="200">
                     <h1 class="text-easing">02</h1>
                     <div class="mid-text">
                         <span class="mini-h">
@@ -1090,12 +1040,7 @@ COMMENTED BY THARAK TEMP -->
                     </div>
                 </figure>
             </div>
-            <div class="one_half section-fifty last">
-                <figure class="has-animation has-cover" data-delay="100">
-                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/Ecommerce-Web-Design.webp" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ecommerce-Web-Design.webp" alt="Image Title"></a>
-                    <!-- 					<figcaption>Image Caption Here</figcaption> -->
-                </figure>
-            </div>
+
         </div>
     </div>
 </div>
@@ -1106,15 +1051,15 @@ COMMENTED BY THARAK TEMP -->
 <!-- fifty fifty Content -->
 <div class="fifty-container">
     <div class="fifty-div">
-        <div class="content-row row_padding_bottom light-section">
-            <div class="one_half section-fifty">
+        <div class="row row_padding_bottom light-section">
+            <div class="col-md-6">
                 <figure class="has-animation has-cover" data-delay="100">
                     <a href="<?php echo get_template_directory_uri(); ?>/assets/images/Birmingham-SEO-Specialists.webp" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Birmingham-SEO-Specialists.webp" alt="Image Title"></a>
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
-            <div class="one_half section-fifty last">
-                <figure class="has-cover digit-text" data-delay="200">
+            <div class="col-md-6">
+                <figure class="has-cover digit-text py-5 px-4 p-md-0 px-md-5 mt-4 mt-md-0" data-delay="200">
                     <h1 class="text-easing">03</h1>
                     <div class="mid-text">
                         <span class="mini-h">
@@ -1158,9 +1103,15 @@ COMMENTED BY THARAK TEMP -->
 <!-- fifty fifty Content -->
 <div class="fifty-container">
     <div class="fifty-div">
-        <div class="content-row light-section">
-            <div class="one_half section-fifty left-text">
-                <figure class="has-cover digit-text" data-delay="200">
+        <div class="row row_padding_bottom light-section">
+        <div class="col-md-6 order-md-2">
+                <figure class="has-animation has-cover" data-delay="100">
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" alt="Image Title"></a>
+                    <!-- 					<figcaption>Image Caption Here</figcaption> -->
+                </figure>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <figure class="has-cover digit-text py-5 px-4 p-md-0 px-md-5 mt-4 mt-md-0" data-delay="200">
                     <h1 class="text-easing">04</h1>
                     <div class="mid-text">
                         <span class="mini-h">
@@ -1195,12 +1146,7 @@ COMMENTED BY THARAK TEMP -->
                     </div>
                 </figure>
             </div>
-            <div class="one_half section-fifty last">
-                <figure class="has-animation has-cover" data-delay="100">
-                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" alt="Image Title"></a>
-                    <!-- 					<figcaption>Image Caption Here</figcaption> -->
-                </figure>
-            </div>
+            
         </div>
     </div>
 </div>
@@ -1222,7 +1168,7 @@ COMMENTED BY THARAK TEMP -->
 
 <!-- Birmingham Content -->
 
-<!-- Row -->
+<!-- Timeline Section -->
 <div class="content-row dark-section fadeout-element">
     <div class="clipped-image-wrapper">
         <div class="clipped-image-pin">
@@ -1231,50 +1177,82 @@ COMMENTED BY THARAK TEMP -->
                 <div class="clipped-image-gradient"></div>
             </div>
         </div>
-        <div class="clipped-image-content text-align-center content-full-width timeln px-100">
-            <div class="cont bg-red">
-                <!-- <div class="hero-subtitle caption-timeline"><span>Why Choose Us?</span></div> -->
-                <h2 class="has-mask-fill title-text">Wirefox's Approach</h2>
-                <div class="hor-line w-25"></div>
-                <p class="mt-5">Whether you’re looking for a simple content managed website (CMS), complex corporate website or a fully functional eCommerce store,
-                    Wirefox can create professional digital solutions to meet your needs.</p>
-                <div class="timeline mt-5">
-                    <div class="row">
-                        <div class="col-sm-4 text-center p-0">
-                            <p class="h4 mb-3">01</p>
-                            <div class="point"></div>
-                            <div class="line w-50 ms-auto"></div>
-                            <div class="content py-4 px-5">
-                                <p class="h4 mt-5">Cutting Edge Design</p>
-                                <p class="mt-3 px-3">We strive to create high quality solutions that exceed the current industry standards.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 text-center p-0">
-                            <p class="h4 mb-3">02</p>
-                            <div class="point"></div>
-                            <div class="line"></div>
-                            <div class="content py-4 px-5">
-                                <p class="h4 mt-5">Excellent SEO Work
-                                </p>
-                                <p class="mt-3 px-3">Our SEO friendly websites will help you to soar to the top of search engine results pages.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 text-center p-0">
-                            <p class="h4 mb-3">03</p>
-                            <div class="point"></div>
-                            <div class="line w-50 me-auto"></div>
-                            <div class="content py-4 px-5">
-                                <p class="h4 mt-5">Cutting Edge Design</p>
-                                <p class="mt-3">We don’t ditch you when our work is done. We’ll stick around and are happy to make enhancements and changes in the future.</p>
-                            </div>
-                        </div>
+        <div class="clipped-image-content text-align-center content-full-width ">
+        </div>
+    </div>
+</div>
+<div class="timeln px-100 text-center">
+    <div class="cont bg-red">
+        <!-- <div class="hero-subtitle caption-timeline"><span>Why Choose Us?</span></div> -->
+        <h2 class="has-mask-fill title-text">Wirefox's Approach</h2>
+        <div class="hor-line w-25"></div>
+        <p class="mt-5 mx-auto w-75">Whether you’re looking for a simple content managed website (CMS), complex corporate website or a fully functional eCommerce store,
+            Wirefox can create professional digital solutions to meet your needs.</p>
+        <div class="timeline mt-5">
+            <div class="row">
+                <div class="col-sm-4 text-center p-0">
+                    <p class="h4 mb-3">01</p>
+                    <div class="point"></div>
+                    <div class="line w-50 ms-auto"></div>
+                    <div class="content py-4 px-5">
+                        <p class="h4 mt-5">Cutting Edge Design</p>
+                        <p class="mt-3 px-3">We strive to create high quality solutions that exceed the current industry standards.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center p-0">
+                    <p class="h4 mb-3">02</p>
+                    <div class="point"></div>
+                    <div class="line"></div>
+                    <div class="content py-4 px-5">
+                        <p class="h4 mt-5">Excellent SEO Work
+                        </p>
+                        <p class="mt-3 px-3">Our SEO friendly websites will help you to soar to the top of search engine results pages.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center p-0">
+                    <p class="h4 mb-3">03</p>
+                    <div class="point"></div>
+                    <div class="line w-50 me-auto"></div>
+                    <div class="content py-4 px-5">
+                        <p class="h4 mt-5">Cutting Edge Design</p>
+                        <p class="mt-3">We don’t ditch you when our work is done. We’ll stick around and are happy to make enhancements and changes in the future.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!-- Timeline Section -->
 
+<!-- Locations Slider -->
+<div class="title-text">
+    <div class="title-text-styles">
+        <div class="title-text-caption text-center content-full-width parallax-onscroll">
+            <div class="inner">
+                <h1><span class="has-mask-fill">Locations</span></h1>
+                <p>Up close and personal with brands and customers across the region.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content-row row_padding_bottom light-section text-align-center">
+
+    <div class="pinned-gallery">
+        <div class="pinned-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location1.jpg" alt="Image Title">
+        </div>
+        <div class="pinned-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location2.jpg" alt="Image Title">
+        </div>
+        <div class="pinned-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location3.jpg" alt="Image Title">
+        </div>
+    </div>
+
+</div>
+<!--/Locations Slider -->
+
+<!-- Brands Section -->
 <div class="title-text">
     <div class="title-text-styles">
         <div class="title-text-caption content-full-width parallax-onscroll">
@@ -1285,8 +1263,6 @@ COMMENTED BY THARAK TEMP -->
         </div>
     </div>
 </div>
-
-<!-- Row -->
 <div class="content-row full has-clip-path row_padding_left row_padding_right dark-section change-header-color text-align-center">
     <!-- Clients Table -->
     <ul class="clients-table">
@@ -1347,9 +1323,9 @@ COMMENTED BY THARAK TEMP -->
     </ul>
     <!--/Clients Table -->
 </div>
-<!--/Row -->
+<!--/Brands Section -->
 
-<!-- Clients -->
+<!-- Testimonials-section -->
 <div class="title-text">
     <div class="title-text-styles">
         <div class="title-text-caption content-full-width parallax-onscroll">
@@ -1364,8 +1340,6 @@ COMMENTED BY THARAK TEMP -->
         </div>
     </div>
 </div>
-<!-- Clients -->
-
 <div class="fifty-container">
     <div class="fifty-div">
         <!-- <div class="content-row row_padding_bottom light-section testimonials-section">
@@ -1391,13 +1365,16 @@ COMMENTED BY THARAK TEMP -->
             <div class="col-md-6">
                 <div class="testi-img m-3">
                     <a href="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials1.jpg" alt="">
                     </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!-- Testimonials-section -->
+
+
 
 <div class="row contact-section">
     <div class="container">
@@ -1409,7 +1386,7 @@ COMMENTED BY THARAK TEMP -->
                 <p class="desc w-75 mx-auto">Ready to start a project or really curious about our process? Drop us a note
                     or give us a call 888.641.7313; we’re happy to answer all your questions.</p>
                 <div class="btn-sec">
-                <a href="" class="cont-btn text-upperecase">Contact Us</a>
+                    <a href="" class="cont-btn text-upperecase">Contact Us</a>
                 </div>
             </div>
         </div>

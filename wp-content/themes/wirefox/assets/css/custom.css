@@ -245,7 +245,11 @@
 
 
 /* Homepage timeline section */
-.timeln {}
+.timeln {
+  margin-top: -200px;
+  position: relative;
+  z-index: 1;
+}
 
 .timeln .cont {
   padding: 100px 50px !important;
@@ -298,6 +302,10 @@
 /* testimonials-section */
 .testimonials-section .testi-img {
   background-color: #FFFFFF;
+  transition: 0.5s;
+}
+.testimonials-section .testi-img:hover{
+  scale: .95;
 }
 
 .testimonials-section .testi-img img {
