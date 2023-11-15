@@ -1231,41 +1231,42 @@ COMMENTED BY THARAK TEMP -->
                 <div class="clipped-image-gradient"></div>
             </div>
         </div>
-        <div class="clipped-image-content text-align-center content-full-width timeln w-75 bg-red">
-            <!-- <div class="hero-subtitle caption-timeline"><span>Why Choose Us?</span></div> -->
-            <h2 class="has-mask-fill title-text">Wirefox's Approach</h2>
-            <div class="hor-line w-25"></div>
-            <p class="mt-4">Whether you’re looking for a simple content managed website (CMS), complex corporate website or a fully functional eCommerce store,
-                Wirefox can create professional digital solutions to meet your needs.</p>
-            <div class="timeline mt-5">
-                <div class="row">
-                    <div class="col-sm-4 text-center p-0">
-                        <p class="h4 mb-3">01</p>
-                        <div class="point"></div>
-                        <div class="line w-50 ms-auto"></div>
-                        <div class="content p-2">
-                            <p class="h4 mt-5">Cutting Edge Design</p>
-                            <p class="mt-3">We strive to create high quality solutions that exceed the current industry standards.</p>
+        <div class="clipped-image-content text-align-center content-full-width timeln px-100">
+            <div class="cont bg-red">
+                <!-- <div class="hero-subtitle caption-timeline"><span>Why Choose Us?</span></div> -->
+                <h2 class="has-mask-fill title-text">Wirefox's Approach</h2>
+                <div class="hor-line w-25"></div>
+                <p class="mt-5">Whether you’re looking for a simple content managed website (CMS), complex corporate website or a fully functional eCommerce store,
+                    Wirefox can create professional digital solutions to meet your needs.</p>
+                <div class="timeline mt-5">
+                    <div class="row">
+                        <div class="col-sm-4 text-center p-0">
+                            <p class="h4 mb-3">01</p>
+                            <div class="point"></div>
+                            <div class="line w-50 ms-auto"></div>
+                            <div class="content py-4 px-5">
+                                <p class="h4 mt-5">Cutting Edge Design</p>
+                                <p class="mt-3 px-3">We strive to create high quality solutions that exceed the current industry standards.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 text-center p-0">
-                        <p class="h4 mb-3">02</p>
-                        <div class="point"></div>
-                        <div class="line"></div>
-                        <div class="content p-2">
-                            <p class="h4 mt-5">Excellent SEO Work
-                            </p>
-                            <p class="mt-3">Our SEO friendly websites will help you to soar to the top of search engine results pages.</p>
+                        <div class="col-sm-4 text-center p-0">
+                            <p class="h4 mb-3">02</p>
+                            <div class="point"></div>
+                            <div class="line"></div>
+                            <div class="content py-4 px-5">
+                                <p class="h4 mt-5">Excellent SEO Work
+                                </p>
+                                <p class="mt-3 px-3">Our SEO friendly websites will help you to soar to the top of search engine results pages.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 text-center p-0">
-                        <p class="h4 mb-3">03</p>
-                        <div class="point"></div>
-                        <div class="line w-50 me-auto"></div>
-                        <div class="content p-2
-                        ">
-                            <p class="h4 mt-5">Cutting Edge Design</p>
-                            <p class="mt-3">We don’t ditch you when our work is done. We’ll stick around and are happy to make enhancements and changes in the future.</p>
+                        <div class="col-sm-4 text-center p-0">
+                            <p class="h4 mb-3">03</p>
+                            <div class="point"></div>
+                            <div class="line w-50 me-auto"></div>
+                            <div class="content py-4 px-5">
+                                <p class="h4 mt-5">Cutting Edge Design</p>
+                                <p class="mt-3">We don’t ditch you when our work is done. We’ll stick around and are happy to make enhancements and changes in the future.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1286,39 +1287,61 @@ COMMENTED BY THARAK TEMP -->
 </div>
 
 <!-- Row -->
-<div class="content-row full has-clip-path row_padding_top row_padding_bottom row_padding_left row_padding_right dark-section change-header-color text-align-center">
+<div class="content-row full has-clip-path row_padding_left row_padding_right dark-section change-header-color text-align-center">
     <!-- Clients Table -->
     <ul class="clients-table">
         <li class="link">
-            <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/  .jpg" alt="client"></a>
+            <div class="my-auto">
+                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CAReXPORT.svg" alt="client"></a>
+                <div class="overlay"></div>
+            </div>
+        </li>
+        <li class="link">
+            <div class="my-auto">
+                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/pizza.svg" alt="client"></a>
+            </div>
             <div class="overlay"></div>
         </li>
         <li class="link">
-            <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/  .jpg" alt="client"></a>
+            <div class="my-auto">
+                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/Opticians.svg" alt="client"></a>
+            </div>
             <div class="overlay"></div>
         </li>
         <li class="link">
-            <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/  .jpg" alt="client"></a>
+            <div class="my-auto">
+                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/wholesale.svg" alt="client"></a>
+            </div>
             <div class="overlay"></div>
         </li>
         <li class="link">
-            <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/  .jpg" alt="client"></a>
+            <div class="my-auto">
+                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/ultimate.svg" alt="client"></a>
+            </div>
             <div class="overlay"></div>
         </li>
         <li class="link">
-            <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/  .jpg" alt="client"></a>
+            <div class="my-auto">
+                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/whites-foodequip.svg" alt="client"></a>
+            </div>
             <div class="overlay"></div>
         </li>
         <li class="link">
-            <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/  .jpg" alt="client"></a>
+            <div class="my-auto">
+                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/R.svg" alt="client"></a>
+            </div>
             <div class="overlay"></div>
         </li>
         <li class="link">
-            <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/  .jpg" alt="client"></a>
+            <div class="my-auto">
+                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/PARADISE.svg" alt="client"></a>
+            </div>
             <div class="overlay"></div>
         </li>
         <li class="link">
-            <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/  .jpg" alt="client"></a>
+            <div class="my-auto">
+                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/barrettesuk.svg" alt="client"></a>
+            </div>
             <div class="overlay"></div>
         </li>
     </ul>
@@ -1345,7 +1368,7 @@ COMMENTED BY THARAK TEMP -->
 
 <div class="fifty-container">
     <div class="fifty-div">
-        <div class="content-row row_padding_bottom light-section testimonials-section">
+        <!-- <div class="content-row row_padding_bottom light-section testimonials-section">
             <div class="one_half section-fifty">
                 <figure class="has-animation has-cover" data-delay="100">
                     <a href="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="Image Title"></a>
@@ -1356,10 +1379,42 @@ COMMENTED BY THARAK TEMP -->
                     <a href="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="Image Title"></a>
                 </figure>
             </div>
+        </div> -->
+        <div class="row light-section testimonials-section">
+            <div class="col-md-6">
+                <div class="testi-img m-3">
+                    <a href="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testi-img m-3">
+                    <a href="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
+<div class="row contact-section">
+    <div class="container">
+        <div class="title-text">
+            <div class="title-text-caption text-center">
+                <p class="sub-title">READY TO STARTA PROJECT?</p>
+                <h1 class="title">Let’s make something
+                    great together!</h1>
+                <p class="desc w-75 mx-auto">Ready to start a project or really curious about our process? Drop us a note
+                    or give us a call 888.641.7313; we’re happy to answer all your questions.</p>
+                <div class="btn-sec">
+                <a href="" class="cont-btn text-upperecase">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Page Navigation ---------------------------
 <div id="page-nav">
