@@ -891,28 +891,28 @@ COMMENTED BY THARAK TEMP -->
         <div class="clapat-slider">
             <div class="clapat-slider-viewport">
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/Car-Export-Web-Design.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
 
                 <div class="clapat-slide">
                     <!--<a href="https://perspectiveopticians.co.uk/" target="_blank"> -->
                     <div class="slide-img">
-                        <img class="image-container" src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/Web-Design-Perspective-Opticians.jpg" alt="Image Title">
+                        <img class="image-container" src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title">
                     </div>
                     <!-- </a> -->
                 </div>
 
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/Web-Design-Pizza-Equipment.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/Web-Design-Wholesale-Meats-Coventry.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/Ultimate-Siri-Lanka.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/Barretts-Sausage.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
             </div>
         </div>
@@ -951,7 +951,7 @@ COMMENTED BY THARAK TEMP -->
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6">
                 <figure class="has-animation has-cover" data-delay="100">
-                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/Experts-In-Web-Design.jpg" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Experts-In-Web-Design.jpg" alt="Image Title"></a>
+                    <a href="#" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Experts-In-Web-Design.jpg" alt="Image Title"></a>
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
@@ -1002,7 +1002,7 @@ COMMENTED BY THARAK TEMP -->
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6 order-md-2">
                 <figure class="has-animation has-cover" data-delay="100">
-                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/Ecommerce-Web-Design.webp" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ecommerce-Web-Design.webp" alt="Image Title"></a>
+                    <a href="#" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ecommerce-Web-Design.webp" alt="Image Title"></a>
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
@@ -1054,7 +1054,7 @@ COMMENTED BY THARAK TEMP -->
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6">
                 <figure class="has-animation has-cover" data-delay="100">
-                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/Birmingham-SEO-Specialists.webp" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Birmingham-SEO-Specialists.webp" alt="Image Title"></a>
+                    <a href="" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Birmingham-SEO-Specialists.webp" alt="Image Title"></a>
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
@@ -1106,7 +1106,7 @@ COMMENTED BY THARAK TEMP -->
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6 order-md-2">
                 <figure class="has-animation has-cover" data-delay="100">
-                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" alt="Image Title"></a>
+                    <a href="" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" alt="Image Title"></a>
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
@@ -1224,12 +1224,35 @@ COMMENTED BY THARAK TEMP -->
 </div>
 <!-- Timeline Section -->
 
+<!-- Services section -->
+<div class="content-row full has-clip-path row_padding_top row_padding_bottom row_padding_left row_padding_right dark-section fadeout-element change-header-color">
+
+    <div class="list-rotator-wrapper">
+        <div class="list-rotator-title has-mask-fill">[ Our Services ]</div>
+        <div class="list-rotator-height">
+            <div class="list-rotator-pin">
+                <ul class="list-rotator">
+                    <li><em>Web Design &</em> Development</li>
+                    <li><em>Social Media</em> Marketing</li>
+                    <li><em>Outdoor</em> Advertising</li>
+                    <li><em>Search Engine</em> Optimization</li>
+                    <li><em>Branding & Print</em> Work</li>
+                    <li><em>Web App</em> Development</li>
+                    <li><em>Google Trusted</em> Photographer</li>
+                    <li><em>Online Reputation</em> Management</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Services section -->
+
 <!-- Locations Slider -->
 <div class="title-text">
     <div class="title-text-styles">
         <div class="title-text-caption text-center content-full-width parallax-onscroll">
             <div class="inner">
-                <h1><span class="has-mask-fill">Locations</span></h1>
+                <h1><span class="has-mask-fill text-uppercase">Locations</span></h1>
                 <p>Up close and personal with brands and customers across the region.</p>
             </div>
         </div>
@@ -1250,6 +1273,7 @@ COMMENTED BY THARAK TEMP -->
     </div>
 
 </div>
+
 <!--/Locations Slider -->
 
 <!-- Brands Section -->
@@ -1497,23 +1521,29 @@ Page Navigation -------------------------->
             <div class="foot_logo mx-auto w-75">
                 <div class="row">
                     <div class="col-md-4 my-auto">
-                        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/CSSDESIGN.svg" alt="">
+                        <div class="text-center">
+                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CSSDESIGN.svg" alt="">
+                        </div>
                     </div>
                     <div class="col-md-4 my-auto">
-                        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/CULTCH.svg" alt="">
+                        <div class="w-50 mx-auto">
+                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CULTCH.svg" alt="">
+                        </div>
                     </div>
                     <div class="col-md-4 my-auto">
-                        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/awwwards.svg" alt="">
+                        <div class="text-center">
+                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/awwwards.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="mt-5">
             <p class="copy_des text-center">
-            Copyright 2019 © Wirefox, All rights reserved | Trademark: Wirefox ®, | Privacy and Cookies Policy | Terms & Conditions | Reg Address: 32 DeMontfort Street, Leicester, LE1 7GD
-Registered in England & Wales: Company No. 09072362 | Tel: 0121 368 0098 | Office: Suite 2A, Blackthorn House, Saint Paul’s Square, Birmingham B3 1RL
+                Copyright 2019 © Wirefox, All rights reserved | Trademark: Wirefox ®, | Privacy and Cookies Policy | Terms & Conditions | Reg Address: 32 DeMontfort Street, Leicester, LE1 7GD
+                Registered in England & Wales: Company No. 09072362 | Tel: 0121 368 0098 | Office: Suite 2A, Blackthorn House, Saint Paul’s Square, Birmingham B3 1RL
             </p>
-            
+
         </div>
     </div>
 </div>

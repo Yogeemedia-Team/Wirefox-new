@@ -902,7 +902,7 @@ Function Scroll Effects
 								opacity: 1,
 								zIndex: 0,
 								duration: 1,
-								ease: Linear.easeNone
+								ease: Linear.easeNone,
 							}),
 						});
 					}

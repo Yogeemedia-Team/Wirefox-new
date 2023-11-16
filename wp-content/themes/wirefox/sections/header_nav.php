@@ -5,8 +5,8 @@
 		<!-- Logo -->
 		<div id="logo" class="hide-ball">
 			<a class="ajax-link" data-type="page-transition" href="index.html">
-				<img class="black-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="ClaPat Logo">
-				<img class="white-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-white.png" alt="ClaPat Logo">
+				<img class="black-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="ClaPat Logo">
+				<img class="white-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="ClaPat Logo">
 			</a>
 		</div>
 		<!--/Logo -->
