@@ -288,7 +288,7 @@
   opacity: 0.5;
   padding: 20px;
   transition: 0.5s;
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .clients-table li img:hover {
@@ -328,9 +328,11 @@
 }
 
 .contact-section .title {
-  margin-top: 50px;
-  font-family: Poppins;
-  font-weight: 500;
+	margin-top: 56px;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 100px;
+	letter-spacing: 2px;
 }
 
 .contact-section .desc {
@@ -356,7 +358,12 @@
 .footer_sec .subtitle {
   font-size: 35px;
 }
-
+.footer_sec .row_padding_top {
+	padding-top: 6vw;
+} 
+.footer_sec .foot_cont {
+	max-width: 76.5%;
+}
 .footer_sec .submit_btn {
   border-radius: 100%;
   width: 150px;
@@ -383,6 +390,9 @@
 .footer_sec .form-check-label {
   font-size: 20px;
   color: #ffffff;
+}
+.foot_menu {
+	margin-top: 18vw;
 }
 
 .form-check-input:checked {
@@ -414,11 +424,14 @@
 }
 .foot_logo .logo{
   margin: auto;
-  max-width: 300px;
+  max-width: 400px;
 }
-.copy_des{
-  font-size: 15px;
-  font-family: 'Poppins';
+.copy_des {
+	font-size: 16px;
+	font-family: 'Poppins';
+	max-width: 94%;
+	margin: auto;
+	line-height: 1.5;
 }
 .copyright{
   text-transform: uppercase;
@@ -428,4 +441,10 @@
 /* Nav menu */
 .flexnav li{
   text-transform: uppercase;
+}
+/* bact_to_top */
+.bact_to_top{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }

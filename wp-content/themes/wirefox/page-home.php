@@ -460,7 +460,7 @@ get_header();
                 </div>
             </section>
         </main>
-        <!-- <img id="image-7-15" alt="" src="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp" class="pinned-section ct-image fadeInUp main__image" srcset="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp 1000w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-300x296.webp 300w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-768x759.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px"> -->
+        <!-- <img id="image-7-15" alt="wirefox" src="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp" class="pinned-section ct-image fadeInUp main__image" srcset="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp 1000w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-300x296.webp 300w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-768x759.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px"> -->
 
         <h1 id="headline-498-15" class="ct-headline mainHeding fadeInUp" style="z-index: 1;padding-top: 280px;">DIGITAL</h1>
         <h2 id="headline-499-15" class="ct-headline fadeInUp" style="z-index: 2;">MARKETING</h2>
@@ -543,9 +543,9 @@ Row -->
                                 <div class="img-mask">
                                     <a class="slide-link" data-type="page-transition" href="project01.html"></a>
                                     <div class="section-image  trigger-item-link">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/01hero.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/01hero.jpg" class="item-image grid__item-img" alt="wirefox">
                                     </div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/01hero.jpg" class="grid__item-img grid__item-img--large" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/01hero.jpg" class="grid__item-img grid__item-img--large" alt="wirefox">
                                 </div>
                             </div>
                             <div class="slide-caption">
@@ -563,9 +563,9 @@ Row -->
                                 <div class="img-mask">
                                     <a class="slide-link" data-type="page-transition" href="project02.html"></a>
                                     <div class="section-image  trigger-item-link">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/02hero.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/02hero.jpg" class="item-image grid__item-img" alt="wirefox">
                                     </div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/02hero.jpg" class="grid__item-img grid__item-img--large" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/02hero.jpg" class="grid__item-img grid__item-img--large" alt="wirefox">
                                 </div>
                             </div>
                             <div class="slide-caption">
@@ -583,9 +583,9 @@ Row -->
                                 <div class="img-mask">
                                     <a class="slide-link" data-type="page-transition" href="project03.html"></a>
                                     <div class="section-image  trigger-item-link">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/03hero.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/03hero.jpg" class="item-image grid__item-img" alt="wirefox">
                                     </div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/03hero.jpg" class="grid__item-img grid__item-img--large" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/03hero.jpg" class="grid__item-img grid__item-img--large" alt="wirefox">
                                 </div>
                             </div>
                             <div class="slide-caption">
@@ -603,14 +603,14 @@ Row -->
                                 <div class="img-mask">
                                     <a class="slide-link" data-type="page-transition" href="project04.html"></a>
                                     <div class="section-image  trigger-item-link">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/04hero.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/04hero.jpg" class="item-image grid__item-img" alt="wirefox">
                                         <div class="hero-video-wrapper">
                                             <video loop muted playsinline class="bgvid">
                                                 <source src="<?php echo get_template_directory_uri(); ?>/assets/images/04hero.mp4" type="video/mp4">
                                             </video>
                                         </div>
                                     </div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/04hero.jpg" class="grid__item-img grid__item-img--large" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/04hero.jpg" class="grid__item-img grid__item-img--large" alt="wirefox">
                                 </div>
                             </div>
                             <div class="slide-caption">
@@ -628,9 +628,9 @@ Row -->
                                 <div class="img-mask">
                                     <a class="slide-link" data-type="page-transition" href="project05.html"></a>
                                     <div class="section-image  trigger-item-link">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/05hero.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/05hero.jpg" class="item-image grid__item-img" alt="wirefox">
                                     </div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/05hero.jpg" class="grid__item-img grid__item-img--large" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/05hero.jpg" class="grid__item-img grid__item-img--large" alt="wirefox">
                                 </div>
                             </div>
                             <div class="slide-caption">
@@ -648,9 +648,9 @@ Row -->
                                 <div class="img-mask">
                                     <a class="slide-link" data-type="page-transition" href="project06.html"></a>
                                     <div class="section-image  trigger-item-link">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/06hero.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/06hero.jpg" class="item-image grid__item-img" alt="wirefox">
                                     </div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/06hero.jpg" class="grid__item-img grid__item-img--large" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/06hero.jpg" class="grid__item-img grid__item-img--large" alt="wirefox">
                                 </div>
                             </div>
                             <div class="slide-caption">
@@ -668,9 +668,9 @@ Row -->
                                 <div class="img-mask">
                                     <a class="slide-link" data-type="page-transition" href="project07.html"></a>
                                     <div class="section-image  trigger-item-link">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/07hero.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/07hero.jpg" class="item-image grid__item-img" alt="wirefox">
                                     </div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/07hero.jpg" class="grid__item-img grid__item-img--large" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/07hero.jpg" class="grid__item-img grid__item-img--large" alt="wirefox">
                                 </div>
                             </div>
                             <div class="slide-caption">
@@ -688,9 +688,9 @@ Row -->
                                 <div class="img-mask">
                                     <a class="slide-link" data-type="page-transition" href="project08.html"></a>
                                     <div class="section-image  trigger-item-link">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/08hero.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/08hero.jpg" class="item-image grid__item-img" alt="wirefox">
                                     </div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/08hero.jpg" class="grid__item-img grid__item-img--large" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/08hero.jpg" class="grid__item-img grid__item-img--large" alt="wirefox">
                                 </div>
                             </div>
                             <div class="slide-caption">
@@ -1276,6 +1276,7 @@ COMMENTED BY THARAK TEMP -->
 
 <!--/Locations Slider -->
 
+
 <!-- Brands Section -->
 <div class="title-text">
     <div class="title-text-styles">
@@ -1382,14 +1383,14 @@ COMMENTED BY THARAK TEMP -->
             <div class="col-md-6">
                 <div class="testi-img m-3">
                     <a href="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="wirefox">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="testi-img m-3">
                     <a href="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials1.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials1.jpg" alt="wirefox">
                     </a>
                 </div>
             </div>
@@ -1405,9 +1406,9 @@ COMMENTED BY THARAK TEMP -->
         <div class="title-text">
             <div class="title-text-caption text-center">
                 <p class="sub-title">READY TO STARTA PROJECT?</p>
-                <h1 class="title">Let’s make something
+                <h1 class="title text-uppercase">Let’s make something
                     great together!</h1>
-                <p class="desc w-75 mx-auto">Ready to start a project or really curious about our process? Drop us a note
+                <p class="desc mx-auto">Ready to start a project or really curious about our process? Drop us a note
                     or give us a call 888.641.7313; we’re happy to answer all your questions.</p>
                 <div class="btn-sec">
                     <a href="" class="cont-btn text-upperecase">Contact Us</a>
@@ -1435,7 +1436,7 @@ Page Navigation -------------------------->
 <!-- footer section -->
 
 <div class="footer_sec">
-    <div class="w-75 mx-auto">
+    <div class="foot_cont mx-auto">
         <div class="row_padding_top">
             <p class="subtitle mb-0">
                 SIGN UP TO OUR NEWSLETTER:
@@ -1448,7 +1449,7 @@ Page Navigation -------------------------->
                         </div>
                         <div class="col-auto my-auto">
                             <button type="submit" class="submit_btn text-center my-auto">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Submit.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Submit.png" alt="wirefox">
                             </button>
                         </div>
                     </div>
@@ -1467,79 +1468,89 @@ Page Navigation -------------------------->
             </p>
             <div class="icons mt-3">
                 <span>
-                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/facebook.png" alt="">
+                    <a href="https://www.facebook.com/" target="_blank"><img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/facebook.png" alt="wirefox"></a>
                 </span>
                 <span>
-                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/insta.png" alt="">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/insta.png" alt="wirefox">
+                    </a>
                 </span>
                 <span>
-                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/youtube.png" alt="">
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/youtube.png" alt="wirefox">
+                    </a>
                 </span>
                 <span>
-                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/tweeter.png" alt="">
+                    <a href="https://twitter.com/" target="_blank">
+                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/tweeter.png" alt="wirefox">
+                    </a>
                 </span>
                 <span>
-                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/linkdln.png" alt="">
+                    <a href="https://lk.linkedin.com/" target="_blank">
+                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/linkdln.png" alt="wirefox">
+                    </a>
                 </span>
                 <span>
-                    <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/pinterest.png" alt="">
+                    <a href="https://www.pinterest.com/" target="_blank">
+                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/pinterest.png" alt="wirefox">
+                    </a>
                 </span>
             </div>
         </div>
-        <div class="foot_menu row_padding_top">
+        <div class="foot_menu">
             <div class="row">
                 <div class="col-md-4">
                     <div class="menu">
                         <ul>
-                            <li>Who we are</li>
-                            <li>Seo glossary</li>
-                            <li>Free SEO Audit</li>
+                            <li><a href="#">Who we are</a></li>
+                            <li><a href="#">Seo glossary</a></li>
+                            <li><a href="#">Free SEO Audit</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="menu">
                         <ul class="mx-auto">
-                            <li>Case Studies</li>
-                            <li>News</li>
-                            <li>Career</li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Career</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="menu">
                         <ul class="ms-auto">
-                            <li>Terms and conditions</li>
-                            <li>Privacy and cookies policy</li>
-                            <li>Contact</li>
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Privacy and cookies policy</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mt-5">
+        <div class="mt-3">
             <div class="foot_logo mx-auto w-75">
                 <div class="row">
                     <div class="col-md-4 my-auto">
                         <div class="text-center">
-                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CSSDESIGN.svg" alt="">
+                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CSSDESIGN.svg" alt="wirefox">
                         </div>
                     </div>
                     <div class="col-md-4 my-auto">
                         <div class="w-50 mx-auto">
-                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CULTCH.svg" alt="">
+                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CULTCH.svg" alt="wirefox">
                         </div>
                     </div>
                     <div class="col-md-4 my-auto">
                         <div class="text-center">
-                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/awwwards.svg" alt="">
+                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/awwwards.svg" alt="wirefox">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mt-5">
-            <p class="copy_des text-center">
+        <div>
+            <p class="copy_des mx-auto text-center">
                 Copyright 2019 © Wirefox, All rights reserved | Trademark: Wirefox ®, | Privacy and Cookies Policy | Terms & Conditions | Reg Address: 32 DeMontfort Street, Leicester, LE1 7GD
                 Registered in England & Wales: Company No. 09072362 | Tel: 0121 368 0098 | Office: Suite 2A, Blackthorn House, Saint Paul’s Square, Birmingham B3 1RL
             </p>
