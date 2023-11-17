@@ -17,7 +17,7 @@
 			<div class="nav-height">
 				<div class="outer">
 					<div class="inner">
-						<ul data-breakpoint="10025" class="flexnav">
+						<!-- <ul data-breakpoint="10025" class="flexnav">
 							<li class="link menu-timeline"><a class="ajax-link active" data-type="page-transition" href="index.html">
 									<div class="before-span"><span data-hover="Home">Home</span></div>
 								</a></li>
@@ -53,19 +53,9 @@
 									</div>
 								</a></li>
 
-						</ul>
+						</ul> -->
 						<!-- wp menu -->
-						<?php
-						// wp_nav_menu(
-						// 	array(
-						// 		'theme_location' => 'parimary',
-						// 		'depth'         => 2,
-						// 		'container' => 'ul',
-						// 		'menu_class' => 'flexnav',
-						// 		'link_before' => '<span>','link_after'=>'</span>'
-						// 	)
-						// );
-						?>
+						
 						<ul data-breakpoint="10025" class="flexnav">
 							<?php
 							wp_nav_menu(array(

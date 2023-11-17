@@ -37,7 +37,6 @@
 
 
 <body>
-<?php wp_body_open(); ?>
 
 
 <div class="bg-red">
