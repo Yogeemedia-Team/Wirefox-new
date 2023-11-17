@@ -8,10 +8,10 @@
         </div>
         <div class="button-text sticky left"><span data-hover="Back Top">Back Top</span></div>
     </div>
-    <div id="backtotop" class="bact_to_top left">
+    <!-- <div id="backtotop" class="bact_to_top left">
 
         <div class="button-text sticky left"><span data-hover="Back Top"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top.png" alt="wirefox"></span></div>
-    </div>
+    </div> -->
 
     <div class="footer-middle">
         <div class="copyright">Design & Develop by <a class="link" target="_blank" href="https://www.clapat.com/">Wirefox</a> © 2023 </div>
