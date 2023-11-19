@@ -59,6 +59,7 @@ html {
 }
 
 body {
+	background-color: #f70707;
 	overflow: hidden;
 	overflow-y: scroll;
 	-webkit-transition: opacity 0.2s ease-in-out 0.2s;
