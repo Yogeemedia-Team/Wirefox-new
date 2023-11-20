@@ -78,5 +78,7 @@ if ( is_front_page() ) : ?>
 								
 							<?php else : ?>
 								<!-- Main Page Content -->
-								<div id="main-page-content" class="content-full-width">
+								<!-- <div id="main-page-content" class="content-full-width"> -->
+									<div id="main-page-content">
+
 							<?php endif; ?>
