@@ -885,34 +885,53 @@ COMMENTED BY THARAK TEMP -->
     </div>
 </div>
 
+<!-- Page Navigation -->
+<div id="clapat">
+    <a class="link next-ajax-link-page" data-type="page-transition" data-centerline="SAY HEY" href="contact.html">
+        aaa
+    </a>
+</div>
+
+<!--/Page Navigation -->
+
 <!-- Row -->
 <div class="content-row full light-section text-align-center row_padding_bottom">
     <div class="clapat-slider-wrapper content-slider looped-carousel has-animation disabled-slider-dots autocenter light-cursor">
         <div class="clapat-slider">
-            <div class="clapat-slider-viewport">
+            <div id="clapat" class="clapat-slider-viewport">
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
+                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    </a>
                 </div>
 
                 <div class="clapat-slide">
-                    <!--<a href="https://perspectiveopticians.co.uk/" target="_blank"> -->
-                    <div class="slide-img">
-                        <img class="image-container" src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title">
-                    </div>
-                    <!-- </a> -->
+                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
+                        <div class="slide-img">
+                            <img class="image-container" src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title">
+                        </div>
+                    </a>
                 </div>
 
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
+                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    </a>
                 </div>
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
+                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    </a>
                 </div>
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
+                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    </a>
                 </div>
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
+                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    </a>
                 </div>
             </div>
         </div>
