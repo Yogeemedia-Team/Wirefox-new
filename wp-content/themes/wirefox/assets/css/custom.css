@@ -449,8 +449,22 @@
   text-transform: uppercase;
 }
 /* bact_to_top */
-.bact_to_top{
+.back_to_top{
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 80px;
+  bottom: 16px;
+}
+.back_to_top.button-wrap {
+	top: auto;
+}
+.back_to_top .icon-wrap {
+	width: 150px;
+	height: auto;
+}
+.back_to_top .button-icon{
+  width: 150px;
+  height: auto;
+}
+footer {
+	overflow: visible;
 }

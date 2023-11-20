@@ -1,17 +1,22 @@
 <div id="footer-container">
 
-    <div id="backtotop" class="button-wrap left">
+    <!-- <div id="backtotop" class="button-wrap left">
         <div class="icon-wrap parallax-wrap">
             <div class="button-icon parallax-element">
                 <i class="fa-solid fa-angle-up"></i>
             </div>
         </div>
         <div class="button-text sticky left"><span data-hover="Back Top">Back Top</span></div>
-    </div>
-    <!-- <div id="backtotop" class="bact_to_top left">
-
-        <div class="button-text sticky left"><span data-hover="Back Top"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top.png" alt="wirefox"></span></div>
     </div> -->
+
+    <div id="backtotop" class="button-wrap back_to_top">
+        <div class="icon-wrap parallax-wrap">
+            <div class="button-icon parallax-element">
+                <img class="top_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/top.png" alt="">
+            </div>
+        </div>
+        <!-- <div class="button-text sticky left"><span data-hover="Back Top">Back Top</span></div> -->
+    </div>
 
     <div class="footer-middle">
         <div class="copyright">Design & Develop by <a class="link" target="_blank" href="https://www.clapat.com/">Wirefox</a> © 2023 </div>
