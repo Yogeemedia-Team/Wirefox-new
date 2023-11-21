@@ -3,8 +3,12 @@
     <div class="title-text-styles">
         <div class="title-text-caption parallax-onscroll">
             <div class="inner text-right">
+                 <div class="line-with-text">
+                        <div class="ln"></div>
+                        <div class="txt"><?php the_field('section_sub_title');?></div>
+                 </div>
                 <h1 class="text-uppercase"><em class="has-mask-fill"><?php the_field('section_title');?></em><br><span class="has-mask-fill"><?php the_field('section_weighted_title');?></span></h1>
-                <p><?php the_field('section_sub_title');?></p>
+                <p><?php the_field('section_sub_content');?></p>
             </div>
         </div>
     </div>
