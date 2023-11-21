@@ -25,7 +25,7 @@ if( get_field('reapeting_block_start_left') ) { ?>
                     </div>
                     <a target="_blank" href="<?php the_sub_field('button_link'); ?>">
                         <div class="button-text sticky right">
-                            <span data-hover="Explore Our SEO Services"><?php the_sub_field('button_text'); ?></span>
+                            <span data-hover="<?php the_sub_field('button_text'); ?>"><?php the_sub_field('button_text'); ?></span>
                         </div>
                     </a>
                 </div>
@@ -55,7 +55,7 @@ if( get_field('reapeting_block_start_left') ) { ?>
                     </div>
                     <a target="_blank" href="<?php the_sub_field('button_link'); ?>">
                         <div class="button-text sticky right">
-                            <span data-hover="Explore Our SEO Services"><?php the_sub_field('button_text'); ?></span>
+                            <span data-hover="<?php the_sub_field('button_text'); ?>"><?php the_sub_field('button_text'); ?></span>
                         </div>
                     </a>
                 </div>
@@ -111,7 +111,7 @@ endwhile; ?>
                     </div>
                     <a target="_blank" href="<?php the_sub_field('button_link'); ?>">
                         <div class="button-text sticky right">
-                            <span data-hover="Explore Our SEO Services"><?php the_sub_field('button_text'); ?></span>
+                            <span data-hover="<?php the_sub_field('button_text'); ?>"><?php the_sub_field('button_text'); ?></span>
                         </div>
                     </a>
                 </div>
@@ -142,7 +142,7 @@ endwhile; ?>
                     </div>
                     <a target="_blank" href="<?php the_sub_field('button_link'); ?>">
                         <div class="button-text sticky right">
-                            <span data-hover="Explore Our SEO Services"><?php the_sub_field('button_text'); ?></span>
+                            <span data-hover="<?php the_sub_field('button_text'); ?>"><?php the_sub_field('button_text'); ?></span>
                         </div>
                     </a>
                 </div>
