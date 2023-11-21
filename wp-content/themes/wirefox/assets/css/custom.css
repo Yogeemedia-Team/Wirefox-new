@@ -511,10 +511,6 @@ footer {
   transition: background-color 0.3s ease;
 }
 
-/* Header menu */
-.white-header {
-  background-color: #f70707 !important;
-}
 
 /* posts section */
 .post_sec .post_card {
@@ -544,11 +540,13 @@ footer {
   width: 370px;
   z-index: 999;
 }
-.post_sec .title{
+
+.post_sec .title {
   margin-top: 20px;
 }
+
 .post_sec .title,
-.post_sec .post_link{
+.post_sec .post_link {
   font-size: 24px;
   color: #000000;
   text-decoration: none;
@@ -557,15 +555,35 @@ footer {
   line-height: 1.6;
   font-weight: 400;
 }
-.auth_img{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    margin-right: 10px;
+
+.auth_img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
+
 .auth_name {
-	font-size: 12px;
-	color: #000000 !important;
-	font-weight: 500;
-	text-transform: capitalize;
+  font-size: 12px;
+  color: #000000 !important;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* Header menu */
+.white-header {
+  background-color: #f70707 !important;
+}
+.flexnav{
+  margin-left: auto;
+  width: 50%;
+}
+.flexnav li.link {
+  text-align: left;
+}
+.flexnav li a{
+  font-size: 30px !important;
+  line-height: 50px !important;
+}
+.flexnav .sub-menu{
 }

@@ -2210,7 +2210,7 @@ nav.open {
 		width: auto;
 		padding: 0 20px;
 		box-sizing: border-box;
-		margin: 0 auto;
+		/* margin: 0 auto; */
 		float: none;
 	}
 
