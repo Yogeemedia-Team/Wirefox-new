@@ -1,4 +1,4 @@
-   <div class="breadcrumb-section padding-align">
+   <div class="padding-align change-header-color row_padding_top row_padding_bottom">
 
         <div class="inner">
             <div class="line-with-text">
