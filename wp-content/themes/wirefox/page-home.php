@@ -963,8 +963,6 @@ COMMENTED BY THARAK TEMP -->
 </div>
 <!-- BESPOKE -->
 
-
-
 <!-- 01 -->
 <div class="fifty-container dark-section change-header-color">
     <div class="fifty-div">

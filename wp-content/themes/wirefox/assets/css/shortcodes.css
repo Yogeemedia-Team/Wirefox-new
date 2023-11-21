@@ -1333,7 +1333,7 @@
 		height: 20px;
 		top: 0;
 		left: 0;
-		background-image:url("../images/clients-top.png");
+		/* background-image:url("../images/clients-top.png"); */
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: contain;
