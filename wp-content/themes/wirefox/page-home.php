@@ -883,20 +883,18 @@ COMMENTED BY THARAK TEMP -->
 <!--/Services section -->
 
 
-
-
 <!-- Projects Slider -->
 <div class="content-row full dark-section text-align-center row_padding_bottom change-header-color">
-<div class="title-text">
-    <div class="title-text-styles">
-        <div class="title-text-caption content-full-width parallax-onscroll">
-            <div class="inner text-right">
-                <h1><em class="has-mask-fill">SELECTED</em><br><span class="has-mask-fill">PROJECT</span></h1>
-                <p>Recent web design projects Creating beautiful <br class="destroy"> and engaging websites that get seen</p>
+    <div class="title-text">
+        <div class="title-text-styles">
+            <div class="title-text-caption content-full-width parallax-onscroll">
+                <div class="inner text-right">
+                    <h1><em class="has-mask-fill">SELECTED</em><br><span class="has-mask-fill">PROJECT</span></h1>
+                    <p>Recent web design projects Creating beautiful <br class="destroy"> and engaging websites that get seen</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
     <div class="clapat-slider-wrapper content-slider looped-carousel has-animation disabled-slider-dots autocenter light-cursor">
         <div class="clapat-slider">
             <div id="clapat" class="clapat-slider-viewport">
@@ -1302,10 +1300,7 @@ COMMENTED BY THARAK TEMP -->
 
     </div>
 </div>
-
-
 <!--/Locations Slider -->
-
 
 <!-- Brands Section -->
 <?php get_template_part('sections/brands_section'); ?>
@@ -1315,8 +1310,11 @@ COMMENTED BY THARAK TEMP -->
 <?php get_template_part('sections/testimonials'); ?>
 <!-- Testimonials-section -->
 
+<!-- Posts Section -->
+<?php get_template_part('sections/posts_section'); ?>
+<!-- Posts Section -->
 
-
+<!-- Contact section -->
 <div class="row dark-section contact-section change-header-color">
     <div class="container">
         <div class="title-text">
@@ -1333,6 +1331,8 @@ COMMENTED BY THARAK TEMP -->
         </div>
     </div>
 </div>
+<!-- Contact section -->
+
 
 <!-- Page Navigation ---------------------------
 <div id="page-nav">
