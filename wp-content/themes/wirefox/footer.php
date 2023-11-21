@@ -18,7 +18,6 @@
 <!--/Main Page Content -->
 </div>
 <!--/Main Content -->
-</div>
 <!--/Main -->
 
 <!-- Footer -->
@@ -77,117 +76,11 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/common.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/contact.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/scripts.js"></script>
-<script>
 
+<script>
     "use strict";
 
-    document.addEventListener("DOMContentLoaded", function()
-    {
-        const img = document.getElementById("img1");
-        const distortElements = document.querySelectorAll(".distort");
-
-        /* Zoom in & Zoom Out */
-        img.addEventListener("mouseenter", () => {
-            distortElements.forEach(elem => elem.classList.add("zoom"));
-        });
-        img.addEventListener("mouseleave", () => {
-            distortElements.forEach(elem => elem.classList.remove("zoom"));
-        });
-
-        /* Animation */
-        setInterval((function() {
-            laTransition();
-        }), 6e3);
-    });
-
-    function laTransition() {
-        const progress = {
-            aller: 0,
-            retour: 100
-        };
-
-        let delayed = 0;
-        let nb_pass = 0;
-
-        document.querySelectorAll("feDisplacementMap").forEach(elem => {
-            elem.scale.baseVal = 0;
-        });
-
-        document.querySelectorAll(".innerImgs").forEach(elem => {
-            let nextElem;
-            gsap.to(elem.querySelector(".current"), {
-                duration: 1,
-                y: "-100%",
-                delay: delayed,
-                ease: Power2.easeInOut
-            });
-            gsap.to(elem.querySelector(".current").querySelector("div"), {
-                duration: 1,
-                scale: 1.3,
-                y: "90%",
-                delay: delayed,
-                ease: Power2.easeInOut
-            });
-            gsap.to(progress, {
-                duration: 1,
-                aller: 100,
-                delay: delayed,
-                ease: Power2.easeInOut,
-                onUpdate: () => {
-                    elem.querySelector(".current").querySelector("feDisplacementMap").scale.baseVal = progress.aller;
-                }
-            });
-
-            nextElem = elem.querySelector(".current").nextElementSibling || elem.querySelectorAll(".cover")[0];
-
-            gsap.fromTo(nextElem, {
-                y: "100%"
-            }, {
-                duration: 1,
-                y: "0%",
-                delay: delayed,
-                ease: Power2.easeInOut,
-                onComplete: () => {
-                    elem.querySelector(".current").classList.remove("current");
-                    nextElem.classList.add("current");
-                    if (elem.querySelector(".current").getAttribute("data-perma")) {
-                        document.getElementById("img1").setAttribute("href", elem.querySelector(".current").getAttribute("data-perma"));
-                    }
-                }
-            });
-
-            gsap.fromTo(nextElem.querySelector("div"), {
-                y: "-90%",
-                scale: 1.2
-            }, {
-                duration: 1,
-                y: "0%",
-                scale: 1.1,
-                delay: delayed,
-                ease: Power2.easeInOut
-            });
-
-            gsap.to(progress, {
-                duration: 1,
-                retour: 0,
-                delay: delayed,
-                ease: Power2.easeInOut,
-                onUpdate: () => {
-                    nextElem.querySelector("feDisplacementMap").scale.baseVal = progress.retour;
-                }
-            });
-
-            delayed += .15;
-
-            if (++nb_pass === 3) {
-                nb_pass = 0;
-                delayed = 0;
-            }
-        });
-    }"use strict";
-
-    document.addEventListener("DOMContentLoaded", function()
-    {
+    document.addEventListener("DOMContentLoaded", function() {
         const img = document.getElementById("img1");
         const distortElements = document.querySelectorAll(".distort");
 
@@ -290,14 +183,121 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
             }
         });
     }
+    "use strict";
 
+    document.addEventListener("DOMContentLoaded", function() {
+        const img = document.getElementById("img1");
+        const distortElements = document.querySelectorAll(".distort");
+
+        /* Zoom in & Zoom Out */
+        img.addEventListener("mouseenter", () => {
+            distortElements.forEach(elem => elem.classList.add("zoom"));
+        });
+        img.addEventListener("mouseleave", () => {
+            distortElements.forEach(elem => elem.classList.remove("zoom"));
+        });
+
+        /* Animation */
+        setInterval((function() {
+            laTransition();
+        }), 6e3);
+    });
+
+    function laTransition() {
+        const progress = {
+            aller: 0,
+            retour: 100
+        };
+
+        let delayed = 0;
+        let nb_pass = 0;
+
+        document.querySelectorAll("feDisplacementMap").forEach(elem => {
+            elem.scale.baseVal = 0;
+        });
+
+        document.querySelectorAll(".innerImgs").forEach(elem => {
+            let nextElem;
+            gsap.to(elem.querySelector(".current"), {
+                duration: 1,
+                y: "-100%",
+                delay: delayed,
+                ease: Power2.easeInOut
+            });
+            gsap.to(elem.querySelector(".current").querySelector("div"), {
+                duration: 1,
+                scale: 1.3,
+                y: "90%",
+                delay: delayed,
+                ease: Power2.easeInOut
+            });
+            gsap.to(progress, {
+                duration: 1,
+                aller: 100,
+                delay: delayed,
+                ease: Power2.easeInOut,
+                onUpdate: () => {
+                    elem.querySelector(".current").querySelector("feDisplacementMap").scale.baseVal = progress.aller;
+                }
+            });
+
+            nextElem = elem.querySelector(".current").nextElementSibling || elem.querySelectorAll(".cover")[0];
+
+            gsap.fromTo(nextElem, {
+                y: "100%"
+            }, {
+                duration: 1,
+                y: "0%",
+                delay: delayed,
+                ease: Power2.easeInOut,
+                onComplete: () => {
+                    elem.querySelector(".current").classList.remove("current");
+                    nextElem.classList.add("current");
+                    if (elem.querySelector(".current").getAttribute("data-perma")) {
+                        document.getElementById("img1").setAttribute("href", elem.querySelector(".current").getAttribute("data-perma"));
+                    }
+                }
+            });
+
+            gsap.fromTo(nextElem.querySelector("div"), {
+                y: "-90%",
+                scale: 1.2
+            }, {
+                duration: 1,
+                y: "0%",
+                scale: 1.1,
+                delay: delayed,
+                ease: Power2.easeInOut
+            });
+
+            gsap.to(progress, {
+                duration: 1,
+                retour: 0,
+                delay: delayed,
+                ease: Power2.easeInOut,
+                onUpdate: () => {
+                    nextElem.querySelector("feDisplacementMap").scale.baseVal = progress.retour;
+                }
+            });
+
+            delayed += .15;
+
+            if (++nb_pass === 3) {
+                nb_pass = 0;
+                delayed = 0;
+            }
+        });
+    }
 </script>
 <script>
     const cards = gsap.utils.toArray(".card");
     const spacer = 20;
     const minScale = 0.8;
 
-    const distributor = gsap.utils.distribute({ base: minScale, amount: 0.2 });
+    const distributor = gsap.utils.distribute({
+        base: minScale,
+        amount: 0.2
+    });
 
     cards.forEach((card, index) => {
 
@@ -328,6 +328,8 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
         });
     });
 </script>
+
+
 <?php wp_footer(); ?>
 
 </body>
