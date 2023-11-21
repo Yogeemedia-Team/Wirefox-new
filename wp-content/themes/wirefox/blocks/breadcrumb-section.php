@@ -11,6 +11,7 @@
 
                     // Output the breadcrumb links
                     echo '<div class="txt">';
+					echo '<a href="' . get_home_url() . '">' . esc_html('Wirefox') . '</a> / ';
                     foreach ($ancestors as $ancestor_id) {
                         $ancestor_title = get_the_title($ancestor_id);
                         $ancestor_url = get_permalink($ancestor_id);
