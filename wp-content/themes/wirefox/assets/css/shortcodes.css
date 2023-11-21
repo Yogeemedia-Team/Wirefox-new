@@ -8,7 +8,7 @@
 		display: table!important;
 		width: 100%;
 		margin: 0 auto;
-		max-width:1160px;
+		/* max-width:1160px; */
 	}
 	
 	.full .pinned-section, .full_elementor .pinned-section {

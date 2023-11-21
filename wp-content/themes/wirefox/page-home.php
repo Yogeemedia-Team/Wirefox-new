@@ -773,7 +773,7 @@ COMMENTED BY THARAK TEMP -->
 
 
 <!-- Company Brief -->
-<div class="content-row row_padding_top row_padding_bottom dark-section">
+<div class="content-row row_padding_top row_padding_left row_padding_right row_padding_bottom dark-section change-header-color">
 
     <h4><span class="has-span-indent">Web Design Agency / SEO birmingham / Digital Marketing / SEO Experts / Social Media Marketing
 
@@ -784,7 +784,7 @@ COMMENTED BY THARAK TEMP -->
 
 <!-- Services section -->
 
-<div class="ser_sec content-row row_padding_top row_padding_bottom dark-section change-header-color has-clip-path">
+<div class="ser_sec content-row row_padding_top row_padding_left row_padding_right row_padding_bottom dark-section change-header-color has-clip-path">
 
     <div class="pinned-section">
         <div class="pinned-element left">
@@ -882,6 +882,11 @@ COMMENTED BY THARAK TEMP -->
 </div>
 <!--/Services section -->
 
+
+
+
+<!-- Projects Slider -->
+<div class="content-row full dark-section text-align-center row_padding_bottom change-header-color">
 <div class="title-text">
     <div class="title-text-styles">
         <div class="title-text-caption content-full-width parallax-onscroll">
@@ -892,10 +897,6 @@ COMMENTED BY THARAK TEMP -->
         </div>
     </div>
 </div>
-
-
-<!-- Projects Slider -->
-<div class="content-row full light-section text-align-center row_padding_bottom">
     <div class="clapat-slider-wrapper content-slider looped-carousel has-animation disabled-slider-dots autocenter light-cursor">
         <div class="clapat-slider">
             <div id="clapat" class="clapat-slider-viewport">
@@ -946,16 +947,18 @@ COMMENTED BY THARAK TEMP -->
 <!--    Projects Slider -->
 
 <!-- BESPOKE -->
-<div class="title-text">
-    <div class="title-text-styles">
-        <div class="title-text-caption content-full-width parallax-onscroll">
-            <div class="inner">
-                <div class="line-with-text">
-                    <div class="ln"></div>
-                    <div class="txt">Insightful Design</div>
+<div class="dark-section change-header-color">
+    <div class="title-text">
+        <div class="title-text-styles">
+            <div class="title-text-caption content-full-width parallax-onscroll">
+                <div class="inner">
+                    <div class="line-with-text">
+                        <div class="ln"></div>
+                        <div class="txt">Insightful Design</div>
+                    </div>
+                    <h1><em class="has-mask-fill">BESPOKE</em><br><span class="has-mask-fill">SOLUTION</span></h1>
+                    <p>DELIVERING DIGITAL EXPERIENCES: We have been implementing Web Design, SEO and Digital Marketing <br class="destroy"> services, for over 20+ years and we take your business needs from ideas to reality</p>
                 </div>
-                <h1><em class="has-mask-fill">BESPOKE</em><br><span class="has-mask-fill">SOLUTION</span></h1>
-                <p>DELIVERING DIGITAL EXPERIENCES: We have been implementing Web Design, SEO and Digital Marketing <br class="destroy"> services, for over 20+ years and we take your business needs from ideas to reality</p>
             </div>
         </div>
     </div>
@@ -965,7 +968,7 @@ COMMENTED BY THARAK TEMP -->
 
 
 <!-- 01 -->
-<div class="fifty-container">
+<div class="fifty-container dark-section change-header-color">
     <div class="fifty-div">
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6">
@@ -1016,7 +1019,7 @@ COMMENTED BY THARAK TEMP -->
 
 <!-- 02 -->
 <!-- fifty fifty Content -->
-<div class="fifty-container">
+<div class="fifty-container dark-section change-header-color">
     <div class="fifty-div">
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6 order-md-2">
@@ -1068,7 +1071,7 @@ COMMENTED BY THARAK TEMP -->
 
 <!-- 03 -->
 <!-- fifty fifty Content -->
-<div class="fifty-container">
+<div class="fifty-container dark-section change-header-color">
     <div class="fifty-div">
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6">
@@ -1120,7 +1123,7 @@ COMMENTED BY THARAK TEMP -->
 
 <!-- 04 -->
 <!-- fifty fifty Content -->
-<div class="fifty-container">
+<div class="fifty-container dark-section change-header-color">
     <div class="fifty-div">
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6 order-md-2">
@@ -1172,13 +1175,15 @@ COMMENTED BY THARAK TEMP -->
 <!-- 04 -->
 
 <!-- BIRMINGHAM -->
-<div id="hero">
-    <div id="hero-styles">
-        <div id="hero-caption" class="content-full-width no-padding-bottom text-align-center subtitle-padding-left">
-            <div class="inner">
-                <h1 class="hero-title caption-timeline"><span><em>BASED IN</em></span>
-                    <span>BIRMINGHAM, UK</span>
-                </h1>
+<div class="dark-section change-header-color">
+    <div id="hero">
+        <div id="hero-styles">
+            <div id="hero-caption" class="content-full-width no-padding-bottom text-align-center subtitle-padding-left">
+                <div class="inner">
+                    <h1 class="hero-title caption-timeline"><span><em>BASED IN</em></span>
+                        <span>BIRMINGHAM, UK</span>
+                    </h1>
+                </div>
             </div>
         </div>
     </div>
@@ -1188,7 +1193,7 @@ COMMENTED BY THARAK TEMP -->
 <!-- Birmingham Content -->
 
 <!-- Timeline Section -->
-<div class="content-row dark-section fadeout-element">
+<div class="content-row dark-section fadeout-element change-header-color">
     <div class="clipped-image-wrapper">
         <div class="clipped-image-pin">
             <div class="clipped-image">
@@ -1200,42 +1205,44 @@ COMMENTED BY THARAK TEMP -->
         </div>
     </div>
 </div>
-<div class="timeln px-100 text-center">
-    <div class="tv_effect"></div>
-    <div class="cont">
-        <!-- <div class="hero-subtitle caption-timeline"><span>Why Choose Us?</span></div> -->
-        <h2 class="has-mask-fill title-text">Wirefox's Approach</h2>
-        <div class="hor-line w-25"></div>
-        <p class="mt-5 mx-auto w-75">Whether you’re looking for a simple content managed website (CMS), complex corporate website or a fully functional eCommerce store,
-            Wirefox can create professional digital solutions to meet your needs.</p>
-        <div class="timeline mt-5">
-            <div class="row">
-                <div class="col-sm-4 text-center p-0">
-                    <p class="h4 mb-3">01</p>
-                    <div class="point"></div>
-                    <div class="line w-50 ms-auto"></div>
-                    <div class="content py-4 px-5">
-                        <p class="h4 mt-5">Cutting Edge Design</p>
-                        <p class="mt-3 px-3">We strive to create high quality solutions that exceed the current industry standards.</p>
+<div class="dark-section change-header-color">
+    <div class="timeln px-100 text-center">
+        <div class="tv_effect"></div>
+        <div class="cont">
+            <!-- <div class="hero-subtitle caption-timeline"><span>Why Choose Us?</span></div> -->
+            <h2 class="has-mask-fill title-text">Wirefox's Approach</h2>
+            <div class="hor-line w-25"></div>
+            <p class="mt-5 mx-auto w-75">Whether you’re looking for a simple content managed website (CMS), complex corporate website or a fully functional eCommerce store,
+                Wirefox can create professional digital solutions to meet your needs.</p>
+            <div class="timeline mt-5">
+                <div class="row">
+                    <div class="col-sm-4 text-center p-0">
+                        <p class="h4 mb-3">01</p>
+                        <div class="point"></div>
+                        <div class="line w-50 ms-auto"></div>
+                        <div class="content py-4 px-5">
+                            <p class="h4 mt-5">Cutting Edge Design</p>
+                            <p class="mt-3 px-3">We strive to create high quality solutions that exceed the current industry standards.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4 text-center p-0">
-                    <p class="h4 mb-3">02</p>
-                    <div class="point"></div>
-                    <div class="line"></div>
-                    <div class="content py-4 px-5">
-                        <p class="h4 mt-5">Excellent SEO Work
-                        </p>
-                        <p class="mt-3 px-3">Our SEO friendly websites will help you to soar to the top of search engine results pages.</p>
+                    <div class="col-sm-4 text-center p-0">
+                        <p class="h4 mb-3">02</p>
+                        <div class="point"></div>
+                        <div class="line"></div>
+                        <div class="content py-4 px-5">
+                            <p class="h4 mt-5">Excellent SEO Work
+                            </p>
+                            <p class="mt-3 px-3">Our SEO friendly websites will help you to soar to the top of search engine results pages.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4 text-center p-0">
-                    <p class="h4 mb-3">03</p>
-                    <div class="point"></div>
-                    <div class="line w-50 me-auto"></div>
-                    <div class="content py-4 px-5">
-                        <p class="h4 mt-5">Cutting Edge Design</p>
-                        <p class="mt-3">We don’t ditch you when our work is done. We’ll stick around and are happy to make enhancements and changes in the future.</p>
+                    <div class="col-sm-4 text-center p-0">
+                        <p class="h4 mb-3">03</p>
+                        <div class="point"></div>
+                        <div class="line w-50 me-auto"></div>
+                        <div class="content py-4 px-5">
+                            <p class="h4 mt-5">Cutting Edge Design</p>
+                            <p class="mt-3">We don’t ditch you when our work is done. We’ll stick around and are happy to make enhancements and changes in the future.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1245,7 +1252,7 @@ COMMENTED BY THARAK TEMP -->
 <!-- Timeline Section -->
 
 <!-- Services section -->
-<div class="content-row full has-clip-path row_padding_top row_padding_bottom row_padding_left row_padding_right dark-section fadeout-element change-header-color">
+<div class="content-row full has-clip-path row_padding_top row_padding_bottom row_padding_left row_padding_right dark-section fadeout-element change-header-color change-header-color">
 
     <div class="list-rotator-wrapper">
         <div class="list-rotator-title has-mask-fill">[ Our Services ]</div>
@@ -1268,31 +1275,34 @@ COMMENTED BY THARAK TEMP -->
 <!--/Services section -->
 
 <!-- Locations Slider -->
-<div class="title-text">
-    <div class="title-text-styles">
-        <div class="title-text-caption text-center content-full-width parallax-onscroll">
-            <div class="inner">
-                <h1><span class="has-mask-fill text-uppercase">Locations</span></h1>
-                <p>Up close and personal with brands and customers across the region.</p>
+<div class="dark-section change-header-color">
+    <div class="title-text">
+        <div class="title-text-styles">
+            <div class="title-text-caption text-center content-full-width parallax-onscroll">
+                <div class="inner">
+                    <h1><span class="has-mask-fill text-uppercase">Locations</span></h1>
+                    <p>Up close and personal with brands and customers across the region.</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="content-row row_padding_bottom light-section text-align-center">
+    <div class="content-row row_padding_bottom dark-section text-align-center">
 
-    <div class="pinned-gallery">
-        <div class="pinned-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location1.jpg" alt="Image Title">
+        <div class="pinned-gallery">
+            <div class="pinned-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location1.jpg" alt="Image Title">
+            </div>
+            <div class="pinned-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location2.jpg" alt="Image Title">
+            </div>
+            <div class="pinned-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location3.jpg" alt="Image Title">
+            </div>
         </div>
-        <div class="pinned-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location2.jpg" alt="Image Title">
-        </div>
-        <div class="pinned-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location3.jpg" alt="Image Title">
-        </div>
+
     </div>
-
 </div>
+
 
 <!--/Locations Slider -->
 
@@ -1307,7 +1317,7 @@ COMMENTED BY THARAK TEMP -->
 
 
 
-<div class="row contact-section">
+<div class="row dark-section contact-section change-header-color">
     <div class="container">
         <div class="title-text">
             <div class="title-text-caption text-center">
@@ -1341,7 +1351,7 @@ Page Navigation -------------------------->
 
 <!-- footer section -->
 
-<div class="footer_sec">
+<div class="footer_sec change-header-color">
     <div class="foot_cont mx-auto">
         <div class="row_padding_top">
             <p class="subtitle mb-0">

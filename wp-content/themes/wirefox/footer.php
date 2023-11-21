@@ -329,25 +329,6 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
     });
 </script>
 
-<script>
-  // Get the header element
-  var header = document.getElementById("site-header");
-
-  // Listen for the scroll event
-  window.addEventListener("scroll", function () {
-    // Get the current scroll position
-    var scrollPosition = window.scrollY;
-
-    // Set the background color based on the scroll position
-    if (scrollPosition > 100) {
-      // If the scroll position is greater than 100 pixels, change the background color
-      gsap.to(header, { backgroundColor: "#ff6600" }); // Set your desired background color
-    } else {
-      // If the scroll position is less than 100 pixels, revert to the original background color
-      gsap.to(header, { backgroundColor: "#333" }); // Set your initial background color
-    }
-  });
-</script>
 
 <?php wp_footer(); ?>
 

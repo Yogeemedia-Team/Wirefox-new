@@ -1,3 +1,5 @@
+
+<div class="content-row full has-clip-path row_padding_left row_padding_right dark-section change-header-color text-align-center">
 <div class="title-text">
     <div class="title-text-styles">
         <div class="title-text-caption content-full-width parallax-onscroll">
@@ -8,7 +10,6 @@
         </div>
     </div>
 </div>
-<div class="content-row full has-clip-path row_padding_left row_padding_right dark-section change-header-color text-align-center">
     <!-- Clients Table -->
     <ul class="clients-table">
         <li class="link">
