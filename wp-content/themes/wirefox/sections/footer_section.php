@@ -22,7 +22,7 @@
         <div class="copyright">Design & Develop by <a class="link" target="_blank" href="https://www.clapat.com/">Wirefox</a> © 2023 </div>
     </div>
 
-    <!-- <div class="socials-wrap">
+    <div class="socials-wrap">
             <div class="socials-icon"><i class="fa-solid fa-share-nodes"></i></div>
             <div class="socials-text">Follow Us</div>
             <ul class="socials">
@@ -34,6 +34,6 @@
                 </li>
                 <li><span class="parallax-wrap"><a class="parallax-element" href="https://www.instagram.com/clapat.themes/">In</a></span></li>
             </ul>
-        </div> -->
+        </div>
 
 </div>

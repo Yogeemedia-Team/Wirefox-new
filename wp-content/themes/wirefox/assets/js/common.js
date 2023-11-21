@@ -65,7 +65,7 @@ Function Scroll Effects
 					const y = this._remainMomentum.y + delta.y;
 					// clamps momentum within [-offset, limit - offset]
 					this.scrollbar.setMomentum(Math.max(-offset.x, Math.min(x, limit.x - offset.x)), Math.max(-offset.y, Math.min(y, limit.y - offset.y)));
-					return { x: 0, y: 0 };
+					return { x: 0, y: 10 };
 				}
 				onRender(remainMomentum) {
 					Object.assign(this._remainMomentum, remainMomentum);
@@ -1442,7 +1442,7 @@ Function Scroll Effects
 		
 		if ($(".content-row").hasClass("dark-section")) {
 			$(".dark-section").each(function(i) {				
-				$(this).wrap( "<div class='dark-section-wrapper'><div class='dark-section-container content-max-width'></div></div>" );			
+				$(this).wrap( "<div class='dark-section-wrapper'><div class='dark-section-container'></div></div>" );			
 				$("body").find(".dark-section-wrapper").each(function(i) {				
 					$(this).css('background-color', function () {
 						return $(this).children().children().data('bgcolor')

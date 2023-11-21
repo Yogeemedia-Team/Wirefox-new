@@ -38,7 +38,7 @@
 
 <?php 
 if ( is_front_page() ) : ?>
-	<body>
+	<body class="smooth-scroll">
 	<?php wp_body_open(); ?>
 <?php else : ?>
 	<body <?php body_class(); ?> data-primary-color="#8c6144">
