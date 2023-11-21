@@ -2729,7 +2729,7 @@ footer.showcase-footer {
 
 .socials-wrap {
 	position: relative;
-	float: right;
+	/* float: right; */
 	color: #000;
 	width: 240px;
 	height: 160px;

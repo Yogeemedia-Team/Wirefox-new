@@ -253,7 +253,9 @@
 
 .timeln .cont {
   padding: 100px 50px !important;
-
+  background-color: #ee10104f;
+  -webkit-box-shadow: 0px 0px 13px 11px rgba(0,0,0,0.33); 
+box-shadow: 0px 0px 13px 11px rgba(0,0,0,0.33); `
 }
 
 .timeln .point {
@@ -273,14 +275,14 @@
 
 /* Clients logo section */
 .clients-table {
-  padding: 0 100px;
+  padding: 0 200px;
 }
 
 .clients-table li {
-  width: calc(100% / 3 - 40px);
-  padding: 50px;
-  display: grid;
-  margin: 0 20px;
+	width: calc(100% / 3 - 40px);
+	padding: 50px 70px;
+	display: grid;
+	margin: 0 20px;
 }
 
 .clients-table li img {
@@ -368,6 +370,11 @@
   border-radius: 100%;
   width: 150px;
   height: 150px;
+  border: none;
+  font-size: 100px;
+}
+.footer_sec .submit_btn .fa{
+  color: #E60808;
 }
 
 .footer_sec .plaintext {
@@ -467,4 +474,21 @@
 }
 footer {
 	overflow: visible;
+}
+
+/* Services section */
+.ser_sec .pinned-section .pin-spacer{
+width: 30% !important;
+}
+.ser_sec .scrolling-element.right{
+  width: 70%;
+}
+#site-header:after {
+  content: "";
+  display: block;
+  height: 60px; /* Adjust based on your header height */
+  width: 100%;
+}
+#site-header {
+  transition: background-color 0.3s ease;
 }

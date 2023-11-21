@@ -782,97 +782,105 @@ COMMENTED BY THARAK TEMP -->
 </div>
 <!-- Company Brief -->
 
-<!-- Row -->
-<div class="content-row row_padding_bottom light-section">
+<!-- Services section -->
 
-    <dl class="accordion bigger-acc has-animation">
-        <dt>
-            <span class="link primary-font-title">
-                <div><em>WEB</em> DESIGN</div>
-            </span>
-            <div class="acc-icon-wrap parallax-wrap">
-                <div class="acc-button-icon parallax-element">
-                    <i class="fa fa-arrow-right"></i>
-                </div>
-            </div>
-        </dt>
-        <dd class="accordion-content">We deliver high-performance websites that turn visitors into customers. From design to development, content writing and launch SEO.</dd>
+<div class="ser_sec content-row row_padding_top row_padding_bottom dark-section change-header-color has-clip-path">
 
-        <dt>
-            <span class="link primary-font-title">
-                <div><em>SOCIAL</em> MEDIA MARKETING</div>
-            </span>
-            <div class="acc-icon-wrap parallax-wrap">
-                <div class="acc-button-icon parallax-element">
-                    <i class="fa fa-arrow-right"></i>
-                </div>
-            </div>
-        </dt>
-        <dd class="accordion-content">Affordable results-driven Social Media strategies across all platforms.</dd>
+    <div class="pinned-section">
+        <div class="pinned-element left">
+            <h3><em class="has-mask-fill">Our</em><br><span class="has-mask-fill">Services</span></h3>
+        </div>
 
-        <dt>
-            <span class="link primary-font-title">
-                <div><em>SEO</em></div>
-            </span>
-            <div class="acc-icon-wrap parallax-wrap">
-                <div class="acc-button-icon parallax-element">
-                    <i class="fa fa-arrow-right"></i>
-                </div>
-            </div>
-        </dt>
-        <dd class="accordion-content">Experts in SEO, with a reliable track record using the latest industry knowledge & results-driven practices to help businesses.</dd>
+        <div class="scrolling-element right">
+            <dl class="accordion bigger-acc has-animation">
+                <dt>
+                    <span class="link primary-font-title">
+                        <div><em>WEB</em> DESIGN</div>
+                    </span>
+                    <div class="acc-icon-wrap parallax-wrap">
+                        <div class="acc-button-icon parallax-element">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </dt>
+                <dd class="accordion-content">We deliver high-performance websites that turn visitors into customers. From design to development, content writing and launch SEO.</dd>
 
-        <dt>
-            <span class="link primary-font-title">
-                <div><em>ONLINE</em> REPUTATION MANAGEMENT</div>
-            </span>
-            <div class="acc-icon-wrap parallax-wrap">
-                <div class="acc-button-icon parallax-element">
-                    <i class="fa fa-arrow-right"></i>
-                </div>
-            </div>
-        </dt>
-        <dd class="accordion-content">Specialists in business and personal online reputation management.</dd>
+                <dt>
+                    <span class="link primary-font-title">
+                        <div><em>SOCIAL</em> MEDIA MARKETING</div>
+                    </span>
+                    <div class="acc-icon-wrap parallax-wrap">
+                        <div class="acc-button-icon parallax-element">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </dt>
+                <dd class="accordion-content">Affordable results-driven Social Media strategies across all platforms.</dd>
 
-        <dt>
-            <span class="link primary-font-title">
-                <div><em>OUTDOOR</em> ADVERTISING</div>
-            </span>
-            <div class="acc-icon-wrap parallax-wrap">
-                <div class="acc-button-icon parallax-element">
-                    <i class="fa fa-arrow-right"></i>
-                </div>
-            </div>
-        </dt>
-        <dd class="accordion-content">Specialists in business and personal online reputation management.</dd>
+                <dt>
+                    <span class="link primary-font-title">
+                        <div><em>SEO</em></div>
+                    </span>
+                    <div class="acc-icon-wrap parallax-wrap">
+                        <div class="acc-button-icon parallax-element">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </dt>
+                <dd class="accordion-content">Experts in SEO, with a reliable track record using the latest industry knowledge & results-driven practices to help businesses.</dd>
 
-        <dt>
-            <span class="link primary-font-title">
-                <div><em>E-</em>COMMERCE</div>
-            </span>
-            <div class="acc-icon-wrap parallax-wrap">
-                <div class="acc-button-icon parallax-element">
-                    <i class="fa fa-arrow-right"></i>
-                </div>
-            </div>
-        </dt>
-        <dd class="accordion-content">Outstanding Ecommerce visually engaging websites built with cutting-edge technology, generating high ROI.</dd>
+                <dt>
+                    <span class="link primary-font-title">
+                        <div><em>ONLINE</em> REPUTATION MANAGEMENT</div>
+                    </span>
+                    <div class="acc-icon-wrap parallax-wrap">
+                        <div class="acc-button-icon parallax-element">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </dt>
+                <dd class="accordion-content">Specialists in business and personal online reputation management.</dd>
 
-        <dt>
-            <span class="link primary-font-title">
-                <div><em>GOOGLE</em> TRUSTED PHOTOGRAPHER</div>
-            </span>
-            <div class="acc-icon-wrap parallax-wrap">
-                <div class="acc-button-icon parallax-element">
-                    <i class="fa fa-arrow-right"></i>
-                </div>
-            </div>
-        </dt>
-        <dd class="accordion-content">UK Google trusted photographer. Showcase your business premises with our 360 virtual tours.</dd>
-    </dl>
+                <dt>
+                    <span class="link primary-font-title">
+                        <div><em>OUTDOOR</em> ADVERTISING</div>
+                    </span>
+                    <div class="acc-icon-wrap parallax-wrap">
+                        <div class="acc-button-icon parallax-element">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </dt>
+                <dd class="accordion-content">Specialists in business and personal online reputation management.</dd>
 
+                <dt>
+                    <span class="link primary-font-title">
+                        <div><em>E-</em>COMMERCE</div>
+                    </span>
+                    <div class="acc-icon-wrap parallax-wrap">
+                        <div class="acc-button-icon parallax-element">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </dt>
+                <dd class="accordion-content">Outstanding Ecommerce visually engaging websites built with cutting-edge technology, generating high ROI.</dd>
+
+                <dt>
+                    <span class="link primary-font-title">
+                        <div><em>GOOGLE</em> TRUSTED PHOTOGRAPHER</div>
+                    </span>
+                    <div class="acc-icon-wrap parallax-wrap">
+                        <div class="acc-button-icon parallax-element">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </dt>
+                <dd class="accordion-content">UK Google trusted photographer. Showcase your business premises with our 360 virtual tours.</dd>
+            </dl>
+        </div>
+    </div>
 </div>
-<!--/Row -->
+<!--/Services section -->
 
 <div class="title-text">
     <div class="title-text-styles">
@@ -885,16 +893,8 @@ COMMENTED BY THARAK TEMP -->
     </div>
 </div>
 
-<!-- Page Navigation -->
-<div id="clapat">
-    <a class="link next-ajax-link-page" data-type="page-transition" data-centerline="SAY HEY" href="contact.html">
-        aaa
-    </a>
-</div>
 
-<!--/Page Navigation -->
-
-<!-- Row -->
+<!-- Projects Slider -->
 <div class="content-row full light-section text-align-center row_padding_bottom">
     <div class="clapat-slider-wrapper content-slider looped-carousel has-animation disabled-slider-dots autocenter light-cursor">
         <div class="clapat-slider">
@@ -943,7 +943,7 @@ COMMENTED BY THARAK TEMP -->
         </div>
     </div>
 </div>
-<!--/Row -->
+<!--    Projects Slider -->
 
 <!-- BESPOKE -->
 <div class="title-text">
@@ -1201,7 +1201,8 @@ COMMENTED BY THARAK TEMP -->
     </div>
 </div>
 <div class="timeln px-100 text-center">
-    <div class="cont bg-red">
+    <div class="tv_effect"></div>
+    <div class="cont">
         <!-- <div class="hero-subtitle caption-timeline"><span>Why Choose Us?</span></div> -->
         <h2 class="has-mask-fill title-text">Wirefox's Approach</h2>
         <div class="hor-line w-25"></div>
@@ -1297,125 +1298,11 @@ COMMENTED BY THARAK TEMP -->
 
 
 <!-- Brands Section -->
-<div class="title-text">
-    <div class="title-text-styles">
-        <div class="title-text-caption content-full-width parallax-onscroll">
-            <div class="inner text-right">
-                <h1><em class="has-mask-fill">CLIENTS &</em><br><span class="has-mask-fill">BRANDS</span></h1>
-                <p>Here are just a few of our forward thinking clients we have worked with over the years</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="content-row full has-clip-path row_padding_left row_padding_right dark-section change-header-color text-align-center">
-    <!-- Clients Table -->
-    <ul class="clients-table">
-        <li class="link">
-            <div class="my-auto">
-                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CAReXPORT.svg" alt="client"></a>
-                <div class="overlay"></div>
-            </div>
-        </li>
-        <li class="link">
-            <div class="my-auto">
-                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/pizza.svg" alt="client"></a>
-            </div>
-            <div class="overlay"></div>
-        </li>
-        <li class="link">
-            <div class="my-auto">
-                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/Opticians.svg" alt="client"></a>
-            </div>
-            <div class="overlay"></div>
-        </li>
-        <li class="link">
-            <div class="my-auto">
-                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/wholesale.svg" alt="client"></a>
-            </div>
-            <div class="overlay"></div>
-        </li>
-        <li class="link">
-            <div class="my-auto">
-                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/ultimate.svg" alt="client"></a>
-            </div>
-            <div class="overlay"></div>
-        </li>
-        <li class="link">
-            <div class="my-auto">
-                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/whites-foodequip.svg" alt="client"></a>
-            </div>
-            <div class="overlay"></div>
-        </li>
-        <li class="link">
-            <div class="my-auto">
-                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/R.svg" alt="client"></a>
-            </div>
-            <div class="overlay"></div>
-        </li>
-        <li class="link">
-            <div class="my-auto">
-                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/PARADISE.svg" alt="client"></a>
-            </div>
-            <div class="overlay"></div>
-        </li>
-        <li class="link">
-            <div class="my-auto">
-                <a target="_blank" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/barrettesuk.svg" alt="client"></a>
-            </div>
-            <div class="overlay"></div>
-        </li>
-    </ul>
-    <!--/Clients Table -->
-</div>
+<?php get_template_part('sections/brands_section'); ?>
 <!--/Brands Section -->
 
 <!-- Testimonials-section -->
-<div class="title-text">
-    <div class="title-text-styles">
-        <div class="title-text-caption content-full-width parallax-onscroll">
-            <div class="inner">
-                <div class="line-with-text">
-                    <div class="ln"></div>
-                    <div class="txt">We Love Being Appreciated</div>
-                </div>
-                <h1><em class="has-mask-fill">Clients</em><br><span class="has-mask-fill">Testimonials</span></h1>
-                <p></p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="fifty-container">
-    <div class="fifty-div">
-        <!-- <div class="content-row row_padding_bottom light-section testimonials-section">
-            <div class="one_half section-fifty">
-                <figure class="has-animation has-cover" data-delay="100">
-                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="Image Title"></a>
-                </figure>
-            </div>
-            <div class="one_half section-fifty last">
-                <figure class="has-animation has-cover" data-delay="100">
-                    <a href="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="Image Title"></a>
-                </figure>
-            </div>
-        </div> -->
-        <div class="row light-section testimonials-section">
-            <div class="col-md-6">
-                <div class="testi-img m-3">
-                    <a href="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials2.jpg" alt="wirefox">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="testi-img m-3">
-                    <a href="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials1.jpg" alt="wirefox">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php get_template_part('sections/testimonials'); ?>
 <!-- Testimonials-section -->
 
 
@@ -1468,7 +1355,7 @@ Page Navigation -------------------------->
                         </div>
                         <div class="col-auto my-auto">
                             <button type="submit" class="submit_btn text-center my-auto">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Submit.png" alt="wirefox">
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
                             </button>
                         </div>
                     </div>
