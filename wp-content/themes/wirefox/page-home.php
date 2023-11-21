@@ -1349,7 +1349,7 @@ Page Navigation -------------------------->
 
 <!-- footer section -->
 
-<div class="footer_sec change-header-color">
+<div class="footer_sec change-header-color row_padding_top row_padding_bottom">
     <div class="foot_cont mx-auto">
         <div class="row_padding_top">
             <p class="subtitle mb-0">

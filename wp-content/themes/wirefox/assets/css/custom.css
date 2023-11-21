@@ -69,7 +69,7 @@
 .title-text-caption {
   display: table;
   width: 100%;
-  padding-top: 180px;
+  /* padding-top: 180px; */
   padding-bottom: 80px;
   margin: 0 auto;
   height: 100%;
@@ -515,7 +515,7 @@ footer {
 /* posts section */
 .post_sec .post_card {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .post_sec .post_img {

@@ -1,4 +1,4 @@
-<div class="dark-section change-header-color">
+<div class="dark-section change-header-color row_padding_top row_padding_bottom">
     <div class="title-text">
         <div class="title-text-styles">
             <div class="title-text-caption content-full-width parallax-onscroll">

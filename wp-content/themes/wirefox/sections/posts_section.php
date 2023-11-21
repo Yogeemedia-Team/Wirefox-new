@@ -1,4 +1,4 @@
-<div class="content-row post_sec full has-clip-path row_padding_left row_padding_right dark-section change-header-color text-align-center">
+<div class="content-row post_sec full has-clip-path row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color text-align-center">
     <div class="title-text">
         <div class="title-text-styles">
             <div class="title-text-caption content-full-width parallax-onscroll">
@@ -22,7 +22,10 @@
                         <span> <a class="auth_name" href="">Raj Kaur</a></span>
                     </div>
                 </div>
+                <div class="overflow-hidden position-relative">
                 <img class="post_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/post_back.jpg" alt="">
+                </div>
+                
             </div>
         </div>
     </div>
