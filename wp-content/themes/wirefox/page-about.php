@@ -23,7 +23,7 @@ get_header();
     <!-- main_banner -->
 
     <div class="padding-align row_padding_top row_padding_bottom">
-        <div class="mb-3">
+        <div class="margin_bottom_4">
             <div class="inner">
                 <div class="line-with-text">
                     <div class="txt">
@@ -278,21 +278,9 @@ get_header();
         </div>
     </div><!--our service end-->
 
-    <div id="news-section" class="padding-align row_padding_top row_padding_bottom">
-        <div class="heading-text">
-            <h3>NEWSROOM</h3>
-            <p>Web design and marketing related articles to help your new website stand out from the crowd.</p>
-        </div>
-        <div id="news-row">
-            <img src="https://wirefox.co.uk/wp-content/uploads/2022/11/2022_Hand-met-sterren_Kwaliteti_S_1621075879.jpg" alt="" width="" height="" />
-            <div class="news-col">
-                <span>9 November 2022</span>
-                <h3>
-                    What Is White Label Reputation Management ?
-                </h3>
-            </div>
-        </div>
-    </div><!--news section end-->
+    <!-- Posts Section -->
+    <?php get_template_part('sections/posts_section'); ?>
+    <!-- Posts Section -->
 
     <!-- Brands Section -->
     <?php get_template_part('sections/brands_section'); ?>

@@ -788,7 +788,7 @@ COMMENTED BY THARAK TEMP -->
 
     <div class="pinned-section">
         <div class="pinned-element left">
-            <h3><em class="has-mask-fill">Our</em><br><span class="has-mask-fill">Services</span></h3>
+            <h3 class="text-uppercase"><em class="has-mask-fill">Our</em><br><span class="has-mask-fill">Services</span></h3>
         </div>
 
         <div class="scrolling-element right">
@@ -1313,7 +1313,7 @@ COMMENTED BY THARAK TEMP -->
 <!-- Posts Section -->
 
 <!-- Contact section -->
-<div class="row dark-section contact-section change-header-color">
+<div class="row_padding_top row_padding_bottom row dark-section contact-section change-header-color">
     <div class="container">
         <div class="title-text">
             <div class="title-text-caption text-center">
@@ -1347,133 +1347,6 @@ COMMENTED BY THARAK TEMP -->
 </div>       
 Page Navigation -------------------------->
 
-<!-- footer section -->
-
-<div class="footer_sec change-header-color row_padding_top row_padding_bottom">
-    <div class="foot_cont mx-auto">
-        <div class="row_padding_top">
-            <p class="subtitle mb-0">
-                SIGN UP TO OUR NEWSLETTER:
-            </p>
-            <div class="form_sec">
-                <form>
-                    <div class="form-group row">
-                        <div class="col my-auto">
-                            <input type="text" class="plaintext" id="Email" placeholder="your@email.com">
-                        </div>
-                        <div class="col-auto my-auto">
-                            <button type="submit" class="submit_btn text-center my-auto">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label mt-2" for="defaultCheck1">
-                            I have read and accept the Terms & Privacy
-                        </label>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="social row_padding_top">
-            <p class="subtitle">
-                Socials
-            </p>
-            <div class="icons mt-3">
-                <span>
-                    <a href="https://www.facebook.com/" target="_blank"><img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/facebook.png" alt="wirefox"></a>
-                </span>
-                <span>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/insta.png" alt="wirefox">
-                    </a>
-                </span>
-                <span>
-                    <a href="https://www.youtube.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/youtube.png" alt="wirefox">
-                    </a>
-                </span>
-                <span>
-                    <a href="https://twitter.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/tweeter.png" alt="wirefox">
-                    </a>
-                </span>
-                <span>
-                    <a href="https://lk.linkedin.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/linkdln.png" alt="wirefox">
-                    </a>
-                </span>
-                <span>
-                    <a href="https://www.pinterest.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/pinterest.png" alt="wirefox">
-                    </a>
-                </span>
-            </div>
-        </div>
-        <div class="foot_menu">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#">Who we are</a></li>
-                            <li><a href="#">Seo glossary</a></li>
-                            <li><a href="#">Free SEO Audit</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="menu">
-                        <ul class="mx-auto">
-                            <li><a href="#">Case Studies</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Career</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="menu">
-                        <ul class="ms-auto">
-                            <li><a href="#">Terms and conditions</a></li>
-                            <li><a href="#">Privacy and cookies policy</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="mt-3">
-            <div class="foot_logo mx-auto w-75">
-                <div class="row">
-                    <div class="col-md-4 my-auto">
-                        <div class="text-center">
-                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CSSDESIGN.svg" alt="wirefox">
-                        </div>
-                    </div>
-                    <div class="col-md-4 my-auto">
-                        <div class="w-50 mx-auto">
-                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/CULTCH.svg" alt="wirefox">
-                        </div>
-                    </div>
-                    <div class="col-md-4 my-auto">
-                        <div class="text-center">
-                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/awwwards.svg" alt="wirefox">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <p class="copy_des mx-auto text-center">
-                Copyright 2019 © Wirefox, All rights reserved | Trademark: Wirefox ®, | Privacy and Cookies Policy | Terms & Conditions | Reg Address: 32 DeMontfort Street, Leicester, LE1 7GD
-                Registered in England & Wales: Company No. 09072362 | Tel: 0121 368 0098 | Office: Suite 2A, Blackthorn House, Saint Paul’s Square, Birmingham B3 1RL
-            </p>
-
-        </div>
-    </div>
-</div>
-
-<!-- footer section -->
 
 <?php
 get_footer();

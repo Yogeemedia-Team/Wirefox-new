@@ -7,7 +7,7 @@
                         <div class="ln"></div>
                         <div class="txt">We Love Being Appreciated</div>
                     </div>
-                    <h1><em class="has-mask-fill">Clients</em><br><span class="has-mask-fill">Testimonials</span></h1>
+                    <h1 class="text-uppercase"><em class="has-mask-fill">Clients</em><br><span class="has-mask-fill">Testimonials</span></h1>
                     <p></p>
                 </div>
             </div>

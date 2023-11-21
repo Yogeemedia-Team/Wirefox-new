@@ -405,7 +405,7 @@
 }
 
 .foot_menu {
-  margin-top: 18vw;
+  margin-top: 9vw;
 }
 
 .form-check-input:checked {
@@ -453,11 +453,10 @@
   color: #f28484 !important;
 }
 
-.copyright,
-.copyright a {
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #f28484 !important;
+.copyright, .copyright a {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #f9d6d6 !important;
 }
 
 /* Nav menu */
@@ -477,7 +476,7 @@
 }
 
 .back_to_top .icon-wrap {
-  width: 150px;
+  width: 150px !important;
   height: auto;
 }
 
@@ -603,9 +602,6 @@ footer {
 	font-style: normal;
 }
 
-.comn_block{
-
-}
 .comn_block .num {
 	font-size: calc(10rem + 5.15vw);
 	line-height: calc(6.2rem + 5.5vw);
@@ -622,4 +618,7 @@ footer {
     line-height: calc(0.5rem + 4.5vw);
     font-weight: 500;
     color: white;
+}
+.margin_bottom_4{
+  margin-bottom: 4vw;
 }

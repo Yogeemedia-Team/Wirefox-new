@@ -2,9 +2,9 @@
 <div class="content-row full has-clip-path row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color text-align-center">
 <div class="title-text">
     <div class="title-text-styles">
-        <div class="title-text-caption content-full-width parallax-onscroll">
+        <div class="title-text-caption parallax-onscroll">
             <div class="inner text-right">
-                <h1><em class="has-mask-fill">CLIENTS &</em><br><span class="has-mask-fill">BRANDS</span></h1>
+                <h1 class="text-uppercase"><em class="has-mask-fill">CLIENTS &</em><br><span class="has-mask-fill">BRANDS</span></h1>
                 <p>Here are just a few of our forward thinking clients we have worked with over the years</p>
             </div>
         </div>
