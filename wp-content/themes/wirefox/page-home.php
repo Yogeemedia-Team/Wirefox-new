@@ -952,9 +952,9 @@ COMMENTED BY THARAK TEMP -->
                 <div class="inner">
                     <div class="line-with-text">
                         <div class="ln"></div>
-                        <div class="txt">Insightful Design</div>
+                        <div class="txt test-ease" >Insightful Design</div>
                     </div>
-                    <h1><em class="has-mask-fill">BESPOKE</em><br><span class="has-mask-fill">SOLUTION</span></h1>
+                    <h1 class="test-ease" ><em class="has-mask-fill">BESPOKE</em><br><span class="has-mask-fill">SOLUTION</span></h1>
                     <p>DELIVERING DIGITAL EXPERIENCES: We have been implementing Web Design, SEO and Digital Marketing <br class="destroy"> services, for over 20+ years and we take your business needs from ideas to reality</p>
                 </div>
             </div>
@@ -1332,7 +1332,7 @@ COMMENTED BY THARAK TEMP -->
 <!-- Contact section -->
 
 
-<!-- Page Navigation ---------------------------
+<!-- Page Navigation --------------------------->
 <div id="page-nav">
 	<div class="page-nav-wrap">
 		<div class="page-nav-caption content-full-width">                                 
@@ -1345,7 +1345,7 @@ COMMENTED BY THARAK TEMP -->
 		</div>
 	</div>
 </div>       
-Page Navigation -------------------------->
+<!-- Page Navigation -------------------------->
 
 
 <?php

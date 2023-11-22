@@ -17,7 +17,9 @@ get_header();
             </div>
         </div>
         <div class="col-md-5">
-            <img src="https://wirefox.co.uk/wp-content/uploads/2021/06/Wirefox-our-work.jpg" alt="" width="" height="" />
+            <div class="overflow-hidden animated-img">
+                <img src="https://wirefox.co.uk/wp-content/uploads/2021/06/Wirefox-our-work.jpg" alt="" width="" height="" />
+            </div>
         </div>
     </div>
     <!-- main_banner -->
