@@ -1,4 +1,4 @@
-   <div class="padding-align change-header-color row_padding_top row_padding_bottom">
+   <div class="padding-align change-header-color row_padding_top ">
 
         <div class="inner">
             <div class="line-with-text">
@@ -23,5 +23,6 @@
 
             </div>
             <h1 class="mb-0"><em class="has-mask-fill"><?php the_field('section_title');?></em><br><span class="has-mask-fill"><?php the_field('section_weighted_title');?></span></h1>
+            <p><?php the_field('section_content');?></p>
         </div>
     </div>
