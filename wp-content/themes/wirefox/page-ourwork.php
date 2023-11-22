@@ -7,14 +7,12 @@ get_header();
 
 <!-- banner block here -->
 
-<div class="content-row post_sec row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color text-align-center">
-	<p>
-		We spend time to understand and research your business and industry. By identifying your target audience we create bespoke designs and brand identity’s that will make every project we work on stand out and be noticed. From Web Design, Development, SEO, Content, Blog Writing and Social Media we ensure users have the best possible experiences using cutting edge technologies.
-	</p>
-</div>
 
 <!-- services section -->
 <div class="services_tabs content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
+<p class="mb-5">
+		We spend time to understand and research your business and industry. By identifying your target audience we create bespoke designs and brand identity’s that will make every project we work on stand out and be noticed. From Web Design, Development, SEO, Content, Blog Writing and Social Media we ensure users have the best possible experiences using cutting edge technologies.
+	</p>
 	<!-- tabs section -->
 	<ul class="nav" role="tablist">
 		<li class="nav-item ms-auto" role="presentation">
@@ -122,8 +120,6 @@ get_header();
 	</div>
 </div>
 <!-- services section -->
-
-<!-- footer section -->
 
 <?php
 get_footer();

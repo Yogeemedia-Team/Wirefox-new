@@ -670,8 +670,9 @@ footer {
   left: 70px;
   background-color: #f70707;
 }
-
-.services_tabs .text-block .title,
-.services_tabs .text-block .desctiption {
-  /* color: #000; */
+.services_tabs .nav-link{
+  padding: 20px;
+}
+.services_tabs .nav-link:focus, .nav-link:hover {
+	color: #ffffff;
 }
