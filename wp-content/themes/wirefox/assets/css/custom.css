@@ -69,7 +69,7 @@
 .title-text-caption {
   display: table;
   width: 100%;
-  padding-top: 180px;
+  /* padding-top: 180px; */
   padding-bottom: 80px;
   margin: 0 auto;
   height: 100%;
@@ -309,9 +309,9 @@
   transition: 0.5s;
 }
 
-/* .testimonials-section .testi-img:hover {
-  scale: .95;
-} */
+  .testimonials-section .testi-img:hover {
+    scale: .95;
+  }
 
 .testimonials-section .testi-img img {
   padding: 80px;
@@ -405,7 +405,7 @@
 }
 
 .foot_menu {
-  margin-top: 18vw;
+  margin-top: 9vw;
 }
 
 .form-check-input:checked {
@@ -453,11 +453,10 @@
   color: #f28484 !important;
 }
 
-.copyright,
-.copyright a {
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #f28484 !important;
+.copyright, .copyright a {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #f9d6d6 !important;
 }
 
 /* Nav menu */
@@ -477,7 +476,7 @@
 }
 
 .back_to_top .icon-wrap {
-  width: 150px;
+  width: 150px !important;
   height: auto;
 }
 
@@ -515,7 +514,7 @@ footer {
 /* posts section */
 .post_sec .post_card {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .post_sec .post_img {
@@ -603,9 +602,6 @@ footer {
 	font-style: normal;
 }
 
-.comn_block{
-
-}
 .comn_block .num {
 	font-size: calc(10rem + 5.15vw);
 	line-height: calc(6.2rem + 5.5vw);
@@ -622,4 +618,33 @@ footer {
     line-height: calc(0.5rem + 4.5vw);
     font-weight: 500;
     color: white;
+}
+.margin_bottom_4{
+  margin-bottom: 4vw;
+}
+.animated-img {
+	overflow: hidden;
+	transform: scale(1);
+	transition: transform .75s cubic-bezier(0,.15,.3,1);
+}
+.animated-img img {
+	transform: scale(1);
+	transition: transform .75s cubic-bezier(0,.15,.3,1);
+}
+.animated-img:hover {
+	transform: scale(.95);
+	transition: transform .75s cubic-bezier(0,.15,.3,1);
+}
+.animated-img:hover img {
+	transform: scale(1.1);
+	transition: transform .75s cubic-bezier(0,.15,.3,1);
+}
+
+.test-ease {
+	/* transform: translate3d(0,100px,0); */
+	transform: translate3d(0,100px,0);
+  transition: 0.5s;
+}
+.test-ease:hover{
+	transform: translate3d(0,0px,0);
 }
