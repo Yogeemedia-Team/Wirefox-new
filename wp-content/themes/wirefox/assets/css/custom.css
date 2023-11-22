@@ -714,3 +714,11 @@ footer {
   font-weight: bold;
   font-size: 36px;
 } 
+.news_list .date_data{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  background-color: #ffffff;  
+  width: 10%;
+}

@@ -7,8 +7,11 @@ get_header();
 
 <!-- banner block here -->
 
+
+
 <!-- News Section -->
 <div class="news_list content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
+
 	<!-- tabs section -->
 	<ul class="nav nav-tabs" role="tablist">
 		<li class="nav-item" role="presentation">
@@ -68,17 +71,20 @@ get_header();
 						</span>
 					</div>
 				</div>
+				<div class="date_data text-center">
+					<p>9 November 2022</p>
+				</div>
 			</div>
 			<!-- single-news -->
 		</div>
 		<div class="tab-pane" id="newspanel-2" role="tabpanel" aria-labelledby="news-2">
-			
+
 		</div>
 		<div class="tab-pane" id="newspanel-3" role="tabpanel" aria-labelledby="news-3">
-			
+
 		</div>
 		<div class="tab-pane" id="newspanel-4" role="tabpanel" aria-labelledby="news-4">
-			
+
 		</div>
 	</div>
 </div>
