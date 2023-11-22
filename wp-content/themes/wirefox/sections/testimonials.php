@@ -1,4 +1,4 @@
-<div class="dark-section change-header-color">
+<div class="dark-section change-header-color row_padding_top row_padding_bottom">
     <div class="title-text">
         <div class="title-text-styles">
             <div class="title-text-caption content-full-width parallax-onscroll">
@@ -7,7 +7,7 @@
                         <div class="ln"></div>
                         <div class="txt">We Love Being Appreciated</div>
                     </div>
-                    <h1><em class="has-mask-fill">Clients</em><br><span class="has-mask-fill">Testimonials</span></h1>
+                    <h1 class="text-uppercase"><em class="has-mask-fill">Clients</em><br><span class="has-mask-fill">Testimonials</span></h1>
                     <p></p>
                 </div>
             </div>

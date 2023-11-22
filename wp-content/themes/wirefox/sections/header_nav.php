@@ -1,5 +1,4 @@
 <header class="fullscreen-menu invert-header" data-menucolor="#0c0c0c">
-		<div class="tv_effect"></div>
 		<div id="header-container">
 			<!-- Logo -->
 			<div id="logo" class="hide-ball">
