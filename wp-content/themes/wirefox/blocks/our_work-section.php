@@ -34,90 +34,48 @@
 	<div class="tab-content pt-5" id="tab-content">
 		<div class="tab-pane active" id="tabpanel-all" role="tabpanel" aria-labelledby="all">
 			<!-- single-service -->
-			<div class="single-service position-relative">
+            <?php
+            $args = array(
+                'post_type' => 'our_works', // replace with your actual custom post type
+                'posts_per_page' => 10, // number of posts to display
+                'order' => 'DESC', // or 'ASC' for ascending order
+                'orderby' => 'date', // you can change this to 'title', 'rand', etc.
+            );
+
+            $custom_query = new WP_Query($args);
+
+            if ($custom_query->have_posts()) :
+                while ($custom_query->have_posts()) : $custom_query->the_post();
+                    // Get the URL of the featured image
+                    $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full'); // replace 'thumbnail' with the desired image size
+                 ?>
+               <div class="single-service position-relative">
 				<div class="row">
 					<div class="col-md-10">
 						<div class="overflow-hidden">
-							<img class="fifty-fifty-img" src="https://wirefox.co.uk/wp-content/uploads/2020/12/Wholesale-Meats-Coventry.jpg" alt="" width="" height="" />
+							<img class="fifty-fifty-img" src="<?php echo $featured_image_url;?>" alt="" width="" height="" />
 						</div>
 					</div>
 				</div>
 				<div class="text-block">
-					<h3 class="title">All</h3>
-					<p class="desctiption">A successful E Commerce Website with Free Delivery especially popular in today's environment.</p>
+					<h3 class="title"><?php the_title();?></h3>
+					<p class="desctiption"><?php the_content();?></p>
 				</div>
 			</div>
+           <?php
+                endwhile;
+                wp_reset_postdata(); // reset the query
+            else :
+                echo 'No work found';
+            endif;
+            ?>
+
+		
+
 			<!-- single-service -->
 		</div>
         
-		<div class="tab-pane" id="servicepanel-1" role="tabpanel" aria-labelledby="service-1">
-			<!-- single-service -->
-			<div class="single-service position-relative">
-				<div class="row">
-					<div class="col-md-10">
-						<div class="overflow-hidden">
-							<img class="fifty-fifty-img" src="https://wirefox.co.uk/wp-content/uploads/2020/12/Wholesale-Meats-Coventry.jpg" alt="" width="" height="" />
-						</div>
-					</div>
-				</div>
-				<div class="text-block">
-					<h3 class="title">Service 1</h3>
-					<p class="desctiption">A successful E Commerce Website with Free Delivery especially popular in today's environment.</p>
-				</div>
-			</div>
-			<!-- single-service -->
-		</div>
-		<div class="tab-pane" id="servicepanel-2" role="tabpanel" aria-labelledby="service-2">
-			<!-- single-service -->
-			<div class="single-service position-relative">
-				<div class="row">
-					<div class="col-md-10">
-						<div class="overflow-hidden">
-							<img class="fifty-fifty-img" src="https://wirefox.co.uk/wp-content/uploads/2020/12/Wholesale-Meats-Coventry.jpg" alt="" width="" height="" />
-						</div>
-					</div>
-				</div>
-				<div class="text-block">
-					<h3 class="title">Service 2</h3>
-					<p class="desctiption">A successful E Commerce Website with Free Delivery especially popular in today's environment.</p>
-				</div>
-			</div>
-			<!-- single-service -->
-		</div>
-		<div class="tab-pane" id="servicepanel-3" role="tabpanel" aria-labelledby="service-3">
-			<!-- single-service -->
-			<div class="single-service position-relative">
-				<div class="row">
-					<div class="col-md-10">
-						<div class="overflow-hidden">
-							<img class="fifty-fifty-img" src="https://wirefox.co.uk/wp-content/uploads/2020/12/Wholesale-Meats-Coventry.jpg" alt="" width="" height="" />
-						</div>
-					</div>
-				</div>
-				<div class="text-block">
-					<h3 class="title">Service 3</h3>
-					<p class="desctiption">A successful E Commerce Website with Free Delivery especially popular in today's environment.</p>
-				</div>
-			</div>
-			<!-- single-service -->
-		</div>
-		<div class="tab-pane" id="servicepanel-4" role="tabpanel" aria-labelledby="service-4">
-			<!-- single-service -->
-			<div class="single-service position-relative">
-				<div class="row">
-					<div class="col-md-10">
-						<div class="overflow-hidden">
-							<img class="fifty-fifty-img" src="https://wirefox.co.uk/wp-content/uploads/2020/12/Wholesale-Meats-Coventry.jpg" alt="" width="" height="" />
-						</div>
-					</div>
-				</div>
-				<div class="text-block">
-					<h3 class="title">Service 4</h3>
-					<p class="desctiption">A successful E Commerce Website with Free Delivery especially popular in today's environment.</p>
-				</div>
-			</div>
-			<!-- single-service -->
-		</div>
+
 	</div>
 </div>
 <!-- services section -->

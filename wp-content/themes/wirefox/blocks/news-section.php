@@ -29,66 +29,61 @@
 	</ul>
 
 	<div class="tab-content pt-5" id="tab-content">
+		
+      
+
 		<div class="tab-pane active" id="tabpanel-all" role="tabpanel" aria-labelledby="all">
 			<!-- single-news -->
 			<div class="single-news position-relative">
-				<div class="row">
-					<div class="col-md-10">
-						<div class="animated-img">
-							<img src="https://wirefox.co.uk/wp-content/uploads/2020/12/Wholesale-Meats-Coventry.jpg" alt="" width="" height="" />
-						</div>
-					</div>
-				</div>
-				<div class="text-block">
-					<h3 class="title my-3">All</h3>
-					<div class="post_author text-left">
-						<span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
-						<span> <a class="auth_name" href="">Raj Kaur</a></span>
-						<span class="">
-							<div class="line"></div>
-						</span>
-					</div>
-				</div>
-				<div class="date_data text-center">
-					<p class="mb-0">9 November 2022</p>
-				</div>
+                <?php
+                    $args = array(
+                        'post_type' => 'post', // replace with your actual custom post type
+                        'posts_per_page' => 10, // number of posts to display
+                        'order' => 'DESC', // or 'ASC' for ascending order
+                        'orderby' => 'date', // you can change this to 'title', 'rand', etc.
+                    );
+
+                    $custom_query = new WP_Query($args);
+
+                    if ($custom_query->have_posts()) :
+                        while ($custom_query->have_posts()) : $custom_query->the_post();
+                        $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
+                        ?>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="animated-img">
+                                    <img src="<?php echo $featured_image_url;?> " alt="" width="" height="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-block">
+                            <h3 class="title my-3"><?php the_title();?></h3>
+                            <div class="post_author text-left">
+                                <span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
+                                <span> <a class="auth_name" href=""><?php the_author();?></a></span>
+                                <span class="">
+                                    <div class="line"></div>
+                                </span>
+                            </div>
+                            <div class="date_data text-center">
+                                <p class="mb-0"><?php the_date('j F Y');?></p>
+                            </div>
+                        </div>
+                        <?php endwhile;
+                        wp_reset_postdata(); // reset the query
+                    else :
+                        echo 'No posts found';
+                    endif;
+                    ?>
+
+				
+
 			</div>
 			<!-- single-news -->
 		</div>
 
-		<div class="tab-pane" id="newspanel-1" role="tabpanel" aria-labelledby="news-1">
-			<!-- single-news -->
-			<div class="single-news position-relative">
-				<div class="row">
-					<div class="col-md-10">
-						<div class="animated-img">
-							<img src="https://wirefox.co.uk/wp-content/uploads/2020/12/Wholesale-Meats-Coventry.jpg" alt="" width="" height="" />
-						</div>
-					</div>
-				</div>
-				<div class="text-block">
-					<h3 class="title my-3">1</h3>
-					<div class="post_author text-left">
-						<span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
-						<span> <a class="auth_name" href="">Raj Kaur</a></span>
-						<span class="">
-							<div class="line"></div>
-						</span>
-					</div>
-				</div>
-			</div>
-			<!-- single-news -->
-		</div>
-
-		<div class="tab-pane" id="newspanel-2" role="tabpanel" aria-labelledby="news-2">
-
-		</div>
-		<div class="tab-pane" id="newspanel-3" role="tabpanel" aria-labelledby="news-3">
-
-		</div>
-		<div class="tab-pane" id="newspanel-4" role="tabpanel" aria-labelledby="news-4">
-
-		</div>
+		
 	</div>
 </div>
 <!-- News Section -->
