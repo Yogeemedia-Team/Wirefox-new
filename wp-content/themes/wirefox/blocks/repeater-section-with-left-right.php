@@ -1,14 +1,11 @@
 <?php
 if( get_field('reapeting_block_start_left') ) { ?>
-
 <?php if( have_rows('reapeting_block') ): 
     $i=1;
     $$div_class = '';
     ?>
-
     <?php while( have_rows('reapeting_block') ): the_row(); 
         $image = get_sub_field('block_image');
-        
         if($i % 2 == 0) {?>
         <div class="row comn_block change-header-color row_padding_top row_padding_bottom">
         <div class="col-md-6 order-md-2">
@@ -31,13 +28,11 @@ if( get_field('reapeting_block_start_left') ) { ?>
                 </div>
             </div>
         </div>
-
         <div class="col-md-6 order-md-1">
             <div class="overflow-hidden">
                 <img class="fifty-fifty-img" src="<?php echo $image['url']; ?>" alt="" width="" height="" />
             </div>  
         </div>
-
 </div>
         <?php }else{ ?>
 <div class="row comn_block row_padding_top row_padding_bottom">

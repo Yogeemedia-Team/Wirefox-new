@@ -399,6 +399,45 @@ function register_acf_blocks_types() {
         'supports'          => array(
         ),
     ),
+     array(
+        'name'              => 'custome_wysiwyg_editor',
+        'title'             => __('Custome WYSIWYG Editor'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/inner-wysiwyg.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+        ),
+    ),
+    array(
+        'name'              => 'our_work_section',
+        'title'             => __('Our Works'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/our_work-section.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+        ),
+    ),
+        array(
+        'name'              => 'news_section',
+        'title'             => __('News'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/news-section.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+        ),
+    ),
     // Add more blocks as needed
 );
 
