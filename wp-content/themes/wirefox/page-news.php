@@ -12,6 +12,8 @@ get_header();
 <!-- News Section -->
 <div class="news_list content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
 
+	<!-- test -->
+
 	<!-- tabs section -->
 	<ul class="nav nav-tabs" role="tablist">
 		<li class="nav-item" role="presentation">
@@ -48,6 +50,9 @@ get_header();
 						</span>
 					</div>
 				</div>
+				<div class="date_data text-center">
+					<p class="mb-0">9 November 2022</p>
+				</div>
 			</div>
 			<!-- single-news -->
 		</div>
@@ -70,9 +75,6 @@ get_header();
 							<div class="line"></div>
 						</span>
 					</div>
-				</div>
-				<div class="date_data text-center">
-					<p>9 November 2022</p>
 				</div>
 			</div>
 			<!-- single-news -->
