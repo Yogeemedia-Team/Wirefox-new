@@ -5,7 +5,6 @@
                 <?php
                     // Get the current page's ancestors
                     $ancestors = get_ancestors(get_the_ID(), 'page');
-
                     // Reverse the array to start with the top-level parent
                     $ancestors = array_reverse($ancestors);
 
@@ -20,7 +19,6 @@
                     echo '<a href="' . esc_url(get_permalink()) . '">' . esc_html(get_the_title()) . '</a>';
                     echo '</div>';
                     ?>
-
             </div>
             <h1 class="mb-0"><em class="has-mask-fill"><?php the_field('section_title');?></em><br><span class="has-mask-fill"><?php the_field('section_weighted_title');?></span></h1>
             <p><?php the_field('section_content');?></p>

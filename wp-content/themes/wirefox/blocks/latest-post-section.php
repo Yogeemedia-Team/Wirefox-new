@@ -19,9 +19,7 @@
                     'orderby'        => 'date', // Order by date
                     'order'          => 'DESC', // Number of posts to display
                 );
-
                 $query = new WP_Query($args);
-
                 // The Loop
                 if ($query->have_posts()) {
                     while ($query->have_posts()) {
@@ -56,8 +54,6 @@
                     echo 'No posts found';
                 }
                 ?>
-
-           
         </div>
     </div>
 </div>

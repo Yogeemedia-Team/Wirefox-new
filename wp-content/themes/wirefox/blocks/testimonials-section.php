@@ -13,6 +13,7 @@
             </div>
         </div>
     </div>
+    
     <div class="fifty-container">
         <div class="fifty-div">
             <div class="row testimonials-section">
