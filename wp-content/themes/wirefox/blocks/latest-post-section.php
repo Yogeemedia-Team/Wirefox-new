@@ -19,18 +19,16 @@
                     'orderby'        => 'date', // Order by date
                     'order'          => 'DESC', // Number of posts to display
                 );
-
                 $query = new WP_Query($args);
-
                 // The Loop
                 if ($query->have_posts()) {
                     while ($query->have_posts()) {
                         $query->the_post();
                         $author_id = get_the_author_meta('ID');
                         $author_name = get_the_author_meta('display_name');
-                        $thumbnail_url = get_the_post_thumbnail_url(get_the_ID(), 'thumbnail');
+                        $thumbnail_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
                         ?>
-                        <img src="<?php echo $thumbnail_url;?>" alt="" width="" height="" />
+                        
                              <div class="post_card">
                                 <div class="post_details">
                                     <div class="post_date">
@@ -56,8 +54,6 @@
                     echo 'No posts found';
                 }
                 ?>
-
-           
         </div>
     </div>
 </div>
