@@ -577,7 +577,8 @@ footer {
 
 .flexnav {
   margin-left: auto;
-  width: 50%;
+  width: 50%; 
+  position: relative;
 }
 
 .flexnav li.link {
@@ -594,6 +595,13 @@ footer {
   top: 0;
   left: -100%;
   margin: 0;
+}
+.flexnav .sub-menu li a {
+	font-size: 20px !important;
+	line-height: 30px !important;
+	text-transform: capitalize;
+	font-weight: normal;
+	padding-left: 0 !important;
 }
 
 /* Innerpage css */
@@ -733,3 +741,4 @@ footer {
     margin: 20px auto;
   }
 } 
+
