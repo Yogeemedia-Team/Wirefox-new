@@ -952,9 +952,9 @@ COMMENTED BY THARAK TEMP -->
                 <div class="inner">
                     <div class="line-with-text">
                         <div class="ln"></div>
-                        <div class="txt test-ease" >Insightful Design</div>
+                        <div class="txt" >Insightful Design</div>
                     </div>
-                    <h1 class="test-ease" ><em class="has-mask-fill">BESPOKE</em><br><span class="has-mask-fill">SOLUTION</span></h1>
+                    <h1 class=""><em class="has-mask-fill">BESPOKE</em><br><span class="has-mask-fill">SOLUTION</span></h1>
                     <p>DELIVERING DIGITAL EXPERIENCES: We have been implementing Web Design, SEO and Digital Marketing <br class="destroy"> services, for over 20+ years and we take your business needs from ideas to reality</p>
                 </div>
             </div>
@@ -1251,18 +1251,18 @@ COMMENTED BY THARAK TEMP -->
 <div class="content-row full has-clip-path row_padding_top row_padding_bottom row_padding_left row_padding_right dark-section fadeout-element change-header-color change-header-color">
 
     <div class="list-rotator-wrapper">
-        <div class="list-rotator-title has-mask-fill">[ Our Services ]</div>
+        <div class="list-rotator-title has-mask-fill"></div>
         <div class="list-rotator-height">
             <div class="list-rotator-pin">
                 <ul class="list-rotator">
-                    <li><em>Web Design &</em> Development</li>
-                    <li><em>Social Media</em> Marketing</li>
-                    <li><em>Outdoor</em> Advertising</li>
-                    <li><em>Search Engine</em> Optimization</li>
-                    <li><em>Branding & Print</em> Work</li>
-                    <li><em>Web App</em> Development</li>
-                    <li><em>Google Trusted</em> Photographer</li>
-                    <li><em>Online Reputation</em> Management</li>
+                    <li><a href=""><em>Web Design &</em> Development</a></li>
+                    <li><a href=""><em>Social Media</em> Marketing</a></li>
+                    <li><a href=""><em>Outdoor</em> Advertising</a></li>
+                    <li><a href=""><em>Search Engine</em> Optimization</a></li>
+                    <li><a href=""><em>Branding & Print</em> Work</a></li>
+                    <li><a href=""><em>Web App</em> Development</a></li>
+                    <li><a href=""><em>Google Trusted</em> Photographer</a></li>
+                    <li><a href=""><em>Online Reputation</em> Management</a></li>
                 </ul>
             </div>
         </div>

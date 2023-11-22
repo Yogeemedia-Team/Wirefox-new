@@ -4,56 +4,93 @@ Template Name: News List
 */
 get_header();
 ?>
-<div class="inner-content">
-		<div class="two-blocks padding-align">
-			<div class="text-col">
-				<div>
-					<h1>DIGITAL MARKETING NEWS</h1>
-					<p>Winning Approach to Web Design - Stand out online and generate prospects</p>
-				</div>			
+
+<!-- banner block here -->
+
+
+
+<!-- News Section -->
+<div class="news_list content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
+
+	<!-- test -->
+
+	<!-- tabs section -->
+	<ul class="nav nav-tabs" role="tablist">
+		<li class="nav-item" role="presentation">
+			<a class="nav-link active" id="all" data-bs-toggle="tab" href="#tabpanel-all" role="tab" aria-controls="tabpanel-all" aria-selected="true">ALL</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" id="news-1" data-bs-toggle="tab" href="#newspanel-1" role="tab" aria-controls="newspanel-1" aria-selected="false">SEO</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" id="news-2" data-bs-toggle="tab" href="#newspanel-2" role="tab" aria-controls="newspanel-2" aria-selected="false">WEB DESIGN</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" id="news-3" data-bs-toggle="tab" href="#newspanel-3" role="tab" aria-controls="newspanel-3" aria-selected="false">WEB DEVELOPMENT</a>
+		</li>
+	</ul>
+	<div class="tab-content pt-5" id="tab-content">
+		<div class="tab-pane active" id="tabpanel-all" role="tabpanel" aria-labelledby="all">
+			<!-- single-news -->
+			<div class="single-news position-relative">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="animated-img">
+							<img src="https://wirefox.co.uk/wp-content/uploads/2020/12/Wholesale-Meats-Coventry.jpg" alt="" width="" height="" />
+						</div>
+					</div>
+				</div>
+				<div class="text-block">
+					<h3 class="title my-3">All</h3>
+					<div class="post_author text-left">
+						<span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
+						<span> <a class="auth_name" href="">Raj Kaur</a></span>
+						<span class="">
+							<div class="line"></div>
+						</span>
+					</div>
+				</div>
+				<div class="date_data text-center">
+					<p class="mb-0">9 November 2022</p>
+				</div>
 			</div>
-			<div class="image-col">
-				<img src="https://wirefox.co.uk/wp-content/uploads/2021/06/Wirefox-our-work.jpg" alt="" width="" height=""/>
+			<!-- single-news -->
+		</div>
+		<div class="tab-pane" id="newspanel-1" role="tabpanel" aria-labelledby="news-1">
+			<!-- single-news -->
+			<div class="single-news position-relative">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="animated-img">
+							<img src="https://wirefox.co.uk/wp-content/uploads/2020/12/Wholesale-Meats-Coventry.jpg" alt="" width="" height="" />
+						</div>
+					</div>
+				</div>
+				<div class="text-block">
+					<h3 class="title my-3">1</h3>
+					<div class="post_author text-left">
+						<span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
+						<span> <a class="auth_name" href="">Raj Kaur</a></span>
+						<span class="">
+							<div class="line"></div>
+						</span>
+					</div>
+				</div>
 			</div>
-		</div><!--two blocks end-->
-	
-			<div class="news-breadcrumb padding-align">
-				<ul>
-					<li><a href="#">SEO</a><span>/</span></li>
-					<li><a href="#">WEB DESIGN</a><span>/</span></li>
-					<li><a href="#">WEB DEVELOPMENT</a><span>/</span></li>
-					<li><a href="#">INTERNET</a><span>/</span></li>
-					<li><a href="#">SOCIAL MEDIA</a></li>
-				</ul>		
-			</div>
+			<!-- single-news -->
+		</div>
+		<div class="tab-pane" id="newspanel-2" role="tabpanel" aria-labelledby="news-2">
 
-	
-	
-				<div class="news-list-row padding-align">					
-					<div class="news-image">
-						<img src="https://wirefox.co.uk/wp-content/uploads/2022/11/2022_Hand-met-sterren_Kwaliteti_S_1621075879.jpg" alt="" width="" height=""/>
-						<h3 class="news-headings">What Is White Label Reputation Management ?</h3>
-					</div>			
-					<div class="news-date">
-						<span>9 November 2022</span>					
-					</div>					
-				</div><!--news list section end-->	
-	
-				<div class="news-list-row padding-align">					
-					<div class="news-image">
-						<img src="https://wirefox.co.uk/wp-content/uploads/2022/11/2022_Hand-met-sterren_Kwaliteti_S_1621075879.jpg" alt="" width="" height=""/>
-						<h3 class="news-headings">What Is White Label Reputation Management ?</h3>
-					</div>			
-					<div class="news-date">
-						<span>9 November 2022</span>					
-					</div>					
-				</div><!--news list section end-->	
-		
-		
-</div><!--inner content end-->
+		</div>
+		<div class="tab-pane" id="newspanel-3" role="tabpanel" aria-labelledby="news-3">
 
+		</div>
+		<div class="tab-pane" id="newspanel-4" role="tabpanel" aria-labelledby="news-4">
 
-
+		</div>
+	</div>
+</div>
+<!-- News Section -->
 
 <?php
 get_footer();
