@@ -288,3 +288,207 @@ class Custom_Bootstrap_Nav_Walker extends Walker_Nav_Menu {
         $output .= '</li>';
     }
 }
+
+add_action('acf/init', 'register_acf_blocks_types');
+
+function register_acf_blocks_types() {
+    $blocks = array(
+    array(
+        'name'              => 'inner-banner-section-block',
+        'title'             => __('Banner Section Block'),
+        // 'description'       => __('Description of your block 1'),
+        'render_template'   => 'blocks/inner_banner.php', // PHP file for rendering the block
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'full',
+        'supports'          => array(
+            'align' => array('wide', 'full'),
+        ),
+    ),
+    array(
+        'name'              => 'greeting-section-block',
+        'title'             => __('Greeting Section Block'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/greeting_section.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+            'align' => array('wide', 'full'),
+        ),
+    ),
+    array(
+        'name'              => 'repeater-section-with-left-right-block',
+        'title'             => __('Repeater Section with Left Right Block'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/repeater-section-with-left-right.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+        ),
+    ),
+    array(
+        'name'              => 'accordion-section-block',
+        'title'             => __('Accordion section Block'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/accordion-section.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+        ),
+    ),
+    array(
+        'name'              => 'latest-post-section-block',
+        'title'             => __('Latest Blog Post Section Block'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/latest-post-section.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+        ),
+    ),
+	array(
+        'name'              => 'breadcrumbs-section',
+        'title'             => __('Breadcrumb'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/breadcrumb-section.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+        ),
+    ),
+    array(
+        'name'              => 'brands-section',
+        'title'             => __('Brands section'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/brands-section.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+        ),
+    ),
+    array(
+        'name'              => 'testimonials-section',
+        'title'             => __('Testimonials section'),
+        // 'description'       => __('Description of your block 2'),
+        'render_template'   => 'blocks/testimonials-section.php',
+        'category'          => 'common',
+        'icon'              => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="16.5" y1="8.4" x2="7.5" y2="15.6"></line><line x1="7.5" y1="8.4" x2="16.5" y2="15.6"></line></svg>',
+        'keywords'          => array('example', 'acf'),
+        'mode'              => 'auto',
+        'align'             => 'wide',
+        'supports'          => array(
+        ),
+    ),
+    // Add more blocks as needed
+);
+
+    // Register each block
+    foreach ($blocks as $block) {
+        acf_register_block_type($block);
+    }
+}
+// add_action('init', 'register_acf_blocks');
+
+// // Define the function to register ACF block type
+// function register_acf_blocks() {
+//     $blocks = array(
+//         array(
+//             'name'              => 'inner-banner-section-block',
+//             'title'             => __('Inner Banner Section Block'),
+//             'description'       => __('Description of your block 1'),
+//             'render_template'   => 'your-example-block-1.php', // PHP file for rendering the block
+//             'category'          => 'common',
+//             'icon'              => 'smiley',
+//             'keywords'          => array('example', 'acf'),
+//             'mode'              => 'auto',
+//             'align'             => 'full',
+//             'supports'          => array(
+//                 'align' => array('wide', 'full'),
+//             ),
+            
+//         ),
+//         array(
+//             'name'              => 'greeting-section-block',
+//             'title'             => __('Greeting Section Block'),
+//             'description'       => __('Description of your block 2'),
+//             'render_template'   => 'your-example-block-2.php',
+//             'category'          => 'common',
+//             'icon'              => 'heart',
+//             'keywords'          => array('example', 'acf'),
+//             'mode'              => 'auto',
+//             'align'             => 'wide',
+//             'supports'          => array(
+//                 'align' => array('wide', 'full'),
+//             ),
+            
+// 			 ),
+// 		array(
+//             'name'              => 'repeater-section-with-left-right-block',
+//             'title'             => __('Repeater Section with Left Right Block'),
+//             'description'       => __('Description of your block 2'),
+//             'render_template'   => 'your-example-block-2.php',
+//             'category'          => 'common',
+//             'icon'              => 'heart',
+//             'keywords'          => array('example', 'acf'),
+//             'mode'              => 'auto',
+//             'align'             => 'wide',
+//             'supports'          => array(
+//              ),
+           
+//         ),
+// 		array(
+//             'name'              => 'accordion-section-block',
+//             'title'             => __('Accordion section Block'),
+//             'description'       => __('Description of your block 2'),
+//             'render_template'   => 'your-example-block-2.php',
+//             'category'          => 'common',
+//             'icon'              => 'heart',
+//             'keywords'          => array('example', 'acf'),
+//             'mode'              => 'auto',
+//             'align'             => 'wide',
+//             'supports'          => array(
+//              ),
+            
+//         ),
+// 		array(
+//             'name'              => 'latest-post-section-block',
+//             'title'             => __('Latest Blog Post Section Block'),
+//             'description'       => __('Description of your block 2'),
+//             'render_template'   => 'your-example-block-2.php',
+//             'category'          => 'common',
+//             'icon'              => 'heart',
+//             'keywords'          => array('example', 'acf'),
+//             'mode'              => 'auto',
+//             'align'             => 'wide',
+//             'supports'          => array(
+//              ),
+           
+//         ),
+//         // Add more blocks as needed
+//     );
+
+//     // Register each block
+//     foreach ($blocks as $block) {
+//         register_acf_blocks($block);
+//     }
+// }
