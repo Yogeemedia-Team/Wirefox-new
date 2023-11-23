@@ -263,7 +263,7 @@ class Custom_Bootstrap_Nav_Walker extends Walker_Nav_Menu {
         $classes = empty($item->classes) ? array() : (array) $item->classes;
         $output .= '<li class="link menu-timeline">';
 
-        $output .= '<a href="' . esc_url($item->url) . '" class="ajax-link" target="_blank" data-type="page-transition">';
+        $output .= '<a href="' . esc_url($item->url) . '" class="ajax-link" data-type="page-transition">';
         $output .= '<div class="before-span">';
         $output .= '<span data-hover="' . esc_html($item->title) . '">' . esc_html($item->title) . '</span>';
         $output .= '</div>';
