@@ -10,6 +10,8 @@ get_header();
 ?>
 
 
+
+<?php if (have_posts()) : while (have_posts()): the_post() ; ?>
 <div class="row main_banner row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
 	<div class="col-md-7 my-auto">
 		<div class="py-5 p-md-0 pe-md-5 mt-4 mt-md-0">
@@ -32,6 +34,9 @@ get_header();
 		</div>
 	</div>
 </div>
+<?php endwhile; else: ?>
+			<p><?php _e('Sorry, no records matched your criteria.'); ?></p>
+	<?php endif; ?>
 
 
 
