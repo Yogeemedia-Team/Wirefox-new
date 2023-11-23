@@ -754,7 +754,7 @@ Function Scroll Effects
 			var clippedImageScene = ScrollTrigger.create({
 				trigger: clippedImagePin,
 				start: function() {
-					const startPin = 0;
+					const startPin = 600;
 					return "top +=" + startPin;
 				  },
 				end: function() {
