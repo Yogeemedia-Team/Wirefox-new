@@ -1,7 +1,7 @@
 <div class="row padding-align main_banner change-header-color row_padding_top row_padding_bottom">
     <div class="col-md-7 my-auto">
         <div class="py-5 p-md-0 pe-md-5 mt-4 mt-md-0">
-            <h1 class="title"><span><?php the_field('main_title'); ?></span> <?php the_field('main_title_weight_text'); ?></h1>
+            <h1 class="title"><span><?php the_field('main_title'); ?></span><br><?php the_field('main_title_weight_text'); ?></h1>
             <p><?php the_field('banner_paragrph'); ?></p>
             <?php if (get_field('button_text')) : ?>
                 <div class="button-wrap right large-btn has-animation animated inner-banner-btn" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
