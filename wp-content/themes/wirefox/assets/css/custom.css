@@ -744,3 +744,11 @@ footer {
   }
 } 
 
+
+/*post filters*/
+.tab-content .show {
+  display: block;
+}
+.tab-pane {
+    display: none; /* Hide all elements by default */
+}
