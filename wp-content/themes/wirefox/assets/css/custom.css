@@ -254,6 +254,8 @@
 .timeln .cont {
   padding: 100px 50px !important;
   background-color: #f70707 !important;
+  margin-top: -670px;
+
 }
 
 .timeln .point {
