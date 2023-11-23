@@ -899,38 +899,24 @@ COMMENTED BY THARAK TEMP -->
         <div class="clapat-slider">
             <div id="clapat" class="clapat-slider-viewport">
                 <div class="clapat-slide">
-                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
-                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
-                    </a>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
 
                 <div class="clapat-slide">
-                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
-                        <div class="slide-img">
-                            <img class="image-container" src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title">
-                        </div>
-                    </a>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
 
                 <div class="clapat-slide">
-                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
-                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
-                    </a>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
                 <div class="clapat-slide">
-                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
-                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
-                    </a>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
                 <div class="clapat-slide">
-                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
-                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
-                    </a>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
                 <div class="clapat-slide">
-                    <a class="slide_link" href="https://ymdigital.us/" target="_blank" data-type="page-transition" data-centerline="Drag">
-                        <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
-                    </a>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
                 </div>
             </div>
         </div>
@@ -952,7 +938,7 @@ COMMENTED BY THARAK TEMP -->
                 <div class="inner">
                     <div class="line-with-text">
                         <div class="ln"></div>
-                        <div class="txt" >Insightful Design</div>
+                        <div class="txt">Insightful Design</div>
                     </div>
                     <h1 class=""><em class="has-mask-fill">BESPOKE</em><br><span class="has-mask-fill">SOLUTION</span></h1>
                     <p>DELIVERING DIGITAL EXPERIENCES: We have been implementing Web Design, SEO and Digital Marketing <br class="destroy"> services, for over 20+ years and we take your business needs from ideas to reality</p>
@@ -1334,17 +1320,17 @@ COMMENTED BY THARAK TEMP -->
 
 <!-- Page Navigation --------------------------->
 <div id="page-nav">
-	<div class="page-nav-wrap">
-		<div class="page-nav-caption content-full-width">                                 
-			<div class="inner">
-				<a class="page-title next-ajax-link-page" data-type="page-transition" data-centerline="MOVE ON" href="multimedia.html">
-					<div class="next-hero-title primary-font-title caption-timeline"><span><em>Multimedia</em></span> <span>Creative Elements</span></div>
-				</a>
-				<div class="next-hero-subtitle caption-timeline"><span>Unleash Your Visual Storytelling</span></div>
-			</div>               
-		</div>
-	</div>
-</div>       
+    <div class="page-nav-wrap">
+        <div class="page-nav-caption content-full-width">
+            <div class="inner">
+                <a class="page-title next-ajax-link-page" data-type="page-transition" data-centerline="MOVE ON" href="multimedia.html">
+                    <div class="next-hero-title primary-font-title caption-timeline"><span><em>Multimedia</em></span> <span>Creative Elements</span></div>
+                </a>
+                <div class="next-hero-subtitle caption-timeline"><span>Unleash Your Visual Storytelling</span></div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Page Navigation -------------------------->
 
 

@@ -586,8 +586,8 @@ footer {
 }
 
 .flexnav li a {
-  font-size: 30px !important;
-  line-height: 50px !important;
+	font-size: 48px !important;
+	line-height: 1.8 !important;
 }
 
 .flexnav .sub-menu {
@@ -596,10 +596,20 @@ footer {
   left: -100%;
   margin: 0;
 }
+.fullscreen-menu.invert-header .flexnav li a span:nth-child(3) {
+  color: #eb0000;
+}
+.flexnav li a span {
+	font-family: 'mona-sanslight_wide' !important;
+  font-weight: bold;
+}
+.flexnav .sub-menu li {
+  text-align: end;
+}
 .flexnav .sub-menu li a {
   
-	font-size: 20px !important;
-	line-height: 30px !important;
+	font-size: 24px !important;
+	line-height: 2 !important;
 	text-transform: capitalize;
 	font-weight: normal;
 	padding-left: 0 !important;
