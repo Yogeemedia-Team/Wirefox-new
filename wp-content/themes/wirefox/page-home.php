@@ -1318,21 +1318,5 @@ COMMENTED BY THARAK TEMP -->
 <!-- Contact section -->
 
 
-<!-- Page Navigation --------------------------->
-<div id="page-nav">
-    <div class="page-nav-wrap">
-        <div class="page-nav-caption content-full-width">
-            <div class="inner">
-                <a class="page-title next-ajax-link-page" data-type="page-transition" data-centerline="MOVE ON" href="multimedia.html">
-                    <div class="next-hero-title primary-font-title caption-timeline"><span><em>Multimedia</em></span> <span>Creative Elements</span></div>
-                </a>
-                <div class="next-hero-subtitle caption-timeline"><span>Unleash Your Visual Storytelling</span></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Page Navigation -------------------------->
-
-
 <?php
 get_footer();
