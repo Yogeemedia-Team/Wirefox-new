@@ -1,12 +1,13 @@
 <!-- News Section -->
+
 <div class="news_list content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
 
 	<!-- test -->
 
 	<!-- tabs section -->
-	<ul class="nav nav-tabs" role="tablist">
+	<ul class="nav nav-tabs" role="tablist" id="myBtnContainer">
 		<li class="nav-item" role="presentation">
-			<a class="nav-link active" id="all" data-bs-toggle="tab" href="#tabpanel-all" role="tab" aria-controls="tabpanel-all" aria-selected="true">ALL</a>
+			<a class="nav-link" id="all" onclick="filterSelection('all')" >ALL</a>
 		</li>
         <?php
             // Get the categories
@@ -17,7 +18,7 @@
               
                 foreach ($categories as $category) : ?>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="<?php echo $category->slug;?>" data-bs-toggle="tab" href="#<?php echo $category->slug;?>" role="tab" aria-controls="<?php echo $category->slug;?>" aria-selected="false"><?php echo $category->name;?></a>
+                   <a class="nav-link" onclick="filterSelection('<?php echo $category->slug;?>')" ><?php echo $category->name;?></a>
                 </li>
                 <?php    
                 endforeach;
@@ -30,9 +31,16 @@
 
 	<div class="tab-content pt-5" id="tab-content">
 		
-      
+       <?php
+            // Get the categories
+            $categories = get_categories();
 
-		<div class="tab-pane active" id="tabpanel-all" role="tabpanel" aria-labelledby="all">
+            // Check if there are categories
+            if ($categories) :
+              
+                foreach ($categories as $category) : ?>
+
+		<div class="tab-pane <?php echo $category->slug;?>" >
 			<!-- single-news -->
 			<div class="single-news position-relative">
                 <?php
@@ -41,6 +49,7 @@
                         'posts_per_page' => 10, // number of posts to display
                         'order' => 'DESC', // or 'ASC' for ascending order
                         'orderby' => 'date', // you can change this to 'title', 'rand', etc.
+                        'category_name' => $category->slug,
                     );
 
                     $custom_query = new WP_Query($args);
@@ -82,8 +91,15 @@
 			</div>
 			<!-- single-news -->
 		</div>
-
+            <?php    
+                endforeach;
+              
+            endif;
+            ?>
 		
 	</div>
 </div>
+
+
+
 <!-- News Section -->
