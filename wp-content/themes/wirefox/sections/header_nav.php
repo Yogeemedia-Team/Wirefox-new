@@ -2,7 +2,7 @@
 		<div id="header-container">
 			<!-- Logo -->
 			<div id="logo" class="hide-ball">
-				<a class="ajax-link" data-type="page-transition" href="index.html">
+				<a class="ajax-link" data-type="page-transition" href="<?php echo get_home_url(); ?>">
 					<img class="black-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="ClaPat Logo">
 					<img class="white-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="ClaPat Logo">
 				</a>

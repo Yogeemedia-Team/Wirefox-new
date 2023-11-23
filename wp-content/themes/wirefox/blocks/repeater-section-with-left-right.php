@@ -90,7 +90,7 @@ endwhile; ?>
         $image = get_sub_field('block_image');
         
         if($i % 2 == 0) {?>   
- <div class="row comn_block row_padding_top">
+ <div class="row comn_block row_padding_top row_padding_bottom">
 
         <div class="col-md-6">
             <div class="py-5 px-4 p-md-0 px-md-5 mt-4 mt-md-0">

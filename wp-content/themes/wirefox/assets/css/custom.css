@@ -597,6 +597,7 @@ footer {
   margin: 0;
 }
 .flexnav .sub-menu li a {
+  
 	font-size: 20px !important;
 	line-height: 30px !important;
 	text-transform: capitalize;
@@ -670,6 +671,7 @@ footer {
 }
 
 /* Services page styles */
+
 .services_tabs .tab-pane .text-block {
   width: 575px;
   padding: 40px;
@@ -742,3 +744,17 @@ footer {
   }
 } 
 
+
+/*post filters*/
+.tab-content .show {
+  display: block;
+}
+.tab-pane {
+    display: none; /* Hide all elements by default */
+}
+
+/*inner banner button css */
+.inner-banner-btn {
+  border: 1px solid var(--bs-white);
+  padding-left: 20px;
+}
