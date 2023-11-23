@@ -28,7 +28,7 @@
                         $author_name = get_the_author_meta('display_name');
                         $thumbnail_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
                         ?>
-                        
+                            <a href="<?php the_permalink(); ?>">
                              <div class="post_card">
                                 <div class="post_details">
                                     <div class="post_date">
@@ -45,6 +45,7 @@
                                 </div>
                                 
                             </div>
+                            </a>
                         <?php
                     }
                     /* Restore original Post Data */
