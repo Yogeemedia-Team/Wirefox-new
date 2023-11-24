@@ -24,7 +24,7 @@ get_header();
     </div>
 
 </div>
-<div class="row padding-align main_banner change-header-color row_padding_top row_padding_bottom">
+<div class="row padding-align main_banner change-header-color row_padding_bottom">
 <div class="news_cont">
 		<div class="row">
 			<div class="col-md-9">
