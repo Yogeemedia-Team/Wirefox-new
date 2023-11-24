@@ -759,6 +759,7 @@ footer {
   display: block;
 }
 .tab-pane {
+    
     display: none; /* Hide all elements by default */
 }
 
@@ -779,7 +780,11 @@ footer {
   padding-bottom: 24px;
 }
 
-.tab-content .single-news.position-relative {
+.tab-content .single-service{
+  margin-bottom: 100px;
+}
+
+.tab-content .single-news {
   margin-bottom: 60px;
 }
 

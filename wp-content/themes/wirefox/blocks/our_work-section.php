@@ -15,6 +15,9 @@
             $terms = get_terms(array(
                 'taxonomy' => $taxonomy,
                 'hide_empty' => false, // Set to true if you want to hide terms with no posts
+                'orderby' => 'term_id',    // You can change this to 'name', 'slug', or other parameters
+                'order' => 'ASC',         // 'ASC' for ascending order, 'DESC' for descending order
+                
             ));
 
             // Check if there are terms
@@ -70,7 +73,7 @@
                     // Get the URL of the featured image
                     $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full'); // replace 'thumbnail' with the desired image size
                  ?>
-               <div class="single-service position-relative">
+               <div class="single-service position-relative pt-5">
 				<div class="row">
 					<div class="col-md-10">
 						<div class="overflow-hidden">
