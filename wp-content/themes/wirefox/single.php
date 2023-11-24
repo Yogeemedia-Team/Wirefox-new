@@ -20,7 +20,7 @@ get_header();
 	</div>
 	<div class="col-md-5">
 		<div class="animated-img">
-			<img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'medium');?>" />
+			<img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>" />
 		</div>
 	</div>
 	<div class="news_cont row_padding_top">
