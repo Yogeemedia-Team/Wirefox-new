@@ -17,7 +17,7 @@
     <div class="foot_cont mx-auto">
         <div class="row_padding_top">
             <p class="subtitle mb-0">
-                SIGN UP TO OUR NEWSLETTER:
+                SIGN UP TO OUR NEWS LETTER:
             </p>
             <div class="form_sec">
                 <form>
@@ -79,29 +79,56 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="menu">
-                        <ul>
-                            <li><a href="#">Who we are</a></li>
-                            <li><a href="#">Seo glossary</a></li>
-                            <li><a href="#">Free SEO Audit</a></li>
-                        </ul>
+					<?php
+					$menu_object = get_term_by('name', 'footer-left', 'nav_menu');
+					if ($menu_object) {
+						$menu_items = wp_get_nav_menu_items($menu_object->term_id);
+
+						if (!empty($menu_items)) {
+							echo '<ul>';
+							foreach ($menu_items as $menu_item) {
+								echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+							}
+							echo '</ul>';
+						}
+					} 
+					?>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="menu">
-                        <ul class="mx-auto">
-                            <li><a href="#">Case Studies</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Career</a></li>
-                        </ul>
+					<?php
+					$menu_object = get_term_by('name', 'footer-midle', 'nav_menu');
+					if ($menu_object) {
+						$menu_items = wp_get_nav_menu_items($menu_object->term_id);
+
+						if (!empty($menu_items)) {
+							echo '<ul class="mx-auto">';
+							foreach ($menu_items as $menu_item) {
+								echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+							}
+							echo '</ul>';
+						}
+					} 
+					?>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="menu">
-                        <ul class="ms-auto">
-                            <li><a href="#">Terms and conditions</a></li>
-                            <li><a href="#">Privacy and cookies policy</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
+					<?php
+					$menu_object = get_term_by('name', 'footer-right', 'nav_menu');
+					if ($menu_object) {
+						$menu_items = wp_get_nav_menu_items($menu_object->term_id);
+
+						if (!empty($menu_items)) {
+							echo '<ul class="ms-auto">';
+							foreach ($menu_items as $menu_item) {
+								echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+							}
+							echo '</ul>';
+						}
+					} 
+					?>
                     </div>
                 </div>
             </div>
