@@ -11,7 +11,12 @@
 		</li>
         <?php
             // Get the categories
-            $categories = get_categories();
+            $categories = get_terms(array(
+                'taxonomy' => 'category', // Replace with your taxonomy name
+                'hide_empty' => false,
+                'orderby' => 'term_id',    // You can change this to 'name', 'slug', or other parameters
+                'order' => 'ASC',         // 'ASC' for ascending order, 'DESC' for descending order
+            ));
 
             // Check if there are categories
             if ($categories) :
@@ -53,11 +58,12 @@
                     );
 
                     $custom_query = new WP_Query($args);
-
+                    
                     if ($custom_query->have_posts()) :
                         while ($custom_query->have_posts()) : $custom_query->the_post();
                         $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
                         ?>
+                       
                         <div class="row">
                             <div class="col-md-10">
                                 <div class="animated-img">
@@ -67,16 +73,16 @@
                         </div>
 
                         <div class="text-block">
-                            <h3 class="title my-3"><?php the_title();?></h3>
+                            <h3 class="title my-3"><?php echo get_the_title();?></h3>
                             <div class="post_author text-left">
                                 <span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
-                                <span> <a class="auth_name" href=""><?php the_author();?></a></span>
+                                <span> <a class="auth_name" href=""><?php echo get_the_author();?></a></span>
                                 <span class="">
                                     <div class="line"></div>
                                 </span>
                             </div>
                             <div class="date_data text-center">
-                                <p class="mb-0"><?php the_date('j F Y');?></p>
+                                <p class="mb-0"><?php echo get_the_date('j F Y');?></p>
                             </div>
                         </div>
                         <?php endwhile;
