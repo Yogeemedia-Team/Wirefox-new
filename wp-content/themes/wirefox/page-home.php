@@ -889,7 +889,7 @@ COMMENTED BY THARAK TEMP -->
         <div class="title-text-styles">
             <div class="title-text-caption content-full-width parallax-onscroll">
                 <div class="inner text-right">
-                    <h1><em class="has-mask-fill">SELECTED</em><br><span class="has-mask-fill">PROJECT</span></h1>
+                    <h1><em class="has-mask-fill">SELECTED</em><br><span class="has-mask-fill">PROJECTS</span></h1>
                     <p>Recent web design projects Creating beautiful <br class="destroy"> and engaging websites that get seen</p>
                 </div>
             </div>
@@ -1309,7 +1309,7 @@ COMMENTED BY THARAK TEMP -->
                 <p class="desc mx-auto">Ready to start a project or really curious about our process? Drop us a note
                     or give us a call 888.641.7313; we’re happy to answer all your questions.</p>
                 <div class="btn-sec">
-                    <a href="" class="cont-btn text-upperecase">Contact Us</a>
+                    <a href="/contact-us/" class="cont-btn text-upperecase">Contact Us</a>
                 </div>
             </div>
         </div>

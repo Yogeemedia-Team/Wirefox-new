@@ -19,7 +19,7 @@
     </div>
 
     <div class="footer-middle">
-        <div class="copyright">Design & Develop by <a class="link" target="_blank" href="https://www.clapat.com/">Wirefox</a> © 2023 </div>
+        <div class="copyright">Design & Develop by <a class="link" target="_blank" href="https://wirefox.co.uk">Wirefox</a> © 2023 </div>
     </div>
 
     <!-- <div class="socials-wrap">
