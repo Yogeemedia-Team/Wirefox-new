@@ -66,14 +66,18 @@
                        
                         <div class="row">
                             <div class="col-md-10">
+                                <a href = "<?php echo get_permalink()?>">
                                 <div class="animated-img">
                                     <img src="<?php echo $featured_image_url;?> " alt="" width="" height="" />
                                 </div>
+                                </a>
                             </div>
                         </div>
 
                         <div class="text-block">
+                             <a href = "<?php echo get_permalink()?>">
                             <h3 class="title my-3"><?php echo get_the_title();?></h3>
+                               </a>
                             <div class="post_author text-left">
                                 <span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
                                 <span> <a class="auth_name" href=""><?php echo get_the_author();?></a></span>
@@ -81,9 +85,11 @@
                                     <div class="line"></div>
                                 </span>
                             </div>
+                            
                             <div class="date_data text-center">
                                 <p class="mb-0"><?php echo get_the_date('j F Y');?></p>
                             </div>
+                           
                         </div>
                         <?php endwhile;
                         wp_reset_postdata(); // reset the query
