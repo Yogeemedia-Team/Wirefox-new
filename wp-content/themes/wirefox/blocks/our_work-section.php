@@ -46,7 +46,7 @@
             if ($terms) :
               
                 foreach ($terms as $term) : ?>
-		<div class="tab-pane <?php echo $term->slug;?>" >
+		<div class="tab-pane pt-5 <?php echo $term->slug;?>" >
 			<!-- single-service -->
             <?php
             $args = array(
