@@ -9,9 +9,6 @@
 get_header();
 ?>
 
-
-
-<div class="inner-content about-us-content">
 <?php if (have_posts()) : while (have_posts()): the_post() ; ?>
 <div class="row padding-align main_banner change-header-color row_padding_top row_padding_bottom">
     <div class="col-md-7 my-auto">
@@ -27,6 +24,7 @@ get_header();
     </div>
 
 </div>
+<div class="row padding-align main_banner change-header-color row_padding_top row_padding_bottom">
 <div class="news_cont row_padding_top">
 		<div class="row">
 			<div class="col-md-9">
