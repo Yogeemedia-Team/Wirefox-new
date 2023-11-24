@@ -27,13 +27,22 @@ get_header();
     </div>
 
 </div>
-<div class="row_padding_left row_padding_right change-header-color row_padding_top row_padding_bottom">
-<?php the_content()?>
-</div>
+<div class="news_cont row_padding_top">
+		<div class="row">
+			<div class="col-md-9">
+				<?php the_content()?>
+			</div>
+			
+
 <?php endwhile; else: ?>
 			<p><?php _e('Sorry, no records matched your criteria.'); ?></p>
 	<?php endif; ?>
 
+<div class="col-md-3">
+				<!-- post sidebar(if need) -->
+			</div>
+		</div>
+	</div>
 </div>
 <?php
 get_footer();
