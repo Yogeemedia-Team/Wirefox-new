@@ -955,7 +955,7 @@ COMMENTED BY THARAK TEMP -->
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6">
                 <figure class="has-animation has-cover" data-delay="100">
-                    <a href="#" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Experts-In-Web-Design.jpg" alt="Image Title"></a>
+                    <img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Experts-In-Web-Design.jpg" alt="Image Title">
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
@@ -1006,7 +1006,7 @@ COMMENTED BY THARAK TEMP -->
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6 order-md-2">
                 <figure class="has-animation has-cover" data-delay="100">
-                    <a href="#" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ecommerce-Web-Design.webp" alt="Image Title"></a>
+                    <img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ecommerce-Web-Design.webp" alt="Image Title">
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
@@ -1058,7 +1058,7 @@ COMMENTED BY THARAK TEMP -->
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6">
                 <figure class="has-animation has-cover" data-delay="100">
-                    <a href="" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Birmingham-SEO-Specialists.webp" alt="Image Title"></a>
+                    <img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Birmingham-SEO-Specialists.webp" alt="Image Title">
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
@@ -1110,7 +1110,7 @@ COMMENTED BY THARAK TEMP -->
         <div class="row row_padding_bottom light-section">
             <div class="col-md-6 order-md-2">
                 <figure class="has-animation has-cover" data-delay="100">
-                    <a href="" class="image-link"><img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" alt="Image Title"></a>
+                    <img class="fifty-fifty-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/social-media-marketing-birmingham.webp" alt="Image Title">
                     <!-- 					<figcaption>Image Caption Here</figcaption> -->
                 </figure>
             </div>
