@@ -47,7 +47,7 @@
 
 		<div class="tab-pane <?php echo $category->slug;?>" >
 			<!-- single-news -->
-			<div class="single-news position-relative">
+			
                 <?php
                     $args = array(
                         'post_type' => 'post', // replace with your actual custom post type
@@ -63,7 +63,7 @@
                         while ($custom_query->have_posts()) : $custom_query->the_post();
                         $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
                         ?>
-                       
+                       <div class="single-news position-relative">
                         <div class="row">
                             <div class="col-md-10">
                                 <a href = "<?php echo get_permalink()?>">
@@ -91,6 +91,7 @@
                             </div>
                            
                         </div>
+                        </div>
                         <?php endwhile;
                         wp_reset_postdata(); // reset the query
                     else :
@@ -100,7 +101,7 @@
 
 				
 
-			</div>
+			
 			<!-- single-news -->
 		</div>
             <?php    
