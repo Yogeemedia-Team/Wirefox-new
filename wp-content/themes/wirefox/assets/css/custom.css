@@ -824,3 +824,21 @@ footer {
   padding: 20px 40px !important;
   
 }
+
+/* table styles */
+table td,
+table th {
+	border: 1px #fbfbfb52 solid;
+}
+table th{
+  font-weight: bold;
+}
+/* Privacy page styles */
+.privacy_table{
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .privacy_table{
+    width: 100%;
+  }
+} 
