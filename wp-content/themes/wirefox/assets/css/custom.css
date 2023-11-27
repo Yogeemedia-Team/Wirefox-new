@@ -824,3 +824,7 @@ footer {
   padding: 20px 40px !important;
   
 }
+
+.light-content input:focus, .light-content textarea:focus, .dark-section input:focus, .dark-section textarea:focus {
+  color:transparent !important;
+}
