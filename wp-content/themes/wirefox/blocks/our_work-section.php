@@ -81,10 +81,12 @@
 						</div>
 					</div>
 				</div>
+                <a href="<?php the_field('field_65645209e41c3');?>">
 				<div class="text-block">
 					<h3 class="title"><?php the_title();?></h3>
 					<p class="desctiption"><?php the_content();?></p>
 				</div>
+                </a>
 			</div>
            <?php
                 endwhile;
