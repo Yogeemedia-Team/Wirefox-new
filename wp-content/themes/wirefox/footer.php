@@ -44,91 +44,132 @@
             <p class="subtitle">
                 Socials
             </p>
-            <div class="icons mt-3">
-                <span>
-                    <a href="https://www.facebook.com/" target="_blank"><img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/facebook.png" alt="wirefox"></a>
-                </span>
-                <span>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/insta.png" alt="wirefox">
-                    </a>
-                </span>
-                <span>
-                    <a href="https://www.youtube.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/youtube.png" alt="wirefox">
-                    </a>
-                </span>
-                <span>
-                    <a href="https://twitter.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/tweeter.png" alt="wirefox">
-                    </a>
-                </span>
-                <span>
-                    <a href="https://lk.linkedin.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/linkdln.png" alt="wirefox">
-                    </a>
-                </span>
-                <span>
-                    <a href="https://www.pinterest.com/" target="_blank">
-                        <img class="soci_icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/Socials/pinterest.png" alt="wirefox">
-                    </a>
-                </span>
+            <div class="icon_sec">
+                <div class="row">
+                    <div class="col">
+                        <div class="button-wrap">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <a target="_blank" href="https://www.facebook.com/WirefoxDigitalAgencyUK">
+                                        <i class="fa-brands fa-3x fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="button-wrap">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <a target="_blank" href="https://www.instagram.com/wirefoxuk/">
+                                        <i class="fa-brands fa-3x fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="button-wrap">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <a target="_blank" href="https://www.youtube.com/channel/UCFtXf5bmoprfAnwqZEzDFFQ">
+                                        <i class="fa-brands fa-3x fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="button-wrap">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <a target="_blank" href="https://twitter.com/wirefox_uk">
+                                        <i class="fa-brands fa-3x fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="button-wrap">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <a target="_blank" href="https://www.linkedin.com/company/wirefoxuk">
+                                        <i class="fa-brands fa-3x fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="button-wrap">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <a target="_blank" href="https://www.pinterest.com/">
+                                        <i class="fa-brands fa-3x fa-pinterest-p"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         </div>
         <div class="foot_menu">
             <div class="row">
                 <div class="col-md-4">
                     <div class="menu">
-					<?php
-					$menu_object = get_term_by('name', 'footer-left', 'nav_menu');
-					if ($menu_object) {
-						$menu_items = wp_get_nav_menu_items($menu_object->term_id);
+                        <?php
+                        $menu_object = get_term_by('name', 'footer-left', 'nav_menu');
+                        if ($menu_object) {
+                            $menu_items = wp_get_nav_menu_items($menu_object->term_id);
 
-						if (!empty($menu_items)) {
-							echo '<ul>';
-							foreach ($menu_items as $menu_item) {
-								echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
-							}
-							echo '</ul>';
-						}
-					} 
-					?>
+                            if (!empty($menu_items)) {
+                                echo '<ul>';
+                                foreach ($menu_items as $menu_item) {
+                                    echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+                                }
+                                echo '</ul>';
+                            }
+                        }
+                        ?>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="menu">
-					<?php
-					$menu_object = get_term_by('name', 'footer-midle', 'nav_menu');
-					if ($menu_object) {
-						$menu_items = wp_get_nav_menu_items($menu_object->term_id);
+                        <?php
+                        $menu_object = get_term_by('name', 'footer-midle', 'nav_menu');
+                        if ($menu_object) {
+                            $menu_items = wp_get_nav_menu_items($menu_object->term_id);
 
-						if (!empty($menu_items)) {
-							echo '<ul class="mx-auto">';
-							foreach ($menu_items as $menu_item) {
-								echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
-							}
-							echo '</ul>';
-						}
-					} 
-					?>
+                            if (!empty($menu_items)) {
+                                echo '<ul class="mx-auto">';
+                                foreach ($menu_items as $menu_item) {
+                                    echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+                                }
+                                echo '</ul>';
+                            }
+                        }
+                        ?>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="menu">
-					<?php
-					$menu_object = get_term_by('name', 'footer-right', 'nav_menu');
-					if ($menu_object) {
-						$menu_items = wp_get_nav_menu_items($menu_object->term_id);
+                        <?php
+                        $menu_object = get_term_by('name', 'footer-right', 'nav_menu');
+                        if ($menu_object) {
+                            $menu_items = wp_get_nav_menu_items($menu_object->term_id);
 
-						if (!empty($menu_items)) {
-							echo '<ul class="ms-auto">';
-							foreach ($menu_items as $menu_item) {
-								echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
-							}
-							echo '</ul>';
-						}
-					} 
-					?>
+                            if (!empty($menu_items)) {
+                                echo '<ul class="ms-auto">';
+                                foreach ($menu_items as $menu_item) {
+                                    echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+                                }
+                                echo '</ul>';
+                            }
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
@@ -484,56 +525,56 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
 <script>
     filterSelection("all");
 
-function filterSelection(c) {
-    var x, i;
-    x = document.getElementsByClassName("tab-pane");
-    if (c == "all") c = "";
-    for (i = 0; i < x.length; i++) {
-        w3RemoveClass(x[i], "show");
-        if (c == "" || x[i].className.indexOf(c) > -1) {
-            w3AddClass(x[i], "show");
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("tab-pane");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (c == "" || x[i].className.indexOf(c) > -1) {
+                w3AddClass(x[i], "show");
+            }
         }
     }
-}
 
-function w3AddClass(element, name) {
-    var arr1 = element.className.split(" ");
-    var arr2 = name.split(" ");
-    for (var i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) {
-            element.className += " " + arr2[i];
+    function w3AddClass(element, name) {
+        var arr1 = element.className.split(" ");
+        var arr2 = name.split(" ");
+        for (var i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+                element.className += " " + arr2[i];
+            }
         }
+        // Add inline style display: block
+        element.style.display = "block";
     }
-    // Add inline style display: block
-    element.style.display = "block";
-}
 
-function w3RemoveClass(element, name) {
-    var arr1 = element.className.split(" ");
-    var arr2 = name.split(" ");
-    for (var i = 0; i < arr2.length; i++) {
-        while (arr1.indexOf(arr2[i]) > -1) {
-            arr1.splice(arr1.indexOf(arr2[i]), 1);
+    function w3RemoveClass(element, name) {
+        var arr1 = element.className.split(" ");
+        var arr2 = name.split(" ");
+        for (var i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
         }
+        element.className = arr1.join(" ");
+        // Remove inline style display
+        element.style.display = "";
     }
-    element.className = arr1.join(" ");
-    // Remove inline style display
-    element.style.display = "";
-}
 
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("nav-link");
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function () {
-        var current = btnContainer.getElementsByClassName("active");
-        if (current.length > 0) {
-            current[0].className = current[0].className.replace(" active", "");
-        }
-        this.className += " active";
-    });
-}
-</script>    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("nav-link");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = btnContainer.getElementsByClassName("active");
+            if (current.length > 0) {
+                current[0].className = current[0].className.replace(" active", "");
+            }
+            this.className += " active";
+        });
+    }
+</script>
 
 <?php wp_footer(); ?>
 

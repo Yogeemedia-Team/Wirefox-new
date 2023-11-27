@@ -415,6 +415,12 @@
   border-color: #0d6dfd00;
 }
 
+.social .icon_sec{
+  width: 50%;
+}
+.social .icon_sec{
+  margin-left: -10px;
+}
 .social .subtitle {
   font-size: 19px;
 }
@@ -423,6 +429,11 @@
   height: 50px;
   margin-right: 39px;
 }
+@media only screen and (max-width: 768px) {
+  .social{
+    width: 100%;
+  }
+} 
 
 .foot_menu ul {
   margin: 0;
