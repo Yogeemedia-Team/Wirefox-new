@@ -792,3 +792,15 @@ footer {
   color: var(--bs-white);
   margin-bottom: 25px;
 }
+
+/* 404 page styles */
+.not_found .text_lg{
+  font-size: 200px;
+  line-height: 1;
+}
+.not_found .text_sm{
+  line-height: 1;
+}
+.not_found .text_sm em{
+  font-size: 60px;
+}
