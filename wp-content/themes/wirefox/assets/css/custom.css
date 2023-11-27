@@ -2,6 +2,9 @@
 .bg-red {
   background-color: #f70707 !important;
 }
+.bg-black{
+  background-color: #000 !important;
+}
 
 .px-100 {
   padding-left: 100px !important;
@@ -570,7 +573,7 @@ footer {
 }
 
 /* Header menu */
-.white-header {
+.red-header {
   background-color: #f70707 !important;
 }
 
@@ -791,4 +794,33 @@ footer {
 #div_block-392-98 {
   color: var(--bs-white);
   margin-bottom: 25px;
+}
+
+/* 404 page styles */
+.not_found .text_lg{
+  font-size: 200px;
+  line-height: 1;
+}
+.not_found .text_sm{
+  line-height: 1;
+}
+.not_found .text_sm em{
+  font-size: 60px;
+}
+
+/* Contact page styles */
+.contact_box .single_box .title {
+	font-size: 30px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	text-transform: capitalize;
+}
+#contact-form input,
+#contact-form textarea{
+  padding: 0 !important;
+  margin-top: 20px;
+}
+#contact-form .sub_btn{
+  padding: 20px 40px !important;
+  
 }

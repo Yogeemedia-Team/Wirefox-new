@@ -1471,29 +1471,29 @@ Function Scroll Effects
 			});
 		});
 		
-		if ($('.change-header-color').length > 0) {
+		if ($('#main-content').length > 0) {
 			imagesLoaded('body', function() {
 				setTimeout(function() {
-					var changeHeaderColor = gsap.utils.toArray('.change-header-color');	
+					var changeHeaderColor = gsap.utils.toArray('#main-content');	
 					changeHeaderColor.forEach(function(changeHeaderElement) {						
 						var pageHeader = document.querySelector('header');							
 						gsap.to(changeHeaderElement, {
 							scrollTrigger: {
 								trigger: changeHeaderElement,
-								start: "top 8%",									
+								start: "top -10%",									
 								end: () => `+=${changeHeaderElement.offsetHeight}`,
 								//markers: true,
 								onEnter: function() {
-									pageHeader.classList.add('white-header');
+									pageHeader.classList.add('red-header');
 								},
 								onEnterBack: function() {
-									pageHeader.classList.add('white-header');
+									pageHeader.classList.add('red-header');
 								},
 								onLeave: function() {
-									pageHeader.classList.remove('white-header');
+									pageHeader.classList.remove('red-header');
 								},
 								onLeaveBack: function() {
-									pageHeader.classList.remove('white-header');
+									pageHeader.classList.remove('red-header');
 								} 
 							}
 						});
@@ -1662,7 +1662,7 @@ Function First Load
 			
 			gsap.to("nav", {duration: 0.3, backgroundColor: document.querySelector("#page-content").getAttribute("data-bgcolor")});
 			
-			$('header').removeClass('white-header');
+			$('header').removeClass('red-header');
 			$("#app").remove();
 			setTimeout(function(){
 				$("#canvas-slider.active").remove();						
@@ -1684,7 +1684,7 @@ Function First Load
 			$(this).parents('.menu-timeline').addClass('hover');
 			$(this).parents('.item-with-ul').addClass('hover');
 			gsap.set($(this).find('span'),{yPercent:0});	
-			$('header').removeClass('white-header');
+			$('header').removeClass('red-header');
 			$("#app").remove();
 			$(".big-title-caption").remove();	
 		});
