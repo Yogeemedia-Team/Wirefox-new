@@ -64,6 +64,7 @@
                         $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
                         ?>
                        <div class="single-news position-relative">
+                        
                         <div class="row">
                             <div class="col-md-10">
                                 <a href = "<?php echo get_permalink()?>">
