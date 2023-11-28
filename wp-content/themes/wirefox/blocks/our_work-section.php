@@ -1,4 +1,4 @@
-<div class="services_tabs content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
+<div class="services_tabs tabs_sec content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
 <p class="mb-5">
 		<?php the_field('section_content');?>
 	</p>

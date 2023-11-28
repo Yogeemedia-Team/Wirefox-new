@@ -1189,7 +1189,6 @@ COMMENTED BY THARAK TEMP -->
 </div>
 <div class="dark-section change-header-color">
     <div class="timeln px-100 text-center">
-        <div class="tv_effect"></div>
         <div class="cont">
             <!-- <div class="hero-subtitle caption-timeline"><span>Why Choose Us?</span></div> -->
             <h2 class="has-mask-fill title-text">Wirefox's Approach</h2>
@@ -1202,7 +1201,7 @@ COMMENTED BY THARAK TEMP -->
                         <p class="h4 mb-3">01</p>
                         <div class="point"></div>
                         <div class="line w-50 ms-auto"></div>
-                        <div class="content py-4 px-5">
+                        <div class="content py-4 px-md-5">
                             <p class="h4 mt-5">Cutting Edge Design</p>
                             <p class="mt-3 px-3">We strive to create high quality solutions that exceed the current industry standards.</p>
                         </div>
@@ -1211,7 +1210,7 @@ COMMENTED BY THARAK TEMP -->
                         <p class="h4 mb-3">02</p>
                         <div class="point"></div>
                         <div class="line"></div>
-                        <div class="content py-4 px-5">
+                        <div class="content py-4 px-md-5">
                             <p class="h4 mt-5">Excellent SEO Work
                             </p>
                             <p class="mt-3 px-3">Our SEO friendly websites will help you to soar to the top of search engine results pages.</p>
@@ -1221,7 +1220,7 @@ COMMENTED BY THARAK TEMP -->
                         <p class="h4 mb-3">03</p>
                         <div class="point"></div>
                         <div class="line w-50 me-auto"></div>
-                        <div class="content py-4 px-5">
+                        <div class="content py-4 px-md-5">
                             <p class="h4 mt-5">Cutting Edge Design</p>
                             <p class="mt-3">We don’t ditch you when our work is done. We’ll stick around and are happy to make enhancements and changes in the future.</p>
                         </div>

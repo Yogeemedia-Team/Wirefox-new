@@ -1,11 +1,11 @@
 <!-- News Section -->
 
-<div class="news_list content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
+<div class="news_list tabs_sec content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
 
 	<!-- test -->
 
 	<!-- tabs section -->
-	<ul class="nav nav-tabs" role="tablist" id="myBtnContainer">
+	<ul class="nav" role="tablist" id="myBtnContainer">
 		<li class="nav-item" role="presentation">
 			<a class="nav-link" id="all" onclick="filterSelection('all')" >ALL</a>
 		</li>

@@ -1,0 +1,41 @@
+/* Under 1200px*/
+@media only screen and (max-width: 1200px) {
+    .clients-table .link {
+        padding: 3vw;
+    }
+
+    .timeln .cont {
+        padding: 5vw 3vw !important;
+    }
+
+    .testimonials-section .testi-img img {
+        padding: 4vw;
+    }
+
+    .px-100 {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}
+
+/* Under 768px*/
+@media only screen and (max-width: 768px) {
+    .clients-table {
+        padding: 0 5vw;
+    }
+
+    .clients-table .link {
+        padding: 1vw;
+    }
+
+    .px-100 {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}
+/* Under 576px*/
+@media only screen and (max-width: 768px) {
+    .clients-table {
+        padding: 0;
+      }
+}

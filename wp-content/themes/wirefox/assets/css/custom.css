@@ -2,7 +2,8 @@
 .bg-red {
   background-color: #f70707 !important;
 }
-.bg-black{
+
+.bg-black {
   background-color: #000 !important;
 }
 
@@ -278,7 +279,7 @@
 
 /* Clients logo section */
 .clients-table {
-  padding: 0 200px;
+  padding: 0 10vw;
 }
 
 .clients-table li {
@@ -585,12 +586,12 @@ footer {
 
 /* Header menu */
 .red-header {
-  background-color: #f70707 !important;
+	background-color: #0003 !important;
 }
 
 .flexnav {
   margin-left: auto;
-  width: 50%; 
+  width: 50%;
   position: relative;
 }
 
@@ -599,8 +600,8 @@ footer {
 }
 
 .flexnav li a {
-	font-size: 48px !important;
-	line-height: 1.8 !important;
+  font-size: 48px !important;
+  line-height: 1.8 !important;
 }
 
 .flexnav .sub-menu {
@@ -609,23 +610,27 @@ footer {
   left: -100%;
   margin: 0;
 }
+
 .fullscreen-menu.invert-header .flexnav li a span:nth-child(3) {
   color: #eb0000;
 }
+
 .flexnav li a span {
-	font-family: 'mona-sanslight_wide' !important;
+  font-family: 'mona-sanslight_wide' !important;
   font-weight: bold;
 }
+
 .flexnav .sub-menu li {
   text-align: end;
 }
+
 .flexnav .sub-menu li a {
-  
-	font-size: 24px !important;
-	line-height: 2 !important;
-	text-transform: capitalize;
-	font-weight: normal;
-	padding-left: 0 !important;
+
+  font-size: 24px !important;
+  line-height: 2 !important;
+  text-transform: capitalize;
+  font-weight: normal;
+  padding-left: 0 !important;
 }
 
 /* Innerpage css */
@@ -714,20 +719,19 @@ footer {
 }
 
 /* News page styles */
-.news_list .nav {
+.tabs_sec .nav {
   width: fit-content;
 }
-
-.news_list .nav-link.active {
-  color: #ffffff !important;
-  background-color: rgba(127, 255, 212, 0);
-  border: none !important;
+.tabs_sec .nav-link{
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-.news_list .nav-tabs .nav-link:focus,
-.nav-tabs .nav-link:hover {
-  border: none !important;
-  border-bottom: 1px #fff solid !important;
+.tabs_sec .nav-link:hover{
+scale: 1.05;
+}
+.tabs_sec .nav-link.active{
+  border-bottom: 1px #fff solid;
 }
 
 .news_list .auth_name {
@@ -742,39 +746,45 @@ footer {
   display: inline-block;
   margin-left: 15px;
 }
-.news_list .title{
-  font-family:'mona-sanslight_wide';
+
+.news_list .title {
+  font-family: 'mona-sanslight_wide';
   font-weight: bold;
   font-size: 36px;
-} 
-.news_list .date_data{
+}
+
+.news_list .date_data {
   position: absolute;
   top: 0;
   right: 0;
   padding: 15px;
-  background-color: #000000;  
+  background-color: #000000;
   width: 10%;
 }
-.date_data p{
+
+.date_data p {
   color: #fff;
 }
+
 @media only screen and (max-width: 768px) {
-  .news_list .date_data{
+  .news_list .date_data {
     position: relative;
-    background-color: #000000;  
+    background-color: #000000;
     width: 100%;
     margin: 20px auto;
   }
-} 
+}
 
 
 /*post filters*/
 .tab-content .show {
   display: block;
 }
+
 .tab-pane {
-    
-    display: none; /* Hide all elements by default */
+
+  display: none;
+  /* Hide all elements by default */
 }
 
 /*inner banner button css */
@@ -794,7 +804,7 @@ footer {
   padding-bottom: 24px;
 }
 
-.tab-content .single-service{
+.tab-content .single-service {
   margin-bottom: 100px;
 }
 
@@ -808,30 +818,34 @@ footer {
 }
 
 /* 404 page styles */
-.not_found .text_lg{
+.not_found .text_lg {
   font-size: 200px;
   line-height: 1;
 }
-.not_found .text_sm{
+
+.not_found .text_sm {
   line-height: 1;
 }
-.not_found .text_sm em{
+
+.not_found .text_sm em {
   font-size: 60px;
 }
 
 /* Contact page styles */
 .contact_box .single_box .title {
-	font-size: 30px;
-	font-weight: 400;
-	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
 }
+
 #contact-form input,
-#contact-form textarea{
+#contact-form textarea {
   padding: 0 !important;
   margin-top: 20px;
 }
-#contact-form .sub_btn{
+
+#contact-form .sub_btn {
   padding: 20px 40px !important;
   
 }
@@ -854,3 +868,36 @@ table th{
   }
 } 
 
+/* Single news page styles */
+.sh_icons li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.sh_icons .icon_box {
+  width: 36px;
+  height: 36px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.posts_sec .line {
+  width: 140px;
+  background-color: #ffffff;
+  height: 1px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.posts_sec .auth_name {
+  font-size: 16px;
+  color: #fff !important;
+}
+
+.posts_sec .post_img img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
