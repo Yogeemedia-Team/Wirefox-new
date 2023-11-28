@@ -12,12 +12,14 @@
     <div id="backtotop" class="button-wrap back_to_top">
         <div class="icon-wrap parallax-wrap">
             <div class="button-icon parallax-element">
-                <img class="top_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/top.png" alt="">
+                <!-- <img class="top_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/top.png" alt=""> -->
+                <i class="fa-regular fa-7x fa-circle-up"></i>
             </div>
         </div>
         <!-- <div class="button-text sticky left"><span data-hover="Back Top">Back Top</span></div> -->
     </div>
 
+  
     <div class="footer-middle">
         <div class="copyright">Design & Develop by <a class="link" target="_blank" href="https://wirefox.co.uk">Wirefox</a> © 2023 </div>
     </div>
