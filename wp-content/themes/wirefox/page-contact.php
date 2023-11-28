@@ -95,16 +95,7 @@ get_header();
 		</div>
 	</div>
 	<div class="mt-5" id="contact-form">
-		<form>
-			<input type="text" name="" placeholder="Name" />
-			<input type="email" name="" placeholder="Email" />
-			<input type="text" name="" placeholder="Contact number" />
-			<input type="email" name="" placeholder="COMPANY / ORGANISATION" />
-			<input type="text" name="" placeholder="YOUR URL" />
-			<input type="text" name="" placeholder="HOW DID YOU HEAR ABOUT US?" />
-			<textarea placeholder="HOW DID YOU HEAR ABOUT US?"></textarea>
-			<input class="sub_btn" type="submit" name="" value="SEND YOUR ENQUIRY" />
-		</form>
+		<?php echo do_shortcode('[contact-form-7 id="a6b98fa" title="Contact form"]');?>
 	</div>
 </div>
 
