@@ -20,24 +20,7 @@
                 SIGN UP TO OUR NEWS LETTER:
             </p>
             <div class="form_sec">
-                <form>
-                    <div class="form-group row">
-                        <div class="col my-auto">
-                            <input type="text" class="plaintext" id="Email" placeholder="your@email.com">
-                        </div>
-                        <div class="col-auto my-auto">
-                            <button type="submit" class="submit_btn text-center my-auto">
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label mt-2" for="defaultCheck1">
-                            I have read and accept the Terms & Privacy
-                        </label>
-                    </div>
-                </form>
+                <?php echo do_shortcode('[contact-form-7 id="d4bfc1a" title="Subscribe Form"]');?>
             </div>
         </div>
         <div class="social row_padding_top">

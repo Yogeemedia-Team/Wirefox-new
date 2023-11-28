@@ -35,83 +35,78 @@
 	</ul>
 
 	<div class="tab-content pt-5" id="tab-content">
-		
-       <?php
-            // Get the categories
-            $categories = get_categories();
+    <?php
+    // Get the categories
+    $categories = get_categories();
 
-            // Check if there are categories
-            if ($categories) :
-              
-                foreach ($categories as $category) : ?>
-
-		<div class="tab-pane <?php echo $category->slug;?>" >
-			<!-- single-news -->
-			
+    // Check if there are categories
+    if ($categories) :
+        foreach ($categories as $category) : ?>
+            <div class="tab-pane <?php echo $category->slug; ?>">
                 <?php
-                    $args = array(
-                        'post_type' => 'post', // replace with your actual custom post type
-                        'posts_per_page' => 10, // number of posts to display
-                        'order' => 'DESC', // or 'ASC' for ascending order
-                        'orderby' => 'date', // you can change this to 'title', 'rand', etc.
-                        'category_name' => $category->slug,
-                    );
+                $args = array(
+                    'post_type'      => 'post',
+                    'posts_per_page' => 10,
+                    'order'          => 'DESC',
+                    'orderby'        => 'date',
+                    'category_name'  => $category->slug,
+                );
 
-                    $custom_query = new WP_Query($args);
-                    
-                    if ($custom_query->have_posts()) :
-                        while ($custom_query->have_posts()) : $custom_query->the_post();
-                        $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
-                        ?>
-                       <div class="single-news position-relative">
-                        
-                        <div class="row">
-                            <div class="col-md-10">
-                                <a href = "<?php echo get_permalink()?>">
-                                <div class="animated-img">
-                                    <img src="<?php echo $featured_image_url;?> " alt="" width="" height="" />
+                $custom_query = new WP_Query($args);
+
+                if ($custom_query->have_posts()) :
+                    $displayed_posts = array(); // Initialize an array to store displayed post IDs
+                    while ($custom_query->have_posts()) : $custom_query->the_post();
+
+                        $post_id = get_the_ID();
+
+                        // Check if the post has already been displayed
+                        if (!in_array($post_id, $displayed_posts)) {
+                            $displayed_posts[] = $post_id; // Add the post ID to the displayed array
+
+                            $featured_image_url = get_the_post_thumbnail_url($post_id, 'full');
+                            ?>
+                            <div class="single-news position-relative">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <a href="<?php echo get_permalink() ?>">
+                                            <div class="animated-img">
+                                                <img src="<?php echo $featured_image_url; ?> " alt="" width="" height="" />
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                </a>
+                                <div class="text-block">
+                                    <a href="<?php echo get_permalink() ?>">
+                                        <h3 class="title my-3"><?php echo get_the_title(); ?></h3>
+                                    </a>
+                                    <div class="post_author text-left">
+                                        <span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
+                                        <span> <a class="auth_name" href=""><?php echo get_the_author(); ?></a></span>
+                                        <span class="">
+                                            <div class="line"></div>
+                                        </span>
+                                    </div>
+                                    <div class="date_data text-center">
+                                        <p class="mb-0"><?php echo get_the_date('j F Y'); ?></p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        <?php
+                        }
+                    endwhile;
+                    wp_reset_postdata(); // reset the query
+                else :
+                    echo 'No posts found';
+                endif;
+                ?>
+            </div>
+    <?php
+        endforeach;
+    endif;
+    ?>
+</div>
 
-                        <div class="text-block">
-                             <a href = "<?php echo get_permalink()?>">
-                            <h3 class="title my-3"><?php echo get_the_title();?></h3>
-                               </a>
-                            <div class="post_author text-left">
-                                <span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
-                                <span> <a class="auth_name" href=""><?php echo get_the_author();?></a></span>
-                                <span class="">
-                                    <div class="line"></div>
-                                </span>
-                            </div>
-                            
-                            <div class="date_data text-center">
-                                <p class="mb-0"><?php echo get_the_date('j F Y');?></p>
-                            </div>
-                           
-                        </div>
-                        </div>
-                        <?php endwhile;
-                        wp_reset_postdata(); // reset the query
-                    else :
-                        echo 'No posts found';
-                    endif;
-                    ?>
-
-				
-
-			
-			<!-- single-news -->
-		</div>
-            <?php    
-                endforeach;
-              
-            endif;
-            ?>
-		
-	</div>
 </div>
 
 
