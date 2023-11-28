@@ -3396,11 +3396,11 @@ nav.open {
 	}
 
 	.row_padding_left {
-		padding-left: 0px;
+		padding-left: 2vw;
 	}
 
 	.row_padding_right {
-		padding-right: 0px;
+		padding-right: 2vw;
 	}
 
 	.full.row_padding_left {
@@ -3848,11 +3848,11 @@ nav.open {
 	}
 
 	.row_padding_left {
-		padding-left: 0px;
+		padding-left: 2vw;
 	}
 
 	.row_padding_right {
-		padding-right: 0px;
+		padding-right: 2vw;
 	}
 
 	.full.row_padding_left {

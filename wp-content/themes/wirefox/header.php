@@ -32,6 +32,8 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/all.min.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/inner-page.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" rel="stylesheet">
+	
 	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 </head>
