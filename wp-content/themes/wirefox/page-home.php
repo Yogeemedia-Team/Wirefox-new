@@ -1189,7 +1189,6 @@ COMMENTED BY THARAK TEMP -->
 </div>
 <div class="dark-section change-header-color">
     <div class="timeln px-100 text-center">
-        <div class="tv_effect"></div>
         <div class="cont">
             <!-- <div class="hero-subtitle caption-timeline"><span>Why Choose Us?</span></div> -->
             <h2 class="has-mask-fill title-text">Wirefox's Approach</h2>
