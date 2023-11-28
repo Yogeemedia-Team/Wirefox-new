@@ -708,20 +708,19 @@ footer {
 }
 
 /* News page styles */
-.news_list .nav {
+.tabs_sec .nav {
   width: fit-content;
 }
-
-.news_list .nav-link.active {
-  color: #ffffff !important;
-  background-color: rgba(127, 255, 212, 0);
-  border: none !important;
+.tabs_sec .nav-link{
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-.news_list .nav-tabs .nav-link:focus,
-.nav-tabs .nav-link:hover {
-  border: none !important;
-  border-bottom: 1px #fff solid !important;
+.tabs_sec .nav-link:hover{
+scale: 1.05;
+}
+.tabs_sec .nav-link.active{
+  border-bottom: 1px #fff solid;
 }
 
 .news_list .auth_name {
