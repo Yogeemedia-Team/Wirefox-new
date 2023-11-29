@@ -15,7 +15,9 @@ get_header();
             <div class="row main_banner change-header-color ">
                 <div class="col-md-7 my-auto">
                     <div class="py-5 p-md-0 pe-md-5 mt-4 mt-md-0">
-                        <h4><?php the_title(); ?></h4>
+                        <h2><em>
+                        <?php the_title(); ?>
+                        </em></h2>
                     </div>
                 </div>
 
@@ -40,7 +42,7 @@ get_header();
 
         <div class="col-md-2">
             <!-- share icons -->
-            <div class="sh_icons row_padding_top row_padding_bottom">
+            <div class="sh_icons row_padding_top row_padding_bottom row_padding_right">
                 <ul class="m-0">
                     <li>
                         <a href="">
@@ -102,7 +104,7 @@ get_header();
                 <h3 class="mb-5">Further Reading</h3>
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="post_author mb-4 text-left">
+                        <div class="post_author mb-5 text-left">
                             <span><img decoding="async" class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
                             <span> <a class="auth_name" href="">adm-wirefox</a></span>
                             <span class="">
@@ -120,13 +122,12 @@ get_header();
                             <div class="col-lg-8 my-auto">
                                 <div class="w-75">
                                     <h5 class="mb-0"><a href="https://wirefox.co.uk/ecommerce-marketing-strategies-to-increase-sales/" class="link">Ecommerce Marketing Strategies to Increase sales</a></h5>
-                                    <i class="fa-solid fa-2x fa-plus"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="post_author mb-4 text-left">
+                        <div class="post_author mb-5 text-left">
                             <span><img decoding="async" class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
                             <span> <a class="auth_name" href="">adm-wirefox</a></span>
                             <span class="">
@@ -144,7 +145,6 @@ get_header();
                             <div class="col-lg-8 my-auto">
                                 <div class="w-75">
                                     <h5 class="mb-0"><a href="https://wirefox.co.uk/ecommerce-marketing-strategies-to-increase-sales/" class="link">Ecommerce Marketing Strategies to Increase sales</a></h5>
-                                    <i class="fa-solid fa-2x fa-plus"></i>
                                 </div>
                             </div>
                         </div>

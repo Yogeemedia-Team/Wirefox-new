@@ -5,9 +5,7 @@ a {
   transition: 0.5s !important;
 }
 
-a:hover {
-  
-}
+a:hover {}
 
 .bg-red {
   background-color: #f70707 !important;
@@ -423,10 +421,10 @@ a:hover {
 
 
 .top_img {
-	width: 100%;
-	max-width: 120px;
+  width: 100%;
+  max-width: 120px;
   -webkit-filter: invert(0.85);
-   filter: invert(0.85);
+  filter: invert(0.85);
 }
 
 .form-check-input:checked {
@@ -895,6 +893,10 @@ table th {
 }
 
 /* Single news page styles */
+.sh_icons ul{
+  width: fit-content;
+  float: inline-end;
+}
 .sh_icons li {
   list-style: none;
   margin-bottom: 5px;
@@ -925,6 +927,12 @@ table th {
 .posts_sec .post_img img {
   width: 100%;
   height: 210px;
+  object-fit: cover;
+}
+
+.single-post .animated-img img {
+  min-height: 30vw;
+  width: auto;
   object-fit: cover;
 }
 
