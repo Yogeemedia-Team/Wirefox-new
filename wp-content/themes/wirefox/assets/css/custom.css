@@ -1,4 +1,14 @@
 /* New styles */
+
+/* Common styles */
+a {
+  transition: 0.5s !important;
+}
+
+a:hover {
+  
+}
+
 .bg-red {
   background-color: #f70707 !important;
 }
@@ -411,13 +421,21 @@
   margin-top: 9vw;
 }
 
+
+.top_img {
+	width: 100%;
+	max-width: 120px;
+  -webkit-filter: invert(0.85);
+   filter: invert(0.85);
+}
+
 .form-check-input:checked {
   background-color: #0d6dfd00;
   border-color: #0d6dfd00;
 }
 
 .social .icon_sec {
-	width: 45%;
+  width: 45%;
 }
 
 .social .icon_sec {
@@ -933,10 +951,10 @@ table th {
 }
 
 .footer_sec .form_sec .wpcf7-not-valid-tip {
-	color: #fff;
-	width: max-content;
-	position: absolute;
-	top: 30px;
+  color: #fff;
+  width: max-content;
+  position: absolute;
+  top: 30px;
 }
 
 .footer_sec .form_sec .form-check .wpcf7-not-valid-tip {
