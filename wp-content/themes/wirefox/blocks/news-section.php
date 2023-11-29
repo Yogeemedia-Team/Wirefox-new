@@ -27,11 +27,14 @@
 
     <div class="tab-content pt-5" id="tab-content">
         <?php
+        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
         $projects = new WP_Query(array(
             'post_type'      => 'post',
-            'posts_per_page' => -1,
+            'posts_per_page' => 10, // Number of posts per page
             'order'          => 'DESC',
-            'orderby'        => 'date'
+            'orderby'        => 'date',
+            'paged'          => $paged,
         ));
 
         if ($projects->have_posts()) :
@@ -75,7 +78,21 @@
                     </div>
                 </div>
             <?php endwhile; ?>
+
+            <!-- Pagination links -->
+            <div class="pagination">
+                <?php
+                echo paginate_links(array(
+                    'total'     => $projects->max_num_pages,
+                    'current'   => max(1, $paged),
+                    'prev_text' => '&laquo; Previous',
+                    'next_text' => 'Next &raquo;',
+                ));
+                ?>
+            </div>
+
         <?php endif; ?>
+        <?php wp_reset_postdata(); ?>
     </div>
 
 </div>
