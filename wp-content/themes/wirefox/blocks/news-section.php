@@ -2,113 +2,114 @@
 
 <div class="news_list tabs_sec content-row row_padding_left row_padding_right row_padding_top row_padding_bottom dark-section change-header-color">
 
-	<!-- test -->
+    <!-- test -->
 
-	<!-- tabs section -->
-	<ul class="nav" role="tablist" id="myBtnContainer">
-		<li class="nav-item" role="presentation">
-			<a class="nav-link" id="all" onclick="filterSelection('all')" >ALL</a>
-		</li>
+    <!-- tabs section -->
+    <ul class="nav" role="tablist" id="myBtnContainer">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="all" onclick="filterSelection('all')">ALL</a>
+        </li>
         <?php
-            // Get the categories
-            $categories = get_terms(array(
-                'taxonomy' => 'category', // Replace with your taxonomy name
-                'hide_empty' => false,
-                'orderby' => 'term_id',    // You can change this to 'name', 'slug', or other parameters
-                'order' => 'ASC',         // 'ASC' for ascending order, 'DESC' for descending order
-            ));
+        // Get the categories
+        $categories = get_terms(array(
+            'taxonomy'   => 'category', // Replace with your taxonomy name
+            'hide_empty' => false,
+            'orderby'    => 'term_id', // You can change this to 'name', 'slug', or other parameters
+            'order'      => 'ASC', // 'ASC' for ascending order, 'DESC' for descending order
+        ));
 
-            // Check if there are categories
-            if ($categories) :
-              
-                foreach ($categories as $category) : ?>
+        // Check if there are categories
+        if ($categories) :
+            foreach ($categories as $category) : ?>
                 <li class="nav-item" role="presentation">
-                   <a class="nav-link" onclick="filterSelection('<?php echo $category->slug;?>')" ><?php echo $category->name;?></a>
+                    <a class="nav-link" onclick="filterSelection('<?php echo $category->slug; ?>')"><?php echo $category->name; ?></a>
                 </li>
-                <?php    
-                endforeach;
-              
-            endif;
-            ?>
+        <?php
+            endforeach;
+        endif;
+        ?>
+    </ul>
 
+    <div class="tab-content pt-5" id="tab-content">
+        <?php
+        // Get the categories
+        $categories = get_categories();
 
-	</ul>
+        // Check if there are categories
+        if ($categories) :
+            foreach ($categories as $category) : ?>
+                <div class="tab-pane <?php echo $category->slug; ?>">
+                    <?php
+                    $args = array(
+                        'post_type'      => 'post',
+                        'posts_per_page' => 10,
+                        'order'          => 'DESC',
+                        'orderby'        => 'date',
+                        'category_name'  => $category->slug,
+                        'paged'          => get_query_var('paged') ? get_query_var('paged') : 1, // Add this line for pagination
+                    );
 
-	<div class="tab-content pt-5" id="tab-content">
-    <?php
-    // Get the categories
-    $categories = get_categories();
+                    $custom_query = new WP_Query($args);
 
-    // Check if there are categories
-    if ($categories) :
-        foreach ($categories as $category) : ?>
-            <div class="tab-pane <?php echo $category->slug; ?>">
-                <?php
-                $args = array(
-                    'post_type'      => 'post',
-                    'posts_per_page' => 10,
-                    'order'          => 'DESC',
-                    'orderby'        => 'date',
-                    'category_name'  => $category->slug,
-                );
+                    if ($custom_query->have_posts()) :
+                        $displayed_posts = array(); // Initialize an array to store displayed post IDs
+                        while ($custom_query->have_posts()) : $custom_query->the_post();
 
-                $custom_query = new WP_Query($args);
+                            $post_id = get_the_ID();
 
-                if ($custom_query->have_posts()) :
-                    $displayed_posts = array(); // Initialize an array to store displayed post IDs
-                    while ($custom_query->have_posts()) : $custom_query->the_post();
+                            // Check if the post has already been displayed
+                            if (!in_array($post_id, $displayed_posts)) {
+                                $displayed_posts[] = $post_id; // Add the post ID to the displayed array
 
-                        $post_id = get_the_ID();
-
-                        // Check if the post has already been displayed
-                        if (!in_array($post_id, $displayed_posts)) {
-                            $displayed_posts[] = $post_id; // Add the post ID to the displayed array
-
-                            $featured_image_url = get_the_post_thumbnail_url($post_id, 'full');
-                            ?>
-                            <div class="single-news position-relative">
-                                <div class="row">
-                                    <div class="col-md-10">
+                                $featured_image_url = get_the_post_thumbnail_url($post_id, 'full');
+                                ?>
+                                <div class="single-news position-relative">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <a href="<?php echo get_permalink() ?>">
+                                                <div class="animated-img">
+                                                    <img src="<?php echo $featured_image_url; ?> " alt="" width="" height="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="text-block">
                                         <a href="<?php echo get_permalink() ?>">
-                                            <div class="animated-img">
-                                                <img src="<?php echo $featured_image_url; ?> " alt="" width="" height="" />
-                                            </div>
+                                            <h3 class="title my-3"><?php echo get_the_title(); ?></h3>
                                         </a>
+                                        <div class="post_author text-left">
+                                            <span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
+                                            <span> <a class="auth_name" href=""><?php echo get_the_author(); ?></a></span>
+                                            <span class="">
+                                                <div class="line"></div>
+                                            </span>
+                                        </div>
+                                        <div class="date_data text-center">
+                                            <p class="mb-0"><?php echo get_the_date('j F Y'); ?></p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="text-block">
-                                    <a href="<?php echo get_permalink() ?>">
-                                        <h3 class="title my-3"><?php echo get_the_title(); ?></h3>
-                                    </a>
-                                    <div class="post_author text-left">
-                                        <span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
-                                        <span> <a class="auth_name" href=""><?php echo get_the_author(); ?></a></span>
-                                        <span class="">
-                                            <div class="line"></div>
-                                        </span>
-                                    </div>
-                                    <div class="date_data text-center">
-                                        <p class="mb-0"><?php echo get_the_date('j F Y'); ?></p>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php
-                        }
-                    endwhile;
-                    wp_reset_postdata(); // reset the query
-                else :
-                    echo 'No posts found';
-                endif;
-                ?>
-            </div>
-    <?php
-        endforeach;
-    endif;
-    ?>
-</div>
+                    <?php
+                            }
+                        endwhile;
+                        // Pagination
+                        $big = 999999999; // need an unlikely integer
+                        echo paginate_links(array(
+                            'base'    => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+                            'format'  => '?paged=%#%',
+                            'current' => max(1, get_query_var('paged')),
+                            'total'   => $custom_query->max_num_pages,
+                        ));
+                        wp_reset_postdata(); // reset the query
+                    else :
+                        echo 'No posts found';
+                    endif;
+                    ?>
+                </div>
+        <?php
+            endforeach;
+        endif;
+        ?>
+    </div>
 
 </div>
-
-
-
-<!-- News Section -->
