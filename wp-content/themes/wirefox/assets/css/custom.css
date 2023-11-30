@@ -906,3 +906,15 @@ table th{
   height: 210px;
   object-fit: cover;
 }
+
+/* pagination styles */
+.pagination {
+	float: right;
+}
+.pagination .page-numbers.current {
+	font-weight: bold;
+}
+.pagination .page-numbers {
+	margin-right: 25px;
+	color: #FFF;
+}
