@@ -773,7 +773,7 @@ COMMENTED BY THARAK TEMP -->
 
 
 <!-- Company Brief -->
-<div class="content-row row_padding_top row_padding_left row_padding_right row_padding_bottom dark-section change-header-color">
+<div class="content-row row_padding_left row_padding_right row_padding_bottom dark-section change-header-color">
 
     <h4><span class="has-span-indent">Web Design Agency / SEO birmingham / Digital Marketing / SEO Experts / Social Media Marketing
 
@@ -784,7 +784,7 @@ COMMENTED BY THARAK TEMP -->
 
 <!-- Services section -->
 
-<div class="ser_sec content-row row_padding_top row_padding_left row_padding_right row_padding_bottom dark-section change-header-color has-clip-path">
+<div class="ser_sec content-row row_padding_left row_padding_right row_padding_bottom dark-section change-header-color has-clip-path">
 
     <div class="pinned-section">
         <div class="pinned-element left">
