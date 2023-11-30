@@ -139,7 +139,7 @@ foreach ($random_posts as $post) {
                         <div class="w-75">
                             <h5 class="mb-0"><a
                                     href="https://wirefox.co.uk/ecommerce-marketing-strategies-to-increase-sales/"
-                                    class="link"><?php get_the_title();?></a></h5>
+                                    class="link"><?php the_title();?></a></h5>
                             <i class="fa-solid fa-2x fa-plus"></i>
                         </div>
                     </div>
