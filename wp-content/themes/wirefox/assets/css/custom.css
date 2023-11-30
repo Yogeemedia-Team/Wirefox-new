@@ -1,4 +1,12 @@
 /* New styles */
+
+/* Common styles */
+a {
+  transition: 0.5s !important;
+}
+
+a:hover {}
+
 .bg-red {
   background-color: #f70707 !important;
 }
@@ -411,17 +419,27 @@
   margin-top: 9vw;
 }
 
+
+.top_img {
+  width: 100%;
+  max-width: 120px;
+  -webkit-filter: invert(0.85);
+  filter: invert(0.85);
+}
+
 .form-check-input:checked {
   background-color: #0d6dfd00;
   border-color: #0d6dfd00;
 }
 
-.social .icon_sec{
-  width: 50%;
+.social .icon_sec {
+  width: 45%;
 }
-.social .icon_sec{
+
+.social .icon_sec {
   margin-left: -10px;
 }
+
 .social .subtitle {
   font-size: 19px;
 }
@@ -430,11 +448,12 @@
   height: 50px;
   margin-right: 39px;
 }
+
 @media only screen and (max-width: 768px) {
-  .social{
+  .social {
     width: 100%;
   }
-} 
+}
 
 .foot_menu ul {
   margin: 0;
@@ -586,7 +605,7 @@ footer {
 
 /* Header menu */
 .red-header {
-	background-color: #0003 !important;
+  background-color: #0003 !important;
 }
 
 .flexnav {
@@ -722,15 +741,17 @@ footer {
 .tabs_sec .nav {
   width: fit-content;
 }
-.tabs_sec .nav-link{
+
+.tabs_sec .nav-link {
   cursor: pointer;
   transition: 0.2s;
 }
 
-.tabs_sec .nav-link:hover{
-scale: 1.05;
+.tabs_sec .nav-link:hover {
+  scale: 1.05;
 }
-.tabs_sec .nav-link.active{
+
+.tabs_sec .nav-link.active {
   border-bottom: 1px #fff solid;
 }
 
@@ -847,28 +868,35 @@ scale: 1.05;
 
 #contact-form .sub_btn {
   padding: 20px 40px !important;
-  
+
 }
 
 /* table styles */
 table td,
 table th {
-	border: 1px #fbfbfb52 solid;
+  border: 1px #fbfbfb52 solid;
 }
-table th{
+
+table th {
   font-weight: bold;
 }
+
 /* Privacy page styles */
-.privacy_table{
+.privacy_table {
   width: 50%;
 }
+
 @media only screen and (max-width: 768px) {
-  .privacy_table{
+  .privacy_table {
     width: 100%;
   }
-} 
+}
 
 /* Single news page styles */
+.sh_icons ul{
+  width: fit-content;
+  float: inline-end;
+}
 .sh_icons li {
   list-style: none;
   margin-bottom: 5px;
@@ -900,4 +928,67 @@ table th{
   width: 100%;
   height: 210px;
   object-fit: cover;
+}
+
+.single-post .animated-img img {
+  min-height: 30vw;
+  width: auto;
+  object-fit: cover;
+}
+
+/* Newsletter form */
+.footer_sec .form_sec .col-auto p {
+  display: flex;
+}
+
+.footer_sec .form_sec .col-auto br {
+  display: none;
+}
+
+.footer_sec .form_sec .form-check br {
+  display: none;
+}
+
+.footer_sec .form_sec .col .input_label {
+  background-color: unset;
+}
+
+.footer_sec .form_sec .form-check .form-check-input {
+  background-color: transparent;
+  border: none;
+}
+
+.footer_sec .form_sec .wpcf7-not-valid-tip {
+  color: #fff;
+  width: max-content;
+  position: absolute;
+  top: 30px;
+}
+
+.footer_sec .form_sec .form-check .wpcf7-not-valid-tip {
+  position: absolute;
+  color: #fff;
+  width: max-content;
+  top: -50px;
+  left: -60px;
+}
+
+.footer_sec .form_sec .form-check .form-check-input .last {
+  margin: 0;
+}
+
+.footer_sec .form_sec .form-check .form-check-input .last input {
+  width: 40px;
+}
+
+.footer_sec .form_sec .form-check .form-check-input .last span {
+  display: none;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.payment-required .wpcf7-response-output {
+  border-color: #ffffff5c;
+  color: #fff;
+  margin: 0;
 }
