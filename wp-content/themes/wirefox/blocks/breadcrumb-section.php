@@ -1,4 +1,4 @@
-   <div class="padding-align change-header-color row_padding_top ">
+   <div class="row_padding_left row_padding_right change-header-color row_padding_top ">
 
         <div class="inner">
             <div class="line-with-text">

@@ -1,4 +1,4 @@
-<div class="row padding-align main_banner change-header-color row_padding_top row_padding_bottom">
+<div class="row row_padding_left row_padding_right main_banner change-header-color row_padding_top row_padding_bottom">
     <div class="col-md-7 my-auto">
         <div class="py-5 p-md-0 pe-md-5 mt-4 mt-md-0">
             <h1 class="title"><span><?php the_field('main_title'); ?></span><br><?php the_field('main_title_weight_text'); ?></h1>
