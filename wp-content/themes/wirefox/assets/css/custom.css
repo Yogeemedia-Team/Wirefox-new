@@ -264,10 +264,8 @@ a:hover {}
 }
 
 .timeln .cont {
-  padding: 100px 50px !important;
-  background-color: #f70707 !important;
-  margin-top: -670px;
-
+	padding: 100px 50px !important;
+	margin-top: -370px;
 }
 
 .timeln .point {
@@ -609,7 +607,8 @@ footer {
 
 /* Header menu */
 .red-header {
-  background-color: #0003 !important;
+  /* background-color: #0003 !important; */
+  opacity: 0;
 }
 
 .flexnav {
