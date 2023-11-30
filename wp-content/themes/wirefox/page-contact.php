@@ -92,7 +92,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-	<div class="mt-5" id="contact-form">
+	<div class="mt-5 contact_form" id="contact-form">
 		<?php echo do_shortcode('[contact-form-7 id="a6b98fa" title="Contact form"]');?>
 	</div>
 </div>

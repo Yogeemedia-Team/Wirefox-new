@@ -849,10 +849,16 @@ scale: 1.05;
   padding: 0 !important;
   margin-top: 20px;
 }
+#contact-form input[type="submit"] {
+  padding: 13px 38px !important;
+}
 
 #contact-form .sub_btn {
   padding: 20px 40px !important;
   
+}
+.contact_form br{
+display: none;
 }
 
 /* table styles */
