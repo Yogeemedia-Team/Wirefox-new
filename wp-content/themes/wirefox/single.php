@@ -104,7 +104,7 @@ get_header();
                     <div class="col-lg-6">
                         <div class="post_author mb-4 text-left">
                             <span><img decoding="async" class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
-                            <span> <a class="auth_name" href="">adm-wirefox</a></span>
+                            <span> <a class="auth_name link" href="">adm-wirefox</a></span>
                             <span class="">
                                 <div class="line"></div>
                             </span>
@@ -128,7 +128,7 @@ get_header();
                     <div class="col-lg-6">
                         <div class="post_author mb-4 text-left">
                             <span><img decoding="async" class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
-                            <span> <a class="auth_name" href="">adm-wirefox</a></span>
+                            <span> <a class="auth_name link" href="">adm-wirefox</a></span>
                             <span class="">
                                 <div class="line"></div>
                             </span>

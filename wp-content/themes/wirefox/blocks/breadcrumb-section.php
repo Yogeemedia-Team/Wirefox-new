@@ -10,13 +10,13 @@
 
                     // Output the breadcrumb links
                     echo '<div class="txt">';
-					echo '<a href="' . get_home_url() . '">' . esc_html('Wirefox') . '</a> / ';
+					echo '<a class="link" href="' . get_home_url() . '">' . esc_html('Wirefox') . '</a> / ';
                     foreach ($ancestors as $ancestor_id) {
                         $ancestor_title = get_the_title($ancestor_id);
                         $ancestor_url = get_permalink($ancestor_id);
                         echo '<a href="' . esc_url($ancestor_url) . '">' . esc_html($ancestor_title) . '</a><span> /</span>';
                     }
-                    echo '<a href="' . esc_url(get_permalink()) . '">' . esc_html(get_the_title()) . '</a>';
+                    echo '<a class="link" href="' . esc_url(get_permalink()) . '">' . esc_html(get_the_title()) . '</a>';
                     echo '</div>';
                     ?>
             </div>

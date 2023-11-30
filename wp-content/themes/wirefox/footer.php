@@ -111,7 +111,7 @@
                             if (!empty($menu_items)) {
                                 echo '<ul>';
                                 foreach ($menu_items as $menu_item) {
-                                    echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+                                    echo '<li class="mb-1"><a class="link" href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
                                 }
                                 echo '</ul>';
                             }
@@ -129,7 +129,7 @@
                             if (!empty($menu_items)) {
                                 echo '<ul class="mx-auto">';
                                 foreach ($menu_items as $menu_item) {
-                                    echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+                                    echo '<li class="mb-1"><a class="link" href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
                                 }
                                 echo '</ul>';
                             }
@@ -147,7 +147,7 @@
                             if (!empty($menu_items)) {
                                 echo '<ul class="ms-auto">';
                                 foreach ($menu_items as $menu_item) {
-                                    echo '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+                                    echo '<li class="mb-1"><a class="link" href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
                                 }
                                 echo '</ul>';
                             }

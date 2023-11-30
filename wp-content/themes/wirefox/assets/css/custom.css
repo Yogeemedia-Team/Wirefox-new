@@ -451,7 +451,9 @@
   list-style: none;
   width: fit-content;
 }
-
+.foot_menu li a {
+  line-height: 1.5;
+}
 .foot_logo .logo {
   margin: auto;
   max-width: 400px;
@@ -478,7 +480,9 @@
 .flexnav li {
   text-transform: uppercase;
 }
-
+.flexnav .item-with-ul{
+  display: none;
+}
 /* bact_to_top */
 .back_to_top {
   position: absolute;
@@ -710,7 +714,7 @@ footer {
 }
 
 .services_tabs .nav-link {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .services_tabs .nav-link:focus,
@@ -724,14 +728,15 @@ footer {
 }
 .tabs_sec .nav-link{
   cursor: pointer;
-  transition: 0.2s;
+  /* transition: 0.2s; */
 }
 
-.tabs_sec .nav-link:hover{
+/* .tabs_sec .nav-link:hover{
 scale: 1.05;
-}
+} */
 .tabs_sec .nav-link.active{
-  border-bottom: 1px #fff solid;
+  
+  border-bottom: 3px #fff solid;
 }
 
 .news_list .auth_name {
