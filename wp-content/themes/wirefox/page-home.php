@@ -1299,17 +1299,15 @@ COMMENTED BY THARAK TEMP -->
 
 <!-- Contact section -->
 <div class="row_padding_top row_padding_bottom row dark-section contact-section change-header-color">
-    <div class="container">
-        <div class="title-text">
-            <div class="title-text-caption text-center">
-                <p class="sub-title">READY TO STARTA PROJECT?</p>
-                <h1 class="title text-uppercase">Let’s make something
-                    great together!</h1>
-                <p class="desc mx-auto">Ready to start a project or really curious about our process? Drop us a note
-                    or give us a call 888.641.7313; we’re happy to answer all your questions.</p>
-                <div class="btn-sec">
-                    <a href="/contact-us/" class="cont-btn text-upperecase">Contact Us</a>
-                </div>
+    <div class="title-text">
+        <div class="title-text-caption text-center">
+            <p class="sub-title">READY TO STARTA PROJECT?</p>
+            <h1 class="title text-uppercase">Let’s make something <br>
+                great together!</h1>
+            <p class="desc mx-auto">Ready to start a project or really curious about our process? Drop us a note <br>
+                or give us a call 888.641.7313; we’re happy to answer all your questions.</p>
+            <div class="btn-sec">
+                <a href="/contact-us/" class="cont-btn text-upperecase">Contact Us</a>
             </div>
         </div>
     </div>

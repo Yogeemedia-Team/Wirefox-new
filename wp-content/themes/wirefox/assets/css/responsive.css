@@ -85,9 +85,17 @@
         padding: 1vw;
     }
 
+    .post_date p {
+        font-size: 1vw !important;
+    }
+
+    .post_sec .title {
+        margin: 1.5vw 0;
+    }
+
     .post_sec .post_link {
         font-size: 1.5vw;
-        margin: 1.5vw 0;
+
     }
 
     .auth_img {
@@ -98,6 +106,23 @@
 
     .auth_name {
         font-size: .9vw;
+    }
+
+    /* Contact section */
+    .contact-section .title {
+        font-size: 5vw;
+    }
+
+    .contact-section .cont-btn {
+        border: 0.1vw solid #ffffff;
+    }
+    .footer_sec .submit_btn {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .footer_sec .submit_btn .fa {
+        font-size: 5vw;
     }
 }
 
