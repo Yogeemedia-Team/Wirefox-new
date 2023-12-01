@@ -19,7 +19,7 @@
                     <p class="title"><a class="post_link" href="">What Is White Label Reputation Management ?</a></p>
                     <div class="post_author text-left">
                         <span><img class="auth_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_icon.jpeg" alt=""></span>
-                        <span> <a class="auth_name" href="">Raj Kaur</a></span>
+                        <span> <a class="auth_name link" href="">Raj Kaur</a></span>
                     </div>
                 </div>
                 <div class="overflow-hidden position-relative">

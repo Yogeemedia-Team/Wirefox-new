@@ -3,7 +3,7 @@
     <!-- tabs section -->
     <ul class="nav" role="tablist" id="myBtnContainer">
         <li class="nav-item" role="presentation">
-            <a class="nav-link" onclick="filterSelection('all')">ALL</a>
+            <a class="nav-link active link" onclick="filterSelection('all')">ALL</a>
         </li>
         <?php
         $args = array(
@@ -17,7 +17,7 @@
             $block_class = (count($custom_terms) == $num) ? 'last-child' : '';
             ?>
             <li class="nav-item" role="presentation">
-                <a class="nav-link" onclick="filterSelection('<?php echo $custom_term->slug; ?>')"><?php echo $custom_term->name; ?></a>
+                <a class="nav-link link" onclick="filterSelection('<?php echo $custom_term->slug; ?>')"><?php echo $custom_term->name; ?></a>
             </li>
             <?php
             $num++;
@@ -61,12 +61,14 @@
                             </div>
                         </div>
                         <div class="text-block">
-                            <a href="<?php echo get_permalink() ?>">
-                                <h3 class="title my-3"><?php echo get_the_title(); ?></h3>
+                            <div class="mt-3 mb-5">
+                            <a class="link" href="<?php echo get_permalink() ?>">
+                                <h3 class="title mb-0"><?php echo get_the_title(); ?></h3>
                             </a>
+                            </div>
                             <div class="post_author text-left">
                                 <span><img class="auth_img" src="http://localhost/Wirefox-new/wp-content/themes/wirefox/assets/images/user_icon.jpeg" alt=""></span>
-                                <span> <a class="auth_name" href=""><?php echo get_the_author(); ?></a></span>
+                                <span> <a class="auth_name link" href=""><?php echo get_the_author(); ?></a></span>
                                 <span class="">
                                     <div class="line"></div>
                                 </span>

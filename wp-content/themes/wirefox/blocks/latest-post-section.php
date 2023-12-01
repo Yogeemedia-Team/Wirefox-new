@@ -37,7 +37,7 @@
                                     <p class="title"><a class="post_link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
                                     <div class="post_author text-left">
                                         <span><img class="auth_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_icon.jpeg" alt=""></span>
-                                        <span> <a class="auth_name" href=""><?php echo esc_html($author_name); ?></a></span>
+                                        <span> <a class="auth_name link" href=""><?php echo esc_html($author_name); ?></a></span>
                                     </div>
                                 </div>
                                 <div class="overflow-hidden position-relative">

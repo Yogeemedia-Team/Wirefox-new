@@ -7,9 +7,9 @@
 
                     // loop through rows (parent repeater)
                     while( have_rows('seo_accordion') ): the_row(); ?>
-<div id="our-service" class="padding-align">
-    <div class="content-row row_padding_bottom dark-section change-header-color has-clip-path">
-        <div class="pinned-section padding-align">
+<div id="our-service">
+    <div class="content-row row_padding_left row_padding_right row_padding_bottom dark-section change-header-color has-clip-path">
+        <div class="pinned-section">
 
             <div class="scrolling-element right">
                 <div class="seo_according_title">

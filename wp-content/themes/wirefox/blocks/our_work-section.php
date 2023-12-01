@@ -5,7 +5,7 @@
 	<!-- tabs section -->
 	<ul class="nav" role="tablist" id="myBtnContainer">
 		<li class="nav-item ms-auto" role="presentation">
-			<a class="nav-link" onclick="filterSelection('all')" >View All</a>
+			<a class="nav-link active link" onclick="filterSelection('all')" >View All</a>
 		</li>
         <?php
             // Define your custom taxonomy
@@ -25,7 +25,7 @@
                
                 foreach ($terms as $term) : ?>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" onclick="filterSelection('<?php echo $term->slug;?>')" ><?php echo $term->name;?></a>
+                        <a class="nav-link link" onclick="filterSelection('<?php echo $term->slug;?>')" ><?php echo $term->name;?></a>
                     </li>
                 <?php    
                 endforeach;
@@ -49,7 +49,7 @@
             if ($terms) :
               
                 foreach ($terms as $term) : ?>
-		<div class="tab-pane pt-5 <?php echo $term->slug;?>" >
+		<div class="tab-pane <?php echo $term->slug;?>" >
 			<!-- single-service -->
             <?php
             $args = array(
