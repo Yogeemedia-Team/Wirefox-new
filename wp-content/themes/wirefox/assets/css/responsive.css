@@ -1,3 +1,131 @@
+/* Upper 1920px*/
+@media only screen and (min-width: 1921px) {
+
+    /* Header styles */
+
+    #logo img {
+        height: 2vw;
+    }
+
+    .burger-lines #menu-burger {
+        scale: 3;
+        margin-top: .4vw;
+    }
+
+    .button-text {
+        font-size: 1vw;
+        line-height: 1;
+        margin-right: 1vw;
+    }
+
+    .flexnav li a {
+        font-size: 2vw !important;
+        line-height: 4vw !important;
+    }
+
+    .flexnav .sub-menu .link.menu-timeline span {
+        font-size: 1vw !important;
+        padding-bottom: 1vw;
+    }
+
+    /* Common sections */
+    .has-span-indent {
+        font-size: .9vw;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 0.9vw !important;
+        line-height: 1.5vw !important;
+        letter-spacing: 0.1vw !important;
+    }
+
+    .line-with-text .txt {
+        font-size: 0.9vw !important;
+    }
+
+    #main .large-btn .button-text {
+        font-size: 0.9vw !important;
+    }
+
+    .button-wrap {
+        margin-top: 2vw !important;
+    }
+
+    /* Timeline section */
+    .timeln .cont {
+        margin-top: -25vw;
+    }
+
+    /* Clients section */
+    .clients-table li img {
+        max-width: 12vw;
+    }
+
+    .title-text-caption {
+        padding-bottom: 5vw;
+    }
+
+    /* Posts section */
+    .post_sec .post_img {
+        width: 100%;
+    }
+
+    .post_sec .post_details {
+        top: 3vw;
+        left: 3vw;
+        padding: 3vw 3.5vw;
+        width: 25vw;
+    }
+
+    .post_sec .post_date {
+        padding: 1vw;
+    }
+
+    .post_date p {
+        font-size: 1vw !important;
+    }
+
+    .post_sec .title {
+        margin: 1.5vw 0;
+    }
+
+    .post_sec .post_link {
+        font-size: 1.5vw;
+
+    }
+
+    .auth_img {
+        width: 2vw;
+        height: 2vw;
+        margin-right: 1vw;
+    }
+
+    .auth_name {
+        font-size: .9vw;
+    }
+
+    /* Contact section */
+    .contact-section .title {
+        font-size: 5vw;
+    }
+
+    .contact-section .cont-btn {
+        border: 0.1vw solid #ffffff;
+    }
+    .footer_sec .submit_btn {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .footer_sec .submit_btn .fa {
+        font-size: 5vw;
+    }
+}
+
 /* Under 1200px*/
 @media only screen and (max-width: 1200px) {
     .clients-table .link {
@@ -33,9 +161,10 @@
         padding-right: 50px !important;
     }
 }
+
 /* Under 576px*/
 @media only screen and (max-width: 768px) {
     .clients-table {
         padding: 0;
-      }
+    }
 }
