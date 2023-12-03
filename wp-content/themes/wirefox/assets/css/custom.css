@@ -825,7 +825,7 @@ scale: 1.05;
 /* Resize the sub menu items */
 .flexnav .sub-menu .link.menu-timeline span {
   font-size: 25px !important;
-  padding-bottom: 24px;
+  padding-bottom: 6.8px;
 }
 
 .tab-content .single-service {
@@ -1044,4 +1044,33 @@ table th {
 	padding: 10px 14px;
 	font-weight: 500;
   border-color: #000;
+}
+
+.free-consultation-info-text h5{
+  font-size: calc(1rem + 0.6vw);
+  line-height: calc(1rem + 1.5vw);
+  color: var(--bs-white);
+  text-transform: uppercase;
+  font-family: 'mona-sansextrabold_wide';
+  margin-bottom: 20px;
+}
+
+.flexnav.with-js.opacity.sm-screen.flexnav-show {
+  padding: 0 0;
+}
+
+.gap-section{
+ min-height:80px;
+}
+
+.location-text-div {
+  text-align: left;
+}
+.location-text-div p {
+  color: var(--bs-white) !important;
+}
+
+/* only since main slider - image */
+#section-2-15 {
+  height: 2400px !important;
 }
