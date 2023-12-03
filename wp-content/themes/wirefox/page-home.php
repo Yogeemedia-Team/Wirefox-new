@@ -397,6 +397,8 @@ get_header();
 
 <section id="section-2-15" class=" ct-section navWrap">
     <div class="ct-section-inner-wrap">
+       <!--Sendix slider -->
+		<!--
         <main id="div_block-57-30" class="ct-div-block sticky-main sticky-image ">
             <section id="section-51-30" class=" ct-section">
                 <div class="ct-section-inner-wrap">
@@ -459,18 +461,16 @@ get_header();
                     </section>
                 </div>
             </section>
-        </main>
-        <!-- <img id="image-7-15" alt="wirefox" src="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp" class="pinned-section ct-image fadeInUp main__image" srcset="https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham.webp 1000w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-300x296.webp 300w, https://yogeetech.us/wp-content/uploads/2023/10/Web-Design-Birmingham-768x759.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px"> -->
-
+        </main>-->
+		
+        <img id="image-7-15" alt="wirefox" src="<?php echo get_template_directory_uri(); ?>/assets/images/Web-Design-Birmingham.webp" class="pinned-section ct-image fadeInUp main__image" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/Web-Design-Birmingham.webp 1000w, <?php echo get_template_directory_uri(); ?>/assets/images/Web-Design-Birmingham-300x296.webp 300w, <?php echo get_template_directory_uri(); ?>/assets/images/Web-Design-Birmingham-768x759.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px">
         <h1 id="headline-498-15" class="ct-headline mainHeding fadeInUp" style="z-index: 1;padding-top: 280px;">DIGITAL</h1>
         <h2 id="headline-499-15" class="ct-headline fadeInUp" style="z-index: 2;">MARKETING</h2>
         <h2 id="headline-5-15" class="ct-headline fadeInUp" style="z-index: 1;">AGENCY</h2>
         <div id="text_block-15-15" class="ct-text-block fadeInUp " style="margin-bottom: 280px;">Experts in Website Design &amp; SEO Based in Birmingham</div>
-
-
-
     </div>
 </section>
+
 <!-- Row COMMENTED BY THARAK TEMP 
 <div class="content-row dark-section fadeout-element">
 
@@ -489,27 +489,18 @@ get_header();
                 creativity.</h2>
             <hr>
         </div>
-
     </div>
-
-
-
     <div class="one_fourth">
         <p class="has-mask-fill no-margins">2023</p>
     </div>
-
     <div class="one_fourth">
         <p class="has-mask-fill no-margins">Portfolio Website</p>
     </div>
-
     <div class="one_half last">
         <p class="has-opacity bigger">Our template pages are a playground for
             creativity, where we leverage an assortment of shortcodes to build
             captivating content. This enables us to demonstrate the limitless potential
             and showcase the impressive features of our template.</p>
-
-
-
         <div class="button-wrap right button-link large-btn has-animation">
             <div class="icon-wrap parallax-wrap">
                 <div class="button-icon parallax-element">
@@ -522,9 +513,7 @@ get_header();
                 </div>
             </a>
         </div>
-
     </div>
-
 </div>
 COMMENTED BY THARAK TEMP
 Row -->
@@ -533,7 +522,6 @@ Row -->
 <!-- <div class="content-row light-section full">
     <div class="clapat-slider-wrapper showcase-carousel preview-mode-enabled">
         <div class="clapat-slider">
-
             <div class="clapat-slider-viewport">
 
                 <div class="clapat-slide">
@@ -768,17 +756,15 @@ Row -->
     </div>
 
 </div>
-
 COMMENTED BY THARAK TEMP -->
 
+<!-- Extra gap section -->
+<div class="gap-section"></div>
 
 <!-- Company Brief -->
 <div class="content-row row_padding_left row_padding_right row_padding_bottom dark-section change-header-color">
-
     <h4><span class="has-span-indent">Web Design Agency / SEO birmingham / Digital Marketing / SEO Experts / Social Media Marketing
-
         </span> <br><span class="has-mask-fill">A leading web design company in Birmingham, who focus on delivering quality web design and digital marketing services in Birmingham and the West Midlands. Providing digital marketing services giving our clients impressive, functional and user-friendly websites that get found by customers.Our websites and apps don’t just look good, they perform, they convert. If you are looking to generate enquiries.</span></h4>
-
 </div>
 <!-- Company Brief -->
 
@@ -899,24 +885,24 @@ COMMENTED BY THARAK TEMP -->
         <div class="clapat-slider">
             <div id="clapat" class="clapat-slider-viewport">
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/elegant-emirates.jpg" alt="Image Title"></div>
                 </div>
 
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/carexport-company.jpg" alt="Image Title"></div>
                 </div>
 
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/elegant-emirates.jpg" alt="Image Title"></div>
                 </div>
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/carexport-company.jpg" alt="Image Title"></div>
                 </div>
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/elegant-emirates.jpg" alt="Image Title"></div>
                 </div>
                 <div class="clapat-slide">
-                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service.jpg" alt="Image Title"></div>
+                    <div class="slide-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/carexport-company.jpg" alt="Image Title"></div>
                 </div>
             </div>
         </div>
@@ -1267,8 +1253,46 @@ COMMENTED BY THARAK TEMP -->
             </div>
         </div>
     </div>
-    <div class="content-row row_padding_bottom dark-section text-align-center">
+	 <!-- Row -->
+	<div class="content-row full row_padding_left row_padding_right row_padding_bottom light-section text-align-center">                                
+		<div class="one_third">
+			<figure class="has-animation has-cover" data-delay="100">
+				<a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location1.jpg" alt="Image Title"></a>                
+				<!--<figcaption></figcaption> -->
+				<div class="location-text-div">
+					<p class="h4 mt-5">Wirefox Digital Agency Birmingham</p>
+					<p class="mt-3">Suite 2a, Blackthorn House, St Paul’s Square <br> Birmingham, B3 1RL</p>
+					<p class="mt-3 location-tel">Tel: 0121 368 0098 | br@wirefox.co.uk</p>
+				</div>
+			</figure>
+		</div>
 
+		<div class="one_third">                                
+			<figure class="has-animation has-cover" data-delay="200">
+				<a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location2.jpg" alt="Image Title"></a> 
+				<div class="location-text-div">
+					<p class="h4 mt-5">Wirefox Digital Agency Coventry</p>
+					<p class="mt-3">584 Kenilworth Road, Balsall Common <br> Coventry, CV7 7DQ</p>
+					<p class="mt-3 location-tel">Tel: 0845 544 2655 | co@wirefox.co.uk</p>
+				</div>
+			</figure>                                    
+		</div>
+
+		<div class="one_third last">                                
+			<figure class="has-animation has-cover" data-delay="300">
+				<a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location3.jpg" alt="Image Title"></a> 
+				<div class="location-text-div">
+					<p class="h4 mt-5">Wirefox Digital Agency Leicester</p>
+					<p class="mt-3">32 De Montfort Street<br> Leicester, LE1 7GD</p>
+					<p class="mt-3 location-tel">Tel: 056 0367 3659 | le@wirefox.co.uk</p>
+				</div>
+			</figure>                                    
+		</div>
+
+	</div> 
+	<!--/Row -->
+	
+<!--     <div class="content-row row_padding_bottom dark-section text-align-center">
         <div class="pinned-gallery">
             <div class="pinned-image">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location1.jpg" alt="Image Title">
@@ -1280,8 +1304,7 @@ COMMENTED BY THARAK TEMP -->
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/locations/location3.jpg" alt="Image Title">
             </div>
         </div>
-
-    </div>
+    </div> -->
 </div>
 <!--/Locations Slider -->
 
@@ -1301,7 +1324,7 @@ COMMENTED BY THARAK TEMP -->
 <div class="row_padding_top row_padding_bottom row dark-section contact-section change-header-color">
     <div class="title-text">
         <div class="title-text-caption text-center">
-            <p class="sub-title">READY TO STARTA PROJECT?</p>
+            <p class="sub-title">READY TO START A PROJECT?</p>
             <h1 class="title text-uppercase">Let’s make something <br>
                 great together!</h1>
             <p class="desc mx-auto">Ready to start a project or really curious about our process? Drop us a note <br>
