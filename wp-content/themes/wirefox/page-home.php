@@ -1324,7 +1324,7 @@ COMMENTED BY THARAK TEMP -->
 <div class="row_padding_top row_padding_bottom row dark-section contact-section change-header-color">
     <div class="title-text">
         <div class="title-text-caption text-center">
-            <p class="sub-title">READY TO STARTA PROJECT?</p>
+            <p class="sub-title">READY TO START A PROJECT?</p>
             <h1 class="title text-uppercase">Let’s make something <br>
                 great together!</h1>
             <p class="desc mx-auto">Ready to start a project or really curious about our process? Drop us a note <br>
