@@ -51,7 +51,7 @@
         font-size: 0.9vw !important;
     }
 
-    .button-wrap {
+    .fifty-div .button-wrap {
         margin-top: 2vw !important;
     }
 
@@ -116,6 +116,8 @@
     .contact-section .cont-btn {
         border: 0.1vw solid #ffffff;
     }
+
+    /* footer section */
     .footer_sec .submit_btn {
         width: 8vw;
         height: 8vw;
@@ -123,6 +125,48 @@
 
     .footer_sec .submit_btn .fa {
         font-size: 5vw;
+    }
+
+    .footer_sec .subtitle {
+        font-size: 2vw !important;
+    }
+
+    .footer_sec .form-check-label {
+        font-size: 1vw;
+        margin-top: 0.1vw !important;
+    }
+
+    .footer_sec .social .subtitle {
+        font-size: 1.5vw !important;
+    }
+
+    .social .icon_sec {
+        margin-top: 2vw;
+    }
+
+    .social .icon_sec i {
+        font-size: 3vw;
+    }
+
+    .foot_menu li {
+        font-size: 1vw;
+    }
+
+    .foot_menu li {
+        font-size: 1vw;
+    }
+
+    .foot_logo {
+        margin-top: 2vw;
+    }
+
+    .copy_des {
+        margin-top: 2vw;
+    }
+
+    .copyright,
+    .copyright a {
+        font-size: 1vw;
     }
 }
 
